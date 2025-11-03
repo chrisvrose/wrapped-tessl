@@ -53,8 +53,8 @@ const AppSidebar = () => {
 
             <SidebarMenuItem>
               <SidebarMenuButton
-                isActive={checkActive("/about")}
-                onClick={() => navigate("/about")}
+                isActive={checkActive("/spendings")}
+                onClick={() => navigate("/spendings")}
                 size="default"
               >
                 <IconCurrencyDollar size={20} stroke={1.5} />
