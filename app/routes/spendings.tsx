@@ -1,8 +1,7 @@
 import type { Route } from "./+types/spendings";
 import { useEffect, useState } from "react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
-import { DollarSign, TrendingUp, ShoppingCart, Gamepad2, Gift, Calendar } from "lucide-react";
+import { DollarSign, TrendingUp, ShoppingCart, Gamepad2, Gift, Calendar, ChevronRight, ChevronLeft } from "lucide-react";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, type CarouselApi } from "@/components/ui/carousel";
 
 export function meta(_: Route.MetaArgs) {
   return [
@@ -163,6 +162,9 @@ function formatPlaytime(minutes: number): string {
 export default function Spendings() {
   const [stats, setStats] = useState<SpendingStats | null>(null);
   const [loading, setLoading] = useState(true);
+  const [api, setApi] = useState<CarouselApi>();
+  const [current, setCurrent] = useState(0);
+  const [count, setCount] = useState(0);
 
   // Load profile data and calculate spending statistics
   useEffect(() => {
@@ -178,6 +180,18 @@ export default function Spendings() {
         setLoading(false);
       });
   }, []);
+
+  // Track carousel state
+  useEffect(() => {
+    if (!api) return;
+
+    setCount(api.scrollSnapList().length);
+    setCurrent(api.selectedScrollSnap() + 1);
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap() + 1);
+    });
+  }, [api]);
 
   if (loading) {
     return (
@@ -198,181 +212,279 @@ export default function Spendings() {
   }
 
   return (
-    <div className="h-full w-full overflow-y-auto">
-      <div className="container mx-auto p-6 space-y-6 max-w-7xl">
-        {/* Warframe-themed Header */}
-        <div className="relative overflow-hidden rounded-lg p-8 mb-8">
-          {/* Background gradient */}
-          <div
-            className="absolute inset-0 opacity-90"
-            style={{
-              background:
-                "linear-gradient(135deg, #1e1e2e 0%, #2d1b3d 25%, #4a0e4e 50%, #1e1e2e 75%, #0f0f1e 100%)",
-            }}
-          />
-          {/* Animated energy effect */}
-          <div
-            className="absolute inset-0 opacity-20 animate-pulse"
-            style={{
-              background:
-                "radial-gradient(circle at 20% 50%, rgba(0, 212, 255, 0.3) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(255, 215, 0, 0.2) 0%, transparent 50%)",
-            }}
-          />
-          
-          <div className="relative z-10 flex flex-col gap-4">
-            <div className="flex items-center gap-3">
+    <div className="h-full w-full relative">
+      <Carousel setApi={setApi} className="h-full w-full" opts={{ loop: false }}>
+        <CarouselContent className="h-full">
+          {/* Slide 1: Welcome & Total Spent */}
+          <CarouselItem className="h-screen">
+            <div className="relative h-full flex items-center justify-center overflow-hidden">
+              {/* Background gradient */}
               <div
-                className="h-1 w-16 rounded-full"
-                style={{ background: "linear-gradient(90deg, #ffd700, #00d4ff)" }}
+                className="absolute inset-0 opacity-90"
+                style={{
+                  background:
+                    "linear-gradient(135deg, #1e1e2e 0%, #2d1b3d 25%, #4a0e4e 50%, #1e1e2e 75%, #0f0f1e 100%)",
+                }}
               />
-              <span
-                className="text-sm font-semibold uppercase tracking-wider"
-                style={{ color: "#ffd700" }}
-              >
-                Treasury Archives
-              </span>
-            </div>
-            <h1
-              className="text-5xl md:text-6xl font-bold"
-              style={{
-                background: "linear-gradient(135deg, #ffd700 0%, #ffed4e 50%, #00d4ff 100%)",
-                WebkitBackgroundClip: "text",
-                WebkitTextFillColor: "transparent",
-                backgroundClip: "text",
-              }}
-            >
-              Spending Analytics
-            </h1>
-            <p className="text-gray-300 text-lg">
-              Track your gaming investment across the digital frontier
-            </p>
-          </div>
-
-          {/* Decorative hex */}
-          <div className="absolute bottom-4 right-4 opacity-10">
-            <div
-              className="w-32 h-32 border-2"
-              style={{
-                borderColor: "#ffd700",
-                clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
-              }}
-            />
-          </div>
-        </div>
-
-        {/* Hero Stats - Warframe Style */}
-        <div className="grid gap-4 md:grid-cols-3">
-          {/* Total Spent - Main Focus */}
-          <div className="relative overflow-hidden rounded-lg p-6 border border-cyan-500/30 bg-gradient-to-br from-purple-900/40 to-slate-900/40 backdrop-blur">
-            <div className="relative z-10">
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-cyan-400 text-sm font-semibold uppercase tracking-wider">
-                  Total Investment
-                </span>
-                <DollarSign className="h-5 w-5 text-gold-400" style={{ color: "#ffd700" }} />
-              </div>
+              {/* Animated energy effect */}
               <div
-                className="text-4xl font-bold mb-2"
-                style={{ color: "#ffd700" }}
-              >
-                {formatCurrency(stats.totalSpent)}
-              </div>
-              <p className="text-gray-400 text-sm">Lifetime spending</p>
-            </div>
-            <div
-              className="absolute inset-0 opacity-10"
-              style={{
-                background: "radial-gradient(circle at 100% 100%, rgba(255, 215, 0, 0.3) 0%, transparent 70%)",
-              }}
-            />
-          </div>
+                className="absolute inset-0 opacity-20 animate-pulse"
+                style={{
+                  background:
+                    "radial-gradient(circle at 20% 50%, rgba(0, 212, 255, 0.3) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(255, 215, 0, 0.2) 0%, transparent 50%)",
+                }}
+              />
 
-          {/* Average Per Game */}
-          <div className="relative overflow-hidden rounded-lg p-6 border border-purple-500/30 bg-gradient-to-br from-slate-900/40 to-purple-900/40 backdrop-blur">
-            <div className="relative z-10">
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-purple-400 text-sm font-semibold uppercase tracking-wider">
-                  Average Cost
-                </span>
-                <TrendingUp className="h-5 w-5 text-purple-400" />
-              </div>
-              <div className="text-4xl font-bold mb-2 text-cyan-400">
-                {formatCurrency(stats.averagePerGame)}
-              </div>
-              <p className="text-gray-400 text-sm">Per paid game ({stats.estimatedPaidGames})</p>
-            </div>
-          </div>
+              <div className="relative z-10 text-center space-y-8 px-8 max-w-4xl">
+                <div className="flex items-center justify-center gap-3 mb-8">
+                  <div
+                    className="h-1 w-24 rounded-full"
+                    style={{ background: "linear-gradient(90deg, #ffd700, #00d4ff)" }}
+                  />
+                  <span
+                    className="text-lg font-semibold uppercase tracking-wider"
+                    style={{ color: "#ffd700" }}
+                  >
+                    Treasury Archives
+                  </span>
+                  <div
+                    className="h-1 w-24 rounded-full"
+                    style={{ background: "linear-gradient(90deg, #00d4ff, #ffd700)" }}
+                  />
+                </div>
 
-          {/* Most Expensive */}
-          <div className="relative overflow-hidden rounded-lg p-6 border border-amber-500/30 bg-gradient-to-br from-amber-900/40 to-slate-900/40 backdrop-blur">
-            <div className="relative z-10">
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-amber-400 text-sm font-semibold uppercase tracking-wider">
-                  Premium Acquisition
-                </span>
-                <ShoppingCart className="h-5 w-5 text-amber-400" />
+                <h1
+                  className="text-7xl md:text-8xl font-bold mb-6 animate-pulse"
+                  style={{
+                    background: "linear-gradient(135deg, #ffd700 0%, #ffed4e 50%, #00d4ff 100%)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    backgroundClip: "text",
+                  }}
+                >
+                  {formatCurrency(stats.totalSpent)}
+                </h1>
+
+                <p className="text-3xl text-cyan-400 font-semibold mb-4">
+                  Your Gaming Investment
+                </p>
+
+                <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+                  From epic adventures to indie gems, here's your journey through the digital frontier
+                </p>
+
+                <div className="flex items-center justify-center gap-2 mt-12 text-gray-400 animate-bounce">
+                  <ChevronRight className="h-6 w-6" />
+                  <span className="text-sm uppercase tracking-wider">Swipe to explore</span>
+                  <ChevronRight className="h-6 w-6" />
+                </div>
               </div>
-              <div className="text-4xl font-bold mb-2 text-amber-400">
-                {formatCurrency(stats.mostExpensiveGame.price)}
+
+              {/* Decorative hexagons */}
+              <div className="absolute top-10 left-10 opacity-10">
+                <div
+                  className="w-24 h-24 border-2"
+                  style={{
+                    borderColor: "#00d4ff",
+                    clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+                  }}
+                />
               </div>
-              <p className="text-gray-400 text-sm truncate">{stats.mostExpensiveGame.name}</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Games Collection Stats */}
-        <div className="grid gap-4 md:grid-cols-3">
-          <div className="rounded-lg p-5 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-slate-700/50">
-            <div className="flex items-center gap-3 mb-3">
-              <Gamepad2 className="h-5 w-5" style={{ color: "#00d4ff" }} />
-              <span className="text-cyan-400 text-sm font-semibold uppercase">Arsenal Size</span>
-            </div>
-            <div className="text-3xl font-bold" style={{ color: "#ffd700" }}>
-              {stats.gamesOwned}
-            </div>
-            <p className="text-gray-400 text-xs mt-1">Total games owned</p>
-          </div>
-
-          <div className="rounded-lg p-5 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-slate-700/50">
-            <div className="flex items-center gap-3 mb-3">
-              <ShoppingCart className="h-5 w-5" style={{ color: "#00d4ff" }} />
-              <span className="text-cyan-400 text-sm font-semibold uppercase">Purchased</span>
-            </div>
-            <div className="text-3xl font-bold text-white">
-              {stats.estimatedPaidGames}
-            </div>
-            <p className="text-gray-400 text-xs mt-1">
-              {Math.round((stats.estimatedPaidGames / stats.gamesOwned) * 100)}% of collection
-            </p>
-          </div>
-
-          <div className="rounded-lg p-5 bg-gradient-to-br from-slate-800/50 to-slate-900/50 border border-slate-700/50">
-            <div className="flex items-center gap-3 mb-3">
-              <Gift className="h-5 w-5" style={{ color: "#00d4ff" }} />
-              <span className="text-cyan-400 text-sm font-semibold uppercase">Free-to-Play</span>
-            </div>
-            <div className="text-3xl font-bold text-white">
-              {stats.estimatedFreeGames}
-            </div>
-            <p className="text-gray-400 text-xs mt-1">
-              {Math.round((stats.estimatedFreeGames / stats.gamesOwned) * 100)}% acquired free
-            </p>
-          </div>
-        </div>
-
-        {/* Two Column Advanced Stats */}
-        <div className="grid gap-6 md:grid-cols-2">
-          {/* Yearly Breakdown - Warframe themed */}
-          <div className="relative overflow-hidden rounded-lg border border-cyan-500/30 bg-gradient-to-br from-slate-900/90 to-purple-900/30 backdrop-blur p-6">
-            <div className="mb-6">
-              <div className="flex items-center gap-2 mb-2">
-                <Calendar className="h-5 w-5" style={{ color: "#00d4ff" }} />
-                <h3 className="text-xl font-bold text-cyan-400">Temporal Analysis</h3>
+              <div className="absolute bottom-10 right-10 opacity-10">
+                <div
+                  className="w-32 h-32 border-2"
+                  style={{
+                    borderColor: "#ffd700",
+                    clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+                  }}
+                />
               </div>
-              <p className="text-gray-400 text-sm">Investment timeline breakdown</p>
             </div>
+          </CarouselItem>
+
+          {/* Slide 2: Collection Overview */}
+          <CarouselItem className="h-screen">
+            <div className="relative h-full flex items-center justify-center overflow-hidden">
+              <div
+                className="absolute inset-0 opacity-90"
+                style={{
+                  background:
+                    "linear-gradient(135deg, #0f0f1e 0%, #1e1e2e 50%, #2d1b3d 100%)",
+                }}
+              />
+
+              <div className="relative z-10 px-8 max-w-6xl w-full">
+                <div className="text-center mb-16">
+                  <span className="text-cyan-400 text-sm font-semibold uppercase tracking-wider">
+                    Your Arsenal
+                  </span>
+                  <h2
+                    className="text-6xl font-bold mt-4"
+                    style={{
+                      background: "linear-gradient(135deg, #ffd700 0%, #00d4ff 100%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                      backgroundClip: "text",
+                    }}
+                  >
+                    {stats.gamesOwned} Games
+                  </h2>
+                  <p className="text-gray-300 text-xl mt-4">Building your digital collection</p>
+                </div>
+
+                <div className="grid gap-8 md:grid-cols-3">
+                  <div className="rounded-lg p-8 bg-gradient-to-br from-slate-800/60 to-slate-900/60 border-2 border-cyan-500/30 backdrop-blur transform hover:scale-105 transition-transform">
+                    <div className="flex items-center gap-4 mb-4">
+                      <Gamepad2 className="h-8 w-8" style={{ color: "#00d4ff" }} />
+                      <span className="text-cyan-400 text-lg font-semibold uppercase">Total Games</span>
+                    </div>
+                    <div className="text-5xl font-bold mb-2" style={{ color: "#ffd700" }}>
+                      {stats.gamesOwned}
+                    </div>
+                    <p className="text-gray-400">Your complete arsenal</p>
+                  </div>
+
+                  <div className="rounded-lg p-8 bg-gradient-to-br from-purple-900/40 to-slate-900/60 border-2 border-purple-500/30 backdrop-blur transform hover:scale-105 transition-transform">
+                    <div className="flex items-center gap-4 mb-4">
+                      <ShoppingCart className="h-8 w-8" style={{ color: "#a855f7" }} />
+                      <span className="text-purple-400 text-lg font-semibold uppercase">Purchased</span>
+                    </div>
+                    <div className="text-5xl font-bold text-white mb-2">
+                      {stats.estimatedPaidGames}
+                    </div>
+                    <p className="text-gray-400">
+                      {Math.round((stats.estimatedPaidGames / stats.gamesOwned) * 100)}% of collection
+                    </p>
+                  </div>
+
+                  <div className="rounded-lg p-8 bg-gradient-to-br from-amber-900/40 to-slate-900/60 border-2 border-amber-500/30 backdrop-blur transform hover:scale-105 transition-transform">
+                    <div className="flex items-center gap-4 mb-4">
+                      <Gift className="h-8 w-8" style={{ color: "#fbbf24" }} />
+                      <span className="text-amber-400 text-lg font-semibold uppercase">Free Games</span>
+                    </div>
+                    <div className="text-5xl font-bold text-white mb-2">
+                      {stats.estimatedFreeGames}
+                    </div>
+                    <p className="text-gray-400">
+                      {Math.round((stats.estimatedFreeGames / stats.gamesOwned) * 100)}% acquired free
+                    </p>
+                  </div>
+                </div>
+
+                <div className="text-center mt-12">
+                  <p className="text-cyan-400 text-lg">
+                    Average: <span className="text-white font-bold text-2xl">{formatCurrency(stats.averagePerGame)}</span> per game
+                  </p>
+                </div>
+              </div>
+            </div>
+          </CarouselItem>
+
+          {/* Slide 3: Category Breakdown */}
+          <CarouselItem className="h-screen">
+            <div className="relative h-full flex items-center justify-center overflow-hidden">
+              <div
+                className="absolute inset-0 opacity-90"
+                style={{
+                  background:
+                    "linear-gradient(135deg, #2d1b3d 0%, #4a0e4e 50%, #1e1e2e 100%)",
+                }}
+              />
+              <div
+                className="absolute inset-0 opacity-20 animate-pulse"
+                style={{
+                  background:
+                    "radial-gradient(circle at 30% 40%, rgba(168, 85, 247, 0.4) 0%, transparent 50%)",
+                }}
+              />
+
+              <div className="relative z-10 px-8 max-w-5xl w-full">
+                <div className="text-center mb-16">
+                  <span className="text-purple-400 text-sm font-semibold uppercase tracking-wider">
+                    Investment Distribution
+                  </span>
+                  <h2
+                    className="text-6xl font-bold mt-4"
+                    style={{
+                      background: "linear-gradient(135deg, #a855f7 0%, #ffd700 100%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                      backgroundClip: "text",
+                    }}
+                  >
+                    By Category
+                  </h2>
+                  <p className="text-gray-300 text-xl mt-4">Where your credits flow</p>
+                </div>
+
+                <div className="space-y-8">
+                  {stats.categoryBreakdown.map((category, index) => (
+                    <div key={category.category} className="space-y-4">
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <p className="text-white font-semibold text-2xl">{category.category}</p>
+                          <p className="text-gray-400 text-lg">{category.count} games</p>
+                        </div>
+                        <div className="text-right">
+                          <p className="text-4xl font-bold text-cyan-400">
+                            {formatCurrency(category.total)}
+                          </p>
+                          <p className="text-lg" style={{ color: "#ffd700" }}>
+                            {Math.round((category.total / stats.totalSpent) * 100)}% of spending
+                          </p>
+                        </div>
+                      </div>
+                      <div className="w-full bg-slate-800 rounded-full h-4">
+                        <div
+                          className="h-4 rounded-full transition-all duration-1000"
+                          style={{
+                            width: `${(category.total / stats.totalSpent) * 100}%`,
+                            background: index === 0 
+                              ? "linear-gradient(90deg, #ffd700, #ffed4e)" 
+                              : index === 1 
+                              ? "linear-gradient(90deg, #00d4ff, #0ea5e9)"
+                              : "linear-gradient(90deg, #a855f7, #ec4899)",
+                          }}
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </CarouselItem>
+
+          {/* Slide 4: Yearly Spending */}
+          <CarouselItem className="h-screen">
+            <div className="relative h-full flex items-center justify-center overflow-hidden">
+              <div
+                className="absolute inset-0 opacity-90"
+                style={{
+                  background:
+                    "linear-gradient(135deg, #0f0f1e 0%, #1e1e2e 25%, #00d4ff10 50%, #1e1e2e 75%, #0f0f1e 100%)",
+                }}
+              />
+
+              <div className="relative z-10 px-8 max-w-5xl w-full">
+                <div className="text-center mb-16">
+                  <span className="text-cyan-400 text-sm font-semibold uppercase tracking-wider">
+                    Temporal Analysis
+                  </span>
+                  <h2
+                    className="text-6xl font-bold mt-4"
+                    style={{
+                      background: "linear-gradient(135deg, #00d4ff 0%, #ffd700 100%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                      backgroundClip: "text",
+                    }}
+                  >
+                    Investment Timeline
+                  </h2>
+                  <p className="text-gray-300 text-xl mt-4">Your spending journey through time</p>
+                </div>
             
-            <div className="space-y-4">
+                <div className="space-y-6">
               {stats.yearlyBreakdown.map((year, index) => (
                 <div key={year.year} className="relative">
                   <div className="flex items-center justify-between mb-2">
@@ -393,76 +505,46 @@ export default function Spendings() {
                 </div>
               ))}
               
-              <div className="pt-4 mt-4 border-t border-cyan-500/30">
-                <div className="flex justify-between items-center">
-                  <span className="text-cyan-400 font-semibold">5-Year Total</span>
-                  <span className="text-2xl font-bold" style={{ color: "#ffd700" }}>
-                    {formatCurrency(stats.yearlyBreakdown.reduce((sum, y) => sum + y.amount, 0))}
-                  </span>
+                  <div className="pt-8 mt-8 border-t border-cyan-500/50 text-center">
+                    <p className="text-cyan-400 text-lg mb-2">Recent 5-Year Total</p>
+                    <p className="text-5xl font-bold" style={{ color: "#ffd700" }}>
+                      {formatCurrency(stats.yearlyBreakdown.reduce((sum, y) => sum + y.amount, 0))}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </CarouselItem>
 
-          {/* Category Breakdown */}
-          <div className="relative overflow-hidden rounded-lg border border-purple-500/30 bg-gradient-to-br from-purple-900/30 to-slate-900/90 backdrop-blur p-6">
-            <div className="mb-6">
-              <div className="flex items-center gap-2 mb-2">
-                <TrendingUp className="h-5 w-5" style={{ color: "#ffd700" }} />
-                <h3 className="text-xl font-bold text-amber-400">Category Distribution</h3>
-              </div>
-              <p className="text-gray-400 text-sm">Investment by game tier</p>
-            </div>
-            
-            <div className="space-y-6">
-              {stats.categoryBreakdown.map((category, index) => (
-                <div key={category.category}>
-                  <div className="flex items-center justify-between mb-2">
-                    <div>
-                      <p className="text-white font-medium">{category.category}</p>
-                      <p className="text-xs text-gray-400">{category.count} games</p>
-                    </div>
-                    <div className="text-right">
-                      <p className="text-xl font-bold text-cyan-400">
-                        {formatCurrency(category.total)}
-                      </p>
-                      <p className="text-xs" style={{ color: "#ffd700" }}>
-                        {Math.round((category.total / stats.totalSpent) * 100)}% of total
-                      </p>
-                    </div>
-                  </div>
-                  <div className="w-full bg-slate-800 rounded-full h-3">
-                    <div
-                      className="h-3 rounded-full transition-all duration-500"
-                      style={{
-                        width: `${(category.total / stats.totalSpent) * 100}%`,
-                        background: index === 0 
-                          ? "linear-gradient(90deg, #ffd700, #ffed4e)" 
-                          : index === 1 
-                          ? "linear-gradient(90deg, #00d4ff, #0ea5e9)"
-                          : "linear-gradient(90deg, #a855f7, #ec4899)",
-                      }}
-                    />
-                  </div>
+          {/* Slide 5: Top Expensive Games */}
+          <CarouselItem className="h-screen">
+            <div className="relative h-full flex items-center justify-center overflow-hidden">
+              <div
+                className="absolute inset-0 opacity-90"
+                style={{
+                  background:
+                    "linear-gradient(135deg, #1e1e2e 0%, #ffd70010 25%, #4a0e4e 50%, #1e1e2e 100%)",
+                }}
+              />
+
+              <div className="relative z-10 px-8 max-w-5xl w-full">
+                <div className="text-center mb-12">
+                  <DollarSign className="h-12 w-12 mx-auto mb-4" style={{ color: "#ffd700" }} />
+                  <h2
+                    className="text-6xl font-bold"
+                    style={{
+                      background: "linear-gradient(135deg, #ffd700 0%, #ffed4e 50%, #00d4ff 100%)",
+                      WebkitBackgroundClip: "text",
+                      WebkitTextFillColor: "transparent",
+                      backgroundClip: "text",
+                    }}
+                  >
+                    Premium Acquisitions
+                  </h2>
+                  <p className="text-gray-300 text-xl mt-4">Your biggest gaming investments</p>
                 </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* Top Expensive Games - Epic Style */}
-        <div className="relative overflow-hidden rounded-lg border border-amber-500/30 bg-gradient-to-br from-slate-900/90 to-amber-900/20 backdrop-blur p-6">
-          <div className="mb-6">
-            <div className="flex items-center gap-2 mb-2">
-              <DollarSign className="h-6 w-6" style={{ color: "#ffd700" }} />
-              <h3 className="text-2xl font-bold" style={{ color: "#ffd700" }}>
-                Premium Acquisitions
-              </h3>
-            </div>
-            <p className="text-gray-400">Your top 5 most valuable investments</p>
-          </div>
           
-          <div className="space-y-4">
+                <div className="space-y-6">
             {stats.topExpensiveGames.map((game, index) => (
               <div
                 key={game.name}
@@ -500,17 +582,50 @@ export default function Spendings() {
                 </div>
               </div>
             ))}
+                </div>
+
+                <div className="text-center mt-8">
+                  <p className="text-gray-400 text-sm">
+                    * Estimates based on industry pricing models
+                  </p>
+                </div>
+              </div>
+            </div>
+          </CarouselItem>
+        </CarouselContent>
+
+        {/* Navigation Controls */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4">
+          <CarouselPrevious className="relative left-0 translate-y-0 bg-slate-800/80 border-cyan-500/50 hover:bg-slate-700 hover:border-cyan-400" />
+          
+          {/* Progress Dots */}
+          <div className="flex gap-2">
+            {Array.from({ length: count }).map((_, index) => (
+              <button
+                key={index}
+                onClick={() => api?.scrollTo(index)}
+                className={`h-2 rounded-full transition-all ${
+                  current === index + 1
+                    ? "w-8 bg-gradient-to-r from-cyan-400 to-amber-400"
+                    : "w-2 bg-slate-600 hover:bg-slate-500"
+                }`}
+                aria-label={`Go to slide ${index + 1}`}
+              />
+            ))}
           </div>
+
+          <CarouselNext className="relative right-0 translate-y-0 bg-slate-800/80 border-cyan-500/50 hover:bg-slate-700 hover:border-cyan-400" />
         </div>
 
-        {/* Disclaimer - Styled */}
-        <div className="rounded-lg p-4 bg-slate-800/30 border border-slate-700/50">
-          <p className="text-xs text-gray-500 text-center">
-            * Spending estimates calculated using industry pricing models and game categorization algorithms.
-            Actual values may vary based on regional pricing, promotional discounts, and bundle acquisitions.
-          </p>
+        {/* Slide Counter */}
+        <div className="absolute top-8 right-8 z-20">
+          <div className="px-4 py-2 rounded-full bg-slate-800/80 border border-cyan-500/30 backdrop-blur">
+            <span className="text-cyan-400 font-semibold">
+              {current} / {count}
+            </span>
+          </div>
         </div>
-      </div>
+      </Carousel>
     </div>
   );
 }
