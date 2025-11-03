@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"tessl mcp": {
+			"type": "stdio",
+			"command": "tessl",
+			"args": [
+				"mcp",
+				"--config-dir",
+				"."
+			]
+		}
+	},
+	"inputs": []
+}
