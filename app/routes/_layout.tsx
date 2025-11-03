@@ -14,7 +14,7 @@ export default function Layout() {
   return (
     <SidebarProvider>
       <AppSidebar />
-      <SidebarInset className="overflow-hidden border">
+      <SidebarInset className="overflow-y-auto border h-screen">
         <Outlet />
       </SidebarInset>
     </SidebarProvider>
