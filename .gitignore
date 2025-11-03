@@ -2,6 +2,16 @@
 .env
 /node_modules/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
 # React Router
 /.react-router/
 /build/

@@ -1,0 +1,3832 @@
+[
+  {
+    "app_id": 730,
+    "app_name": "Counter-Strike 2",
+    "generated_at": "2025-11-03T21:08:43.909821",
+    "current_players": 1068435,
+    "achievement_percentages": [
+      {
+        "name": "PLAY_CS2",
+        "percent": "35.6"
+      }
+    ],
+    "news": [
+      {
+        "gid": "1815034432852394",
+        "title": "Counter-Strike 2 Update",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815034432852394",
+        "is_external_url": true,
+        "author": "Vitaliy",
+        "contents": "\\Improved player movement prediction when colliding with other moving players.Added scope in/out sound prediction to play immediately for local player.Retake loadout cards will now randomly offer M4A1-S or M4A4 if player has both equipped in their CT loadout.Added Body Armor to 4v3, 4 Bad Guys Left,...",
+        "feedlabel": "Community Announcements",
+        "date": 1761780997,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 730,
+        "tags": [
+          "patchnotes"
+        ]
+      },
+      {
+        "gid": "1814309641454326",
+        "title": "Counter-Strike 2 Update",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814309641454326",
+        "is_external_url": true,
+        "author": "Vitaliy",
+        "contents": "\\Increased matchmaking party size for Retakes to allow 4 players in a party.Fixed a case where players joining Retakes round during freeze time could spawn at a wrong spawn point.Fixed bot manager logic to make room for players by first kicking dead bots and bots who are not controlled by a human.\\S...",
+        "feedlabel": "Community Announcements",
+        "date": 1761258728,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 730,
+        "tags": [
+          "patchnotes"
+        ]
+      },
+      {
+        "gid": "1814309641424632",
+        "title": "Counter-Strike 2 Update",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814309641424632",
+        "is_external_url": true,
+        "author": "Vitaliy",
+        "contents": "\\Adding Retakes as official game mode supporting Defusal Group Alpha and Defusal Group Delta maps on official matchmaking servers.Fixed Molotov and Smoke interaction logic in cases when multiple smokes are active in the map.\\Updated Golden to the latest version from Steam Community Workshop (Update ...",
+        "feedlabel": "Community Announcements",
+        "date": 1761174020,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 730,
+        "tags": [
+          "patchnotes"
+        ]
+      },
+      {
+        "gid": "1814309641424631",
+        "title": "Re-Retakes",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814309641424631",
+        "is_external_url": true,
+        "author": "gautam",
+        "contents": "{STEAM_CLAN_IMAGE}/3381077/aae1ceb26e12464542579430a2436c8348461b5c.pngThe bomb has been planted and you're running out of time. It's the return of retakes! In this classic game mode, each round drops you in to a fast-paced 4v3 after-plant scenario. Select your loadout card each round, check the map...",
+        "feedlabel": "Community Announcements",
+        "date": 1761174008,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 730
+      },
+      {
+        "gid": "1813674388920331",
+        "title": "Counter-Strike 2 Update",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1813674388920331",
+        "is_external_url": true,
+        "author": "Vitaliy",
+        "contents": "\\Fixed a case of incorrect damage report data at the end of the rounds.Updated King Crasswater and Queen Ava stickers for clarity.Skinning fixes on Driver Gloves and Sport Gloves.Fixed a crash when playing back some demo files.Stability improvements.",
+        "feedlabel": "Community Announcements",
+        "date": 1760573182,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 730,
+        "tags": [
+          "patchnotes"
+        ]
+      }
+    ]
+  },
+  {
+    "app_id": 570,
+    "app_name": "Dota 2",
+    "generated_at": "2025-11-03T21:08:44.560842",
+    "current_players": 632892,
+    "achievement_percentages": [],
+    "news": [
+      {
+        "gid": "1813041031215262",
+        "title": "Dota 2 Update - 10/09/2025",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1813041031215262",
+        "is_external_url": true,
+        "author": "flynnch",
+        "contents": "Since the 7.39e gameplay patch, we've addressed the following issues:Items on trade cooldown can no longer be listed on the Steam MarketRemoved separate \"Market Cooldown\" timer from item tooltips as it is no longer relevantFixed people being able to find the server id of non-friends playing matchesF...",
+        "feedlabel": "Community Announcements",
+        "date": 1760033899,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 570,
+        "tags": [
+          "patchnotes"
+        ]
+      },
+      {
+        "gid": "1811772772650175",
+        "title": "Collector's Cache Voting Open Now",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772650175",
+        "is_external_url": true,
+        "author": "krAnk0r",
+        "contents": "No matter what else is happening in the world of Dota, the Community Workshop artists never stop dreaming up cool new item sets for all their favorite heroes. Which of course means the workshop is near-to-bursting with game-worthy sets, and — you guessed it by cleverly reading the title above — we'd...",
+        "feedlabel": "Community Announcements",
+        "date": 1759874536,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 570
+      },
+      {
+        "gid": "1811772772489146",
+        "title": "7.39e Gameplay Patch",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772489146",
+        "is_external_url": true,
+        "author": "Dota Workshop",
+        "contents": "Patch 7.39e is out now and you can check out the patch notes here. ",
+        "feedlabel": "Community Announcements",
+        "date": 1759443858,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 570,
+        "tags": [
+          "patchnotes"
+        ]
+      },
+      {
+        "gid": "1811138915339274",
+        "title": "The International 2025 Grand Champions",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811138915339274",
+        "is_external_url": true,
+        "author": "krAnk0r",
+        "contents": "{STEAM_CLAN_IMAGE}/3703047/4ba13ce440c2d97294b14560cfcf46a3f1b113be.pngCongratulations to Team Falcons, Grand Champions at The International 2025. After a year of mixed results, Team Falcons finally soared to the Aegis of Champions in Hamburg — by clawing, scrapping, and grinding through one of the ...",
+        "feedlabel": "Community Announcements",
+        "date": 1758062560,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 570
+      },
+      {
+        "gid": "1810503566424750",
+        "title": "People \"talk s**t\" to Gabe Newell when he plays Dota 2, but he's okay with it",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1810503566424750",
+        "is_external_url": true,
+        "author": "editor@pcgamesn.com",
+        "contents": "I consider myself pretty good at <a href=\"https://www.pcgamesn.com/which-best-moba\">MOBAs</a>. While my primary choice will always be League of Legends, I've played (and lost) a few <strong>Dota 2</strong> games in my time, piloting heroes like Queen of Pain, Muerta, and Crystal Maiden to somewhat mixed success. Despite the fact that most people believe that Valve has l...",
+        "feedlabel": "PCGamesN",
+        "date": 1757614506,
+        "feedname": "PCGamesN",
+        "feed_type": 0,
+        "appid": 570
+      }
+    ]
+  },
+  {
+    "app_id": 440,
+    "app_name": "Team Fortress 2",
+    "generated_at": "2025-11-03T21:08:45.145546",
+    "current_players": 45491,
+    "achievement_percentages": [
+      {
+        "name": "TF_SCOUT_LONG_DISTANCE_RUNNER",
+        "percent": "50.3"
+      },
+      {
+        "name": "TF_HEAVY_DAMAGE_TAKEN",
+        "percent": "40.6"
+      },
+      {
+        "name": "TF_GET_CONSECUTIVEKILLS_NODEATHS",
+        "percent": "36.9"
+      },
+      {
+        "name": "TF_PYRO_CAMP_POSITION",
+        "percent": "30.7"
+      },
+      {
+        "name": "TF_BURN_PLAYERSINMINIMUMTIME",
+        "percent": "28.8"
+      },
+      {
+        "name": "TF_PYRO_BURN_MEDICPAIR",
+        "percent": "28.3"
+      },
+      {
+        "name": "TF_KILL_NEMESIS",
+        "percent": "28.3"
+      },
+      {
+        "name": "TF_SNIPER_KILL_MIDAIR_SCOUT",
+        "percent": "26.6"
+      },
+      {
+        "name": "TF_DEMOMAN_BOUNCE_AND_KILL",
+        "percent": "26.3"
+      },
+      {
+        "name": "TF_PYRO_KILL_TEAMWORK",
+        "percent": "26.3"
+      },
+      {
+        "name": "TF_PYRO_DOUBLE_KO",
+        "percent": "26.1"
+      },
+      {
+        "name": "TF_HEAVY_TAKE_MULTI_DAMAGE",
+        "percent": "25.9"
+      },
+      {
+        "name": "TF_HEAVY_KILL_MIDAIR_MINIGUN",
+        "percent": "25.8"
+      },
+      {
+        "name": "TF_ENGINEER_DISPENSER_HEAL_GROUP",
+        "percent": "25.7"
+      },
+      {
+        "name": "TF_HALLOWEEN_DOMINATE_FOR_HAT",
+        "percent": "24.6"
+      },
+      {
+        "name": "TF_SNIPER_HEADSHOT_DEMOMAN",
+        "percent": "24.5"
+      },
+      {
+        "name": "TF_SNIPER_RIFLE_NO_MISSING",
+        "percent": "24.2"
+      },
+      {
+        "name": "TF_GENERAL_KILL_ENEMIES_AFTER_TELEPORTING",
+        "percent": "23.7"
+      },
+      {
+        "name": "TF_SPY_BUMP_CLOAKED_SPY",
+        "percent": "23.6"
+      },
+      {
+        "name": "TF_GET_HEALED_BYENEMY",
+        "percent": "22.9"
+      },
+      {
+        "name": "TF_ENGINEER_FREEZECAM_SENTRY",
+        "percent": "22.8"
+      },
+      {
+        "name": "TF_SNIPER_ACHIEVE_PROGRESS1",
+        "percent": "22.6"
+      },
+      {
+        "name": "TF_FIRE_WATERJUMP",
+        "percent": "22.4"
+      },
+      {
+        "name": "TF_SNIPER_KILL_WEAPONS",
+        "percent": "22.3"
+      },
+      {
+        "name": "TF_SOLDIER_DEFEND_MEDIC",
+        "percent": "21.8"
+      },
+      {
+        "name": "TF_PYRO_SIMULBURN_SCOUTS",
+        "percent": "21.7"
+      },
+      {
+        "name": "TF_ENGINEER_HELP_BUILD_STRUCTURE",
+        "percent": "21.4"
+      },
+      {
+        "name": "TF_ENGINEER_SENTRY_AVENGES_YOU",
+        "percent": "20.8"
+      },
+      {
+        "name": "TF_SOLDIER_CROUCH_ROCKET_JUMP",
+        "percent": "20.7"
+      },
+      {
+        "name": "TF_DOMINATE_FOR_GOGGLES",
+        "percent": "20.6"
+      },
+      {
+        "name": "TF_ENGINEER_ACHIEVE_PROGRESS1",
+        "percent": "20.2"
+      },
+      {
+        "name": "TF_WIN_MULTIPLEGAMES",
+        "percent": "20.2"
+      },
+      {
+        "name": "TF_WIN_2FORT_NOENEMYCAPS",
+        "percent": "19.9"
+      },
+      {
+        "name": "TF_MEDIC_SETUP_CHARGE",
+        "percent": "19.8"
+      },
+      {
+        "name": "TF_SPY_SURVIVE_BURNING",
+        "percent": "19.7"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_AIRBORNE_TARGET_WHILE_AIRBORNE",
+        "percent": "19.6"
+      },
+      {
+        "name": "TF_SNIPER_KILL_INVIS_SPY",
+        "percent": "19.6"
+      },
+      {
+        "name": "TF_GET_HEADSHOTS",
+        "percent": "19.6"
+      },
+      {
+        "name": "TF_SPY_ACHIEVE_PROGRESS1",
+        "percent": "19.5"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_QUICK_KILLS",
+        "percent": "19.5"
+      },
+      {
+        "name": "TF_MEDIC_SWITCH_TO_MEDIC",
+        "percent": "18.9"
+      },
+      {
+        "name": "TF_SNIPER_DOMINATE_SNIPER",
+        "percent": "18.8"
+      },
+      {
+        "name": "TF_PYRO_BURN_RJ_SOLDIER",
+        "percent": "18.7"
+      },
+      {
+        "name": "TF_SNIPER_HEADSHOT_SNIPERS",
+        "percent": "18.4"
+      },
+      {
+        "name": "TF_MVM_KILL_BOMB_CARRIERS",
+        "percent": "18.3"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_DISGUISE_TARGET",
+        "percent": "18.3"
+      },
+      {
+        "name": "TF_SNIPER_KILL_AT_ROUNDSTART",
+        "percent": "18.2"
+      },
+      {
+        "name": "TF_HEAVY_SURVIVE_CROCKET",
+        "percent": "18.2"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_SPY_KILLER",
+        "percent": "18.0"
+      },
+      {
+        "name": "TF_SOLDIER_ACHIEVE_PROGRESS1",
+        "percent": "17.9"
+      },
+      {
+        "name": "TF_SPY_REVENGE_WITH_BACKSTAB",
+        "percent": "17.9"
+      },
+      {
+        "name": "TF_HEAVY_FIRST_TO_CAP",
+        "percent": "17.9"
+      },
+      {
+        "name": "TF_MEDIC_HEAL_ACHIEVER",
+        "percent": "17.8"
+      },
+      {
+        "name": "TF_MEDIC_HEAL_UNDER_FIRE",
+        "percent": "17.8"
+      },
+      {
+        "name": "TF_SNIPER_ACHIEVE_PROGRESS2",
+        "percent": "17.7"
+      },
+      {
+        "name": "TF_SNIPER_BOW_KILL_WHILEDEAD",
+        "percent": "17.7"
+      },
+      {
+        "name": "TF_MEDIC_HEAL_ENGINEER",
+        "percent": "17.7"
+      },
+      {
+        "name": "TF_ENGINEER_MOVE_SENTRY_GET_KILL",
+        "percent": "17.6"
+      },
+      {
+        "name": "TF_SCOUT_SURVIVE_DAMAGE",
+        "percent": "17.6"
+      },
+      {
+        "name": "TF_ENGINEER_SHOTGUN_KILL_PREV_SENTRY_TARGET",
+        "percent": "17.5"
+      },
+      {
+        "name": "TF_SNIPER_DESTROY_SENTRYGUNS",
+        "percent": "17.5"
+      },
+      {
+        "name": "TF_PYRO_ACHIEVE_PROGRESS1",
+        "percent": "17.5"
+      },
+      {
+        "name": "TF_PYRO_BURN_SPIES_AS_YOU",
+        "percent": "17.5"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_ENEMY_SWITCH_PYRO",
+        "percent": "17.3"
+      },
+      {
+        "name": "TF_SOLDIER_SHOOT_MULT_CRITS",
+        "percent": "17.2"
+      },
+      {
+        "name": "TF_PYRO_REVEAL_SPIES",
+        "percent": "17.2"
+      },
+      {
+        "name": "TF_MVM_EARN_MONEY_BONUS",
+        "percent": "17.0"
+      },
+      {
+        "name": "TF_ENGINEER_KILL_ASSIST",
+        "percent": "17.0"
+      },
+      {
+        "name": "TF_ENGINEER_REPAIR_SENTRY_W_MEDIC",
+        "percent": "17.0"
+      },
+      {
+        "name": "TF_SPY_KILL_SPY_WITH_KNIFE",
+        "percent": "17.0"
+      },
+      {
+        "name": "TF_SPY_KILL_WORKING_ENGY",
+        "percent": "16.5"
+      },
+      {
+        "name": "TF_SCOUT_CAP_FLAG_WITHOUT_ATTACKING",
+        "percent": "16.5"
+      },
+      {
+        "name": "TF_SCOUT_CAPTURE_LAST_POINT",
+        "percent": "16.5"
+      },
+      {
+        "name": "TF_HEAVY_EARN_MEDIC_DOMINATION",
+        "percent": "16.4"
+      },
+      {
+        "name": "TF_SNIPER_KILL_CHARGED_MEDIC",
+        "percent": "16.2"
+      },
+      {
+        "name": "TF_HEAVY_KILL_CRIT_PUNCH",
+        "percent": "16.2"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_PYRO",
+        "percent": "16.1"
+      },
+      {
+        "name": "TF_PYRO_DOMINATE_LEAVESVR",
+        "percent": "16.0"
+      },
+      {
+        "name": "TF_SPY_ACHIEVE_PROGRESS2",
+        "percent": "15.9"
+      },
+      {
+        "name": "TF_GET_TURRETKILLS",
+        "percent": "15.9"
+      },
+      {
+        "name": "TF_PYRO_BURN_MEDICS_CHARGED",
+        "percent": "15.8"
+      },
+      {
+        "name": "TF_MEDIC_COUNTER_CHARGE",
+        "percent": "15.8"
+      },
+      {
+        "name": "TF_MEDIC_RAPID_CHARGE",
+        "percent": "15.8"
+      },
+      {
+        "name": "TF_HEAVY_KILL_WHILE_SPUNUP",
+        "percent": "15.7"
+      },
+      {
+        "name": "TF_ENGINEER_ACHIEVE_PROGRESS2",
+        "percent": "15.4"
+      },
+      {
+        "name": "TF_DEMOMAN_ACHIEVE_PROGRESS1",
+        "percent": "15.4"
+      },
+      {
+        "name": "TF_MVM_PICKUP_MONEY_ABOUT_TO_EXPIRE",
+        "percent": "15.3"
+      },
+      {
+        "name": "TF_GET_MULTIPLEKILLS",
+        "percent": "15.3"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_DISGUISED_SPY",
+        "percent": "15.2"
+      },
+      {
+        "name": "TF_HEAVY_ACHIEVE_PROGRESS1",
+        "percent": "15.2"
+      },
+      {
+        "name": "TF_SNIPER_KILL_UNSCOPED",
+        "percent": "15.1"
+      },
+      {
+        "name": "TF_SNIPER_KILL_RJER",
+        "percent": "15.1"
+      },
+      {
+        "name": "TF_PYRO_ACHIEVE_PROGRESS2",
+        "percent": "15.1"
+      },
+      {
+        "name": "TF_GET_HEALPOINTS",
+        "percent": "15.1"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_DOMINATING_ENEMY",
+        "percent": "15.0"
+      },
+      {
+        "name": "TF_SNIPER_ACHIEVE_PROGRESS3",
+        "percent": "14.9"
+      },
+      {
+        "name": "TF_PYRO_KILL_POSTDEATH",
+        "percent": "14.9"
+      },
+      {
+        "name": "TF_SOLDIER_ACHIEVE_PROGRESS2",
+        "percent": "14.8"
+      },
+      {
+        "name": "TF_HALLOWEEN_DISGUISED_SPY_KILL",
+        "percent": "14.6"
+      },
+      {
+        "name": "TF_SOLDIER_DUO_SOLDIER_KILLS",
+        "percent": "14.5"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_ENGY",
+        "percent": "14.4"
+      },
+      {
+        "name": "TF_MEDIC_INVITE_JOIN_CHARGE",
+        "percent": "14.4"
+      },
+      {
+        "name": "TF_CHRISTMAS_COLLECT_GIFTS",
+        "percent": "14.2"
+      },
+      {
+        "name": "TF_COMPLETE_TRAINING",
+        "percent": "14.2"
+      },
+      {
+        "name": "TF_ENGINEER_KILL_DISGUISED_SPY",
+        "percent": "14.2"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_BUILDING_DIRECT_HIT",
+        "percent": "14.2"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_MEDIC_CHARGED",
+        "percent": "14.2"
+      },
+      {
+        "name": "TF_SCOUT_KILL_CHARGED_MEDICS",
+        "percent": "14.1"
+      },
+      {
+        "name": "TF_MEDIC_ACHIEVE_PROGRESS1",
+        "percent": "14.1"
+      },
+      {
+        "name": "TF_SPY_ACHIEVE_PROGRESS3",
+        "percent": "13.9"
+      },
+      {
+        "name": "TF_SNIPER_BOW_PINCUSHION",
+        "percent": "13.9"
+      },
+      {
+        "name": "TF_SCOUT_ACHIEVE_PROGRESS1",
+        "percent": "13.9"
+      },
+      {
+        "name": "TF_HEAVY_KILL_SHOTGUN",
+        "percent": "13.9"
+      },
+      {
+        "name": "TF_MVM_KILL_SENTRY_BUSTER",
+        "percent": "13.8"
+      },
+      {
+        "name": "TF_MVM_COMPLETE_POP_FILE",
+        "percent": "13.8"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_SNIPER_WHILE_DEAD",
+        "percent": "13.6"
+      },
+      {
+        "name": "TF_KILL_CHARGING_DEMO",
+        "percent": "13.5"
+      },
+      {
+        "name": "TF_DEMOMAN_ACHIEVE_PROGRESS2",
+        "percent": "13.5"
+      },
+      {
+        "name": "TF_HEAVY_TELEPORT_FAST_KILL",
+        "percent": "13.5"
+      },
+      {
+        "name": "TF_PYRO_ACHIEVE_PROGRESS3",
+        "percent": "13.5"
+      },
+      {
+        "name": "TF_SPY_DOMINATE_SNIPER",
+        "percent": "13.4"
+      },
+      {
+        "name": "TF_PYRO_BURN_SNIPERS_ZOOMED",
+        "percent": "13.4"
+      },
+      {
+        "name": "TF_SPY_SAP_BUILDING_BACKSTAB_ENGY",
+        "percent": "13.2"
+      },
+      {
+        "name": "TF_HEAVY_ACHIEVE_PROGRESS2",
+        "percent": "13.2"
+      },
+      {
+        "name": "TF_PYRO_REFLECT_CROCKET_KILL",
+        "percent": "13.2"
+      },
+      {
+        "name": "TF_PLAY_GAME_EVERYCLASS",
+        "percent": "13.2"
+      },
+      {
+        "name": "TF_WIN_DUSTBOWL_NOENEMYCAPS",
+        "percent": "13.1"
+      },
+      {
+        "name": "TF_ENGINEER_ACHIEVE_PROGRESS3",
+        "percent": "13.0"
+      },
+      {
+        "name": "TF_PYRO_KILL_FROM_BEHIND",
+        "percent": "13.0"
+      },
+      {
+        "name": "TF_SOLDIER_BOUNCE_THEN_SHOTGUN",
+        "percent": "12.9"
+      },
+      {
+        "name": "TF_SOLDIER_ACHIEVE_PROGRESS3",
+        "percent": "12.9"
+      },
+      {
+        "name": "TF_SPY_FEIGN_DEATH_KILL",
+        "percent": "12.9"
+      },
+      {
+        "name": "TF_SPY_BREAK_SHIELD_KILL_SNIPER",
+        "percent": "12.9"
+      },
+      {
+        "name": "TF_MULTIPLE_BFF",
+        "percent": "12.8"
+      },
+      {
+        "name": "TF_SCOUT_FAST_CAP",
+        "percent": "12.8"
+      },
+      {
+        "name": "TF_SCOUT_DOUBLE_JUMPS",
+        "percent": "12.8"
+      },
+      {
+        "name": "TF_SCOUT_DESTROY_BUILDINGS_BEING_BUILT",
+        "percent": "12.8"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_MEDIC_HEALING_YOU",
+        "percent": "12.7"
+      },
+      {
+        "name": "TF_SNIPER_JARATE_EXTINGUISH",
+        "percent": "12.7"
+      },
+      {
+        "name": "TF_SCOUT_DESTROY_SENTRY_WITH_PISTOL",
+        "percent": "12.7"
+      },
+      {
+        "name": "TF_HEAVY_FIRE_LOTS",
+        "percent": "12.7"
+      },
+      {
+        "name": "TF_MVM_COMPLETE_WAVE_WITHOUT_DYING",
+        "percent": "12.6"
+      },
+      {
+        "name": "TF_DEMOMAN_CRIT_SWORD_KILL",
+        "percent": "12.6"
+      },
+      {
+        "name": "TF_DEMOMAN_DECAPITATE_CLOAKED_SPY",
+        "percent": "12.6"
+      },
+      {
+        "name": "TF_PYRO_KILL_AXE_SMALL",
+        "percent": "12.6"
+      },
+      {
+        "name": "TF_WIN_WELL_MINIMUMTIME",
+        "percent": "12.6"
+      },
+      {
+        "name": "TF_DEMOMAN_CHARGE_KILL",
+        "percent": "12.5"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_SNIPERS",
+        "percent": "12.5"
+      },
+      {
+        "name": "TF_PYRO_KILL_TAUNT",
+        "percent": "12.5"
+      },
+      {
+        "name": "TF_DEMOMAN_DUO_DEMOMAN_KILLS",
+        "percent": "12.4"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_MEDIC_PAIR",
+        "percent": "12.4"
+      },
+      {
+        "name": "TF_SCOUT_ACHIEVE_PROGRESS2",
+        "percent": "12.4"
+      },
+      {
+        "name": "TF_MEDIC_ACHIEVE_PROGRESS2",
+        "percent": "12.4"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_TWENTY_FROM_ABOVE",
+        "percent": "12.3"
+      },
+      {
+        "name": "TF_SNIPER_CAPTURE_FLAG",
+        "percent": "12.3"
+      },
+      {
+        "name": "TF_SCOUT_START_AND_FINISH_CAP",
+        "percent": "12.3"
+      },
+      {
+        "name": "TF_SCOUT_THREE_FLAGCAPS",
+        "percent": "12.3"
+      },
+      {
+        "name": "TF_PYRO_FORCE_WATERJUMP",
+        "percent": "12.3"
+      },
+      {
+        "name": "TF_HALLOWEEN_BOSS_KILL",
+        "percent": "12.2"
+      },
+      {
+        "name": "TF_ENGINEER_REMOVE_SAPPER_LONG_DIST",
+        "percent": "12.2"
+      },
+      {
+        "name": "TF_ENGINEER_REVENGE_CRIT_SENTRY_KILLER",
+        "percent": "12.2"
+      },
+      {
+        "name": "TF_DEMOMAN_ACHIEVE_PROGRESS3",
+        "percent": "12.2"
+      },
+      {
+        "name": "TF_SPY_KNIFE_KILL_WHILE_JARATED",
+        "percent": "12.2"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_X_WITH_DIRECTPIPE",
+        "percent": "12.1"
+      },
+      {
+        "name": "TF_SOLDIER_DESTROY_SENTRY_OUT_OF_RANGE",
+        "percent": "12.1"
+      },
+      {
+        "name": "TF_HALLOWEEN_KILL_SCARED_PLAYER",
+        "percent": "12.1"
+      },
+      {
+        "name": "TF_PYRO_KILL_UBERCHARGE",
+        "percent": "12.1"
+      },
+      {
+        "name": "TF_MEDIC_KILL_HEALED_SPY",
+        "percent": "12.1"
+      },
+      {
+        "name": "TF_SNIPER_JARATE_REVEAL_SPY",
+        "percent": "12.0"
+      },
+      {
+        "name": "TF_HEAVY_UNCOVER_SPIES",
+        "percent": "12.0"
+      },
+      {
+        "name": "TF_HEAVY_KILL_TAUNT",
+        "percent": "12.0"
+      },
+      {
+        "name": "TF_PYRO_CAMP_TELEPORTERS",
+        "percent": "12.0"
+      },
+      {
+        "name": "TF_REPLAY_SAVE_REPLAY",
+        "percent": "11.9"
+      },
+      {
+        "name": "TF_DEMOMAN_DECAPITATE_NEMESIS",
+        "percent": "11.9"
+      },
+      {
+        "name": "TF_SNIPER_FREEZECAM_WAVE",
+        "percent": "11.9"
+      },
+      {
+        "name": "TF_SCOUT_DESTROY_TELEPORTERS",
+        "percent": "11.9"
+      },
+      {
+        "name": "TF_HEAVY_ACHIEVE_PROGRESS3",
+        "percent": "11.9"
+      },
+      {
+        "name": "TF_PYRO_KILL_CARRIERS",
+        "percent": "11.9"
+      },
+      {
+        "name": "TF_ENGINEER_KILL_SPY_TWO_SAPPERS",
+        "percent": "11.8"
+      },
+      {
+        "name": "TF_DEMOMAN_ENVIRONMENTAL_KILL",
+        "percent": "11.8"
+      },
+      {
+        "name": "TF_HEAVY_REVENGE_ASSIST",
+        "percent": "11.8"
+      },
+      {
+        "name": "TF_HEAVY_ASSIST_HEAVY_GRIND",
+        "percent": "11.8"
+      },
+      {
+        "name": "TF_DEMOMAN_STICKJUMP_DISTANCE",
+        "percent": "11.7"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_AIRBORNE_WITH_DIRECT_HIT",
+        "percent": "11.7"
+      },
+      {
+        "name": "TF_SCOUT_KNOCK_INTO_TRAIN",
+        "percent": "11.7"
+      },
+      {
+        "name": "TF_HEAVY_KILL_DOMINATED",
+        "percent": "11.7"
+      },
+      {
+        "name": "TF_ENGINEER_BUILDING_CARRY",
+        "percent": "11.6"
+      },
+      {
+        "name": "TF_SNIPER_JARATE_MEDIC_PAIR",
+        "percent": "11.6"
+      },
+      {
+        "name": "TF_SNIPER_HEADSHOT_POST_INVULN",
+        "percent": "11.6"
+      },
+      {
+        "name": "TF_SCOUT_CAPTURE_THREE_POINTS",
+        "percent": "11.6"
+      },
+      {
+        "name": "TF_PYRO_KILL_GRIND",
+        "percent": "11.6"
+      },
+      {
+        "name": "TF_ENGINEER_TANK_DAMAGE",
+        "percent": "11.5"
+      },
+      {
+        "name": "TF_SOLDIER_RJ_EQUALIZER_KILL",
+        "percent": "11.5"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_ON_FIRE",
+        "percent": "11.5"
+      },
+      {
+        "name": "TF_SPY_TAUNT_KILL",
+        "percent": "11.5"
+      },
+      {
+        "name": "TF_SNIPER_BOW_PIN_HEAVY",
+        "percent": "11.5"
+      },
+      {
+        "name": "TF_SNIPER_JARATE_DOMINATED",
+        "percent": "11.5"
+      },
+      {
+        "name": "TF_SCOUT_ACHIEVE_PROGRESS3",
+        "percent": "11.5"
+      },
+      {
+        "name": "TF_MEDIC_ACHIEVE_PROGRESS3",
+        "percent": "11.5"
+      },
+      {
+        "name": "TF_SPY_MEDIC_HEALING_KILL_ENEMY",
+        "percent": "11.4"
+      },
+      {
+        "name": "TF_SNIPER_TAUNT_KILL",
+        "percent": "11.4"
+      },
+      {
+        "name": "TF_SCOUT_KILL_IN_DODGE_COOLDOWN",
+        "percent": "11.4"
+      },
+      {
+        "name": "TF_PYRO_IGNITE_FLAREGUN",
+        "percent": "11.4"
+      },
+      {
+        "name": "TF_MEDIC_CHARGE_BLOCKER",
+        "percent": "11.4"
+      },
+      {
+        "name": "TF_DEMOMAN_DECAPITATE_PLAYERS_FAST",
+        "percent": "11.3"
+      },
+      {
+        "name": "TF_DEMOMAN_DECAPITATE_PLAYERS",
+        "percent": "11.3"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_GROUP_WITH_CROCKET",
+        "percent": "11.3"
+      },
+      {
+        "name": "TF_HALLOWEEN_COLLECT_PUMPKINS",
+        "percent": "11.3"
+      },
+      {
+        "name": "TF_SPY_CAMP_POSITION",
+        "percent": "11.3"
+      },
+      {
+        "name": "TF_SPY_SAPPER_TEAMWORK",
+        "percent": "11.3"
+      },
+      {
+        "name": "TF_SCOUT_CARRIER_KILL_CARRIER",
+        "percent": "11.3"
+      },
+      {
+        "name": "TF_MEDIC_BONESAW_NOMISSES",
+        "percent": "11.3"
+      },
+      {
+        "name": "TF_TEAM_PYROVISION",
+        "percent": "11.2"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_DEFENSELESS",
+        "percent": "11.2"
+      },
+      {
+        "name": "TF_SNIPER_KILL_SPIES_MELEE",
+        "percent": "11.2"
+      },
+      {
+        "name": "TF_HEAVY_CLEAR_STICKYBOMBS",
+        "percent": "11.2"
+      },
+      {
+        "name": "TF_SOLDIER_RIDE_THE_CART",
+        "percent": "11.1"
+      },
+      {
+        "name": "TF_SNIPER_FREEZECAM_HAT",
+        "percent": "11.1"
+      },
+      {
+        "name": "TF_MEDIC_ASSIST_HEAVY_LONG",
+        "percent": "11.1"
+      },
+      {
+        "name": "TF_HALLOWEEN_EYEBOSS_KILL",
+        "percent": "11.0"
+      },
+      {
+        "name": "TF_SCOUT_STEAL_SANDWICH",
+        "percent": "11.0"
+      },
+      {
+        "name": "TF_MEDIC_TOP_SCOREBOARD",
+        "percent": "11.0"
+      },
+      {
+        "name": "TF_HALLOWEEN_COLLECT_GOODY_BAG",
+        "percent": "10.9"
+      },
+      {
+        "name": "TF_ENGINEER_TELEPORT_GRIND",
+        "percent": "10.8"
+      },
+      {
+        "name": "TF_DEMOMAN_TAUNT_KILL",
+        "percent": "10.8"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_X_SCOUTS_PYROS",
+        "percent": "10.8"
+      },
+      {
+        "name": "TF_SPY_FAST_CAP",
+        "percent": "10.8"
+      },
+      {
+        "name": "TF_SNIPER_KILL_FAILED_SPY",
+        "percent": "10.8"
+      },
+      {
+        "name": "TF_PYRO_KILL_SPIES",
+        "percent": "10.8"
+      },
+      {
+        "name": "TF_MEDIC_KILL_WHILE_CHARGED",
+        "percent": "10.8"
+      },
+      {
+        "name": "TF_MVM_ENGINEER_ESCAPE_SENTRY_BUSTER",
+        "percent": "10.6"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_DEFEND_CARRIER",
+        "percent": "10.6"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_TAUNT",
+        "percent": "10.6"
+      },
+      {
+        "name": "TF_SNIPER_JARATE_GROUP",
+        "percent": "10.6"
+      },
+      {
+        "name": "TF_PYRO_FREEZECAM_TAUNTS",
+        "percent": "10.6"
+      },
+      {
+        "name": "TF_PYRO_KILL_TAUNTERS",
+        "percent": "10.6"
+      },
+      {
+        "name": "TF_PYRO_KILL_AXE_LARGE",
+        "percent": "10.6"
+      },
+      {
+        "name": "TF_MEDIC_HEAL_CALLERS",
+        "percent": "10.6"
+      },
+      {
+        "name": "TF_SCOUT_DODGE_DAMAGE",
+        "percent": "10.5"
+      },
+      {
+        "name": "TF_HEAVY_ASSIST_MEDIC_LARGE",
+        "percent": "10.5"
+      },
+      {
+        "name": "TF_PYRO_REFLECT_PROJECTILES",
+        "percent": "10.5"
+      },
+      {
+        "name": "TF_WIN_GRAVELPIT_NOENEMYCAPS",
+        "percent": "10.5"
+      },
+      {
+        "name": "TF_SOLDIER_THREE_DOMINATIONS",
+        "percent": "10.4"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_TWO_DURING_ROCKET_JUMP",
+        "percent": "10.4"
+      },
+      {
+        "name": "TF_SNIPER_GET_BACKSTABBED",
+        "percent": "10.4"
+      },
+      {
+        "name": "TF_MEDIC_SIMUL_CHARGE",
+        "percent": "10.4"
+      },
+      {
+        "name": "TF_HALLOWEEN_MERASMUS_KILL",
+        "percent": "10.3"
+      },
+      {
+        "name": "TF_MEDIC_EXTINGUISH_TEAMMATES",
+        "percent": "10.3"
+      },
+      {
+        "name": "TF_MEDIC_ASSIST_MEDIC",
+        "percent": "10.3"
+      },
+      {
+        "name": "TF_HALLOWEEN_BOSS_KILL_MELEE",
+        "percent": "10.2"
+      },
+      {
+        "name": "TF_DEMOMAN_FREEZECAM_SMILE",
+        "percent": "10.2"
+      },
+      {
+        "name": "TF_SNIPER_BOW_KILL_FLAGCARRIER",
+        "percent": "10.2"
+      },
+      {
+        "name": "TF_PYRO_DESTROY_BUILDINGS",
+        "percent": "10.2"
+      },
+      {
+        "name": "TF_WIN_HYDRO_NOENEMYCAPS",
+        "percent": "10.2"
+      },
+      {
+        "name": "TF_MEDIC_ASSIST_PYRO",
+        "percent": "10.2"
+      },
+      {
+        "name": "TF_REPLAY_EDIT_TIME",
+        "percent": "10.1"
+      },
+      {
+        "name": "TF_SNIPER_KILL_OBJECTIVES",
+        "percent": "10.1"
+      },
+      {
+        "name": "TF_MEDIC_BONESAW_SPY_CALLERS",
+        "percent": "10.1"
+      },
+      {
+        "name": "TF_MEDIC_SAVE_TEAMMATE",
+        "percent": "10.1"
+      },
+      {
+        "name": "TF_ENGINEER_DISPENSER_EXTINGUISH",
+        "percent": "10.0"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL3_WITH_DETONATION",
+        "percent": "10.0"
+      },
+      {
+        "name": "TF_HALLOWEEN_LOOT_ISLAND",
+        "percent": "9.9"
+      },
+      {
+        "name": "TF_ENGINEER_REVENGE_CRIT_LIFE",
+        "percent": "9.9"
+      },
+      {
+        "name": "TF_SCOUT_TAUNT_KILL",
+        "percent": "9.9"
+      },
+      {
+        "name": "TF_SCOUT_IRON_MAN_KILLS",
+        "percent": "9.9"
+      },
+      {
+        "name": "TF_HEAVY_STAND_NEAR_DISPENSER",
+        "percent": "9.9"
+      },
+      {
+        "name": "TF_PYRO_DEFEND_POINTS",
+        "percent": "9.9"
+      },
+      {
+        "name": "TF_MEDIC_SAVE_FALLING_TEAMMATE",
+        "percent": "9.9"
+      },
+      {
+        "name": "TF_HALLOWEEN_MERASMUS_COLLECT_LOOT",
+        "percent": "9.8"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_WIN_MINTIME",
+        "percent": "9.8"
+      },
+      {
+        "name": "TF_ENGINEER_TAUNT_KILL",
+        "percent": "9.8"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_PLAYER_AFTER_TP",
+        "percent": "9.8"
+      },
+      {
+        "name": "TF_SOLDIER_NEMESIS_SHOVEL_KILL",
+        "percent": "9.8"
+      },
+      {
+        "name": "TF_SCOUT_MAX_STUNS",
+        "percent": "9.8"
+      },
+      {
+        "name": "TF_DEMOMAN_DECAPITATE_EQUALIZER",
+        "percent": "9.7"
+      },
+      {
+        "name": "TF_PYRO_KILL_GRIND_LARGE",
+        "percent": "9.7"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_PLAYER_YOU_DIDNT_SEE",
+        "percent": "9.6"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_PUSH_BACK_AND_WIN",
+        "percent": "9.6"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_ACHIEVE_PROGRESS1",
+        "percent": "9.6"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_ENGY_SAP_BUILDING",
+        "percent": "9.6"
+      },
+      {
+        "name": "TF_HEAVY_HEAL_MEDIKITS",
+        "percent": "9.6"
+      },
+      {
+        "name": "TF_HEAVY_RECEIVE_UBER_GRIND",
+        "percent": "9.6"
+      },
+      {
+        "name": "TF_HEAVY_KILL_MEDIC_PAIR",
+        "percent": "9.6"
+      },
+      {
+        "name": "TF_MEDIC_FREEZECAM_RAGDOLL",
+        "percent": "9.6"
+      },
+      {
+        "name": "TF_MEDIC_CHARGE_JUGGLE",
+        "percent": "9.6"
+      },
+      {
+        "name": "TF_MEDIC_ASSIST_CAPTURER",
+        "percent": "9.6"
+      },
+      {
+        "name": "TF_MVM_MAX_PLAYER_RESISTANCES",
+        "percent": "9.5"
+      },
+      {
+        "name": "TF_MVM_MAX_PRIMARY_UPGRADES",
+        "percent": "9.5"
+      },
+      {
+        "name": "TF_MVM_DESTROY_TANK_QUICKLY",
+        "percent": "9.5"
+      },
+      {
+        "name": "TF_ENGINEER_UPGRADE_BUILDINGS",
+        "percent": "9.5"
+      },
+      {
+        "name": "TF_DEMOMAN_DESTROY_BUILDINGS_GRIND",
+        "percent": "9.5"
+      },
+      {
+        "name": "TF_SCOUT_DOUBLEJUMP_KILL",
+        "percent": "9.5"
+      },
+      {
+        "name": "TF_HALLOWEEN_HELLTOWER_RARE_SPELL",
+        "percent": "9.4"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_ACHIEVE_PROGRESS1",
+        "percent": "9.4"
+      },
+      {
+        "name": "TF_MVM_NO_ALARMS_IN_FINAL_WAVE",
+        "percent": "9.3"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_SOLO_CAPTURE",
+        "percent": "9.3"
+      },
+      {
+        "name": "TF_SOLDIER_FREEZECAM_TAUNT",
+        "percent": "9.3"
+      },
+      {
+        "name": "TF_SPY_AMBASSADOR_SCOUT_GRIND",
+        "percent": "9.3"
+      },
+      {
+        "name": "TF_SCOUT_FLAG_CAP_GRIND",
+        "percent": "9.3"
+      },
+      {
+        "name": "TF_REPLAY_PERFORMANCE_MODE",
+        "percent": "9.2"
+      },
+      {
+        "name": "TF_ENGINEER_FREEZECAM_TAUNT",
+        "percent": "9.2"
+      },
+      {
+        "name": "TF_SOLDIER_BUFF_TEAMMATES",
+        "percent": "9.2"
+      },
+      {
+        "name": "TF_SCOUT_FIRST_BLOOD",
+        "percent": "9.2"
+      },
+      {
+        "name": "TF_MVM_DESTROY_TANK_WHILE_DEPLOYING",
+        "percent": "9.1"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_KILL_CAPPING_ENEMY",
+        "percent": "9.1"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_X_DEFENDING",
+        "percent": "9.1"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_ENGI_SENTRY_DISPENSER",
+        "percent": "9.1"
+      },
+      {
+        "name": "TF_DEMOMAN_DOMINATE_THREE_ENGINEERS",
+        "percent": "9.1"
+      },
+      {
+        "name": "TF_SOLDIER_ASSIST_MEDIC_UBER",
+        "percent": "9.1"
+      },
+      {
+        "name": "TF_SOLDIER_EQUALIZER_STREAK",
+        "percent": "9.1"
+      },
+      {
+        "name": "TF_HALLOWEEN_PUMPKIN_KILL",
+        "percent": "9.1"
+      },
+      {
+        "name": "TF_SPY_AMBASSADOR_GRIND",
+        "percent": "9.1"
+      },
+      {
+        "name": "TF_SCOUT_STUN_SCOUT_WITH_THEIR_BALL",
+        "percent": "9.1"
+      },
+      {
+        "name": "TF_ENGINEER_SENTRY_KILL_CAPS",
+        "percent": "9.0"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_TWO_DURING_STICKYJUMP",
+        "percent": "9.0"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_FRIENDS",
+        "percent": "9.0"
+      },
+      {
+        "name": "TF_SNIPER_JARATE_ASSISTS",
+        "percent": "9.0"
+      },
+      {
+        "name": "TF_SNIPER_KILL_GRIND",
+        "percent": "9.0"
+      },
+      {
+        "name": "TF_SCOUT_STUN_UBER_ENEMIES",
+        "percent": "9.0"
+      },
+      {
+        "name": "TF_HEAVY_KILL_CAPPING_ENEMIES",
+        "percent": "9.0"
+      },
+      {
+        "name": "TF_PLAY_GAME_FRIENDSONLY",
+        "percent": "9.0"
+      },
+      {
+        "name": "TF_HALLOWEEN_HELLTOWER_SKULL_ISLAND_REWARD",
+        "percent": "8.9"
+      },
+      {
+        "name": "TF_MVM_USE_CRIT_BOTTLE",
+        "percent": "8.9"
+      },
+      {
+        "name": "TF_HEAVY_PAYLOAD_CAP_GRIND",
+        "percent": "8.9"
+      },
+      {
+        "name": "TF_SOLDIER_DEFEND_CAP_THIRTY_TIMES",
+        "percent": "8.8"
+      },
+      {
+        "name": "TF_SPY_KILL_CP_DEFENDERS",
+        "percent": "8.8"
+      },
+      {
+        "name": "TF_SCOUT_STUN_INTO_TRAIN",
+        "percent": "8.8"
+      },
+      {
+        "name": "TF_PYRO_BURN_SPY_TAUNT",
+        "percent": "8.8"
+      },
+      {
+        "name": "TF_PYRO_KILL_MULTIWEAPONS",
+        "percent": "8.8"
+      },
+      {
+        "name": "TF_MEDIC_BONESAW_MEDICS",
+        "percent": "8.8"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_PUSH_BACK_AND_WIN",
+        "percent": "8.7"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL3_WITH_PIPE_SETUPS",
+        "percent": "8.7"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_X_HEAVIES_FULLHP_ONEDET",
+        "percent": "8.7"
+      },
+      {
+        "name": "TF_SCOUT_KILL_FROM_BEHIND",
+        "percent": "8.7"
+      },
+      {
+        "name": "TF_DEMOMAN_FREEZECAM_RUMP",
+        "percent": "8.6"
+      },
+      {
+        "name": "TF_DEMOMAN_STICKYJUMP_CAP",
+        "percent": "8.6"
+      },
+      {
+        "name": "TF_SOLDIER_FREEZECAM_GIBS",
+        "percent": "8.6"
+      },
+      {
+        "name": "TF_HEAVY_EAT_SANDWICHES",
+        "percent": "8.6"
+      },
+      {
+        "name": "TF_MEDIC_ASSIST_SOLDIER",
+        "percent": "8.6"
+      },
+      {
+        "name": "TF_MEDIC_ASSIST_HEAVY",
+        "percent": "8.6"
+      },
+      {
+        "name": "TF_MVM_ROCKET_SPECIALIST_STUN_GRIND",
+        "percent": "8.5"
+      },
+      {
+        "name": "TF_ENGINEER_DESTROY_SAPPERS",
+        "percent": "8.5"
+      },
+      {
+        "name": "TF_ENGINEER_MANUAL_SENTRY_ABSORB_DMG",
+        "percent": "8.5"
+      },
+      {
+        "name": "TF_DEMOMAN_MELEE_KILL_WHILE_STICKYJUMPING",
+        "percent": "8.5"
+      },
+      {
+        "name": "TF_SNIPER_BOW_KILL_MEDIC_PAIR",
+        "percent": "8.5"
+      },
+      {
+        "name": "TF_SCOUT_ASSIST_MEDIC",
+        "percent": "8.5"
+      },
+      {
+        "name": "TF_HEAVY_DEFEND_CONTROL_POINT",
+        "percent": "8.5"
+      },
+      {
+        "name": "TF_MEDIC_ASSIST_SCOUT",
+        "percent": "8.5"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_DENY_NEUTRAL_PICKUP",
+        "percent": "8.4"
+      },
+      {
+        "name": "TF_ENGINEER_HEAVY_ASSIST",
+        "percent": "8.4"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_FIVE_STUNNED",
+        "percent": "8.4"
+      },
+      {
+        "name": "TF_SPY_FREEZECAM_FLICK",
+        "percent": "8.4"
+      },
+      {
+        "name": "TF_SNIPER_JARATE_KILL_MELEE",
+        "percent": "8.4"
+      },
+      {
+        "name": "TF_PLAY_GAME_EVERYMAP",
+        "percent": "8.4"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_BACK_AND_FORTH_BATTLE",
+        "percent": "8.3"
+      },
+      {
+        "name": "TF_REPLAY_BROWSE_REPLAYS",
+        "percent": "8.3"
+      },
+      {
+        "name": "TF_SOLDIER_GIB_GRIND",
+        "percent": "8.3"
+      },
+      {
+        "name": "TF_SCOUT_WELL_EARLY_KILL",
+        "percent": "8.3"
+      },
+      {
+        "name": "TF_MEDIC_ASSIST_VS_NEMESES",
+        "percent": "8.3"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_RIDE_THE_ELEVATOR",
+        "percent": "8.2"
+      },
+      {
+        "name": "TF_ENGINEER_MANUAL_SENTRY_KILLS_BEYOND_RANGE",
+        "percent": "8.2"
+      },
+      {
+        "name": "TF_SOLDIER_DESTROY_STICKIES",
+        "percent": "8.2"
+      },
+      {
+        "name": "TF_HEAVY_FREEZECAM_TAUNT",
+        "percent": "8.2"
+      },
+      {
+        "name": "TF_HEAVY_BLOCK_INVULN_HEAVY",
+        "percent": "8.2"
+      },
+      {
+        "name": "TF_MVM_SOLDIER_BUFF_TEAM",
+        "percent": "8.1"
+      },
+      {
+        "name": "TF_REPLAY_YOUTUBE_VIEWS_TIER2",
+        "percent": "8.1"
+      },
+      {
+        "name": "TF_REPLAY_YOUTUBE_VIEWS_TIER1",
+        "percent": "8.1"
+      },
+      {
+        "name": "TF_HALLOWEEN_CRAFT_SAXTON_MASK",
+        "percent": "8.1"
+      },
+      {
+        "name": "TF_DEMOMAN_DESTROY_BUILDINGS_WITH_MEDIC",
+        "percent": "8.1"
+      },
+      {
+        "name": "TF_SOLDIER_MVP",
+        "percent": "8.1"
+      },
+      {
+        "name": "TF_PYRO_KILL_HEAVIES",
+        "percent": "8.1"
+      },
+      {
+        "name": "TF_MEDIC_HEAL_LARGE",
+        "percent": "8.1"
+      },
+      {
+        "name": "TF_MEDIC_ASSIST_DEMOMAN",
+        "percent": "8.1"
+      },
+      {
+        "name": "TF_TAUNT_CONGA_LINE",
+        "percent": "8.0"
+      },
+      {
+        "name": "TF_MVM_USE_AMMO_BOTTLE",
+        "percent": "8.0"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_PLAY_EACH_CLASS",
+        "percent": "8.0"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_PUSH_INTO_CAULDRON",
+        "percent": "8.0"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_TELEPORT_AND_CAP",
+        "percent": "8.0"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_FAST_FINAL_CAP",
+        "percent": "8.0"
+      },
+      {
+        "name": "TF_ENGINEER_WASTE_METAL_GRIND",
+        "percent": "8.0"
+      },
+      {
+        "name": "TF_PYRO_KILL_UNDERWATER",
+        "percent": "8.0"
+      },
+      {
+        "name": "TF_MVM_USE_UBER_BOTTLE",
+        "percent": "7.9"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_KILL_ENEMIES_ON_ELEVATOR",
+        "percent": "7.9"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_KILL_ENEMY_ON_ROOF",
+        "percent": "7.9"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_PLAY_GAME_FRIENDS",
+        "percent": "7.9"
+      },
+      {
+        "name": "TF_SOLDIER_BUFF_FRIENDS",
+        "percent": "7.9"
+      },
+      {
+        "name": "TF_HEAVY_BLOCK_CART",
+        "percent": "7.9"
+      },
+      {
+        "name": "TF_HEAVY_DEFEND_MEDIC",
+        "percent": "7.9"
+      },
+      {
+        "name": "TF_MVM_DESTROY_TWO_TANKS",
+        "percent": "7.8"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_PUSH_INTO_EXHAUST",
+        "percent": "7.8"
+      },
+      {
+        "name": "TF_DEMOMAN_AIR_BURST_KILLS",
+        "percent": "7.8"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_GRIND",
+        "percent": "7.8"
+      },
+      {
+        "name": "TF_MEDIC_SYRINGE_SCOUTS",
+        "percent": "7.8"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_KILL_CARRIERS",
+        "percent": "7.7"
+      },
+      {
+        "name": "TF_SPY_BACKSTAB_CAPPING_ENEMIES",
+        "percent": "7.7"
+      },
+      {
+        "name": "TF_SNIPER_TOP_SCOREBOARD_GRIND",
+        "percent": "7.7"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_PLAY_GAME_FRIENDS",
+        "percent": "7.6"
+      },
+      {
+        "name": "TF_ENGINEER_MANUAL_CLOAKED_SPY_KILL",
+        "percent": "7.6"
+      },
+      {
+        "name": "TF_SCOUT_BLOCK_CAPS",
+        "percent": "7.6"
+      },
+      {
+        "name": "TF_SCOUT_KILL_STUNNED",
+        "percent": "7.6"
+      },
+      {
+        "name": "TF_SCOUT_LIFETIME_KILLS",
+        "percent": "7.6"
+      },
+      {
+        "name": "TF_MEDIC_CHARGE_FRIENDS",
+        "percent": "7.6"
+      },
+      {
+        "name": "TF_MVM_SNIPER_KILL_GROUP",
+        "percent": "7.5"
+      },
+      {
+        "name": "TF_HEAVY_KILL_SCOUTS",
+        "percent": "7.5"
+      },
+      {
+        "name": "TF_HALLOWEEN_DOOMSDAY_WIN_MINIGAMES",
+        "percent": "7.4"
+      },
+      {
+        "name": "TF_ENGINEER_HELP_MANUAL_SENTRY",
+        "percent": "7.4"
+      },
+      {
+        "name": "TF_SPY_AMBASSADOR_SNIPER_GRIND",
+        "percent": "7.4"
+      },
+      {
+        "name": "TF_HEAVY_KILL_HEAVIES_GLOVES",
+        "percent": "7.4"
+      },
+      {
+        "name": "TF_HALLOWEEN_HELLTOWER_MILESTONE",
+        "percent": "7.3"
+      },
+      {
+        "name": "TF_ENGINEER_KILL_SENTRY_WITH_SENTRY",
+        "percent": "7.3"
+      },
+      {
+        "name": "TF_SCOUT_FIRST_BLOOD_KILL",
+        "percent": "7.3"
+      },
+      {
+        "name": "TF_HEAVY_KILL_FLAG_CARRIERS",
+        "percent": "7.3"
+      },
+      {
+        "name": "TF_MVM_MAPS_ROTTENBURG_TANK",
+        "percent": "7.2"
+      },
+      {
+        "name": "TF_ENGINEER_DISPENSER_HEAL_GRIND",
+        "percent": "7.2"
+      },
+      {
+        "name": "TF_ENGINEER_KILL_FLAG_CARRIERS",
+        "percent": "7.2"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_DEMOMAN_GRIND",
+        "percent": "7.2"
+      },
+      {
+        "name": "TF_ENGINEER_KILL_SNIPERS_SENTRY",
+        "percent": "7.1"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_X_CAPPING_ONEDET",
+        "percent": "7.1"
+      },
+      {
+        "name": "TF_DEMOMAN_KILL_SOLDIER_GRIND",
+        "percent": "7.1"
+      },
+      {
+        "name": "TF_SOLDIER_KILL_WITH_EQUALIZER_WHILE_HURT",
+        "percent": "7.1"
+      },
+      {
+        "name": "TF_SCOUT_STUN_CAPPING_ENEMIES",
+        "percent": "7.1"
+      },
+      {
+        "name": "TF_MEDIC_HEAL_HUGE",
+        "percent": "7.1"
+      },
+      {
+        "name": "TF_SOLDIER_AIRSTRIKE_MAX_CLIP",
+        "percent": "7.0"
+      },
+      {
+        "name": "TF_DEMOMAN_QUICK_KILLS",
+        "percent": "7.0"
+      },
+      {
+        "name": "TF_DEMOMAN_KILLXSAPPINGSPIES",
+        "percent": "7.0"
+      },
+      {
+        "name": "TF_HEAVY_ASSIST_GRIND",
+        "percent": "7.0"
+      },
+      {
+        "name": "TF_HALLOWEEN_DOOMSDAY_MILESTONE",
+        "percent": "6.9"
+      },
+      {
+        "name": "TF_SPY_SAPPER_GRIND",
+        "percent": "6.9"
+      },
+      {
+        "name": "TF_MEDIC_HEAL_GRIND",
+        "percent": "6.9"
+      },
+      {
+        "name": "TF_MAPS_SNAKEWATER_PUSH_BACK_AND_WIN",
+        "percent": "6.8"
+      },
+      {
+        "name": "TF_MVM_COMPLETE_TOUR",
+        "percent": "6.8"
+      },
+      {
+        "name": "TF_DEMOMAN_DESTROY_X_STICKYBOMBS",
+        "percent": "6.7"
+      },
+      {
+        "name": "TF_HEAVY_KILL_UNDERWATER",
+        "percent": "6.7"
+      },
+      {
+        "name": "TF_SPY_KILL_BACKSCATTER_SCOUT",
+        "percent": "6.6"
+      },
+      {
+        "name": "TF_ENGINEER_DESTROY_STICKIES",
+        "percent": "6.6"
+      },
+      {
+        "name": "TF_PYRO_DAMAGE_GRIND",
+        "percent": "6.6"
+      },
+      {
+        "name": "TF_MAPS_POWERHOUSE_PUSH_BACK_AND_WIN",
+        "percent": "6.5"
+      },
+      {
+        "name": "TF_HALLOWEEN_DOOMSDAY_SCORE_GOALS",
+        "percent": "6.5"
+      },
+      {
+        "name": "TF_MVM_MAPS_ROTTENBURG_BOMB",
+        "percent": "6.5"
+      },
+      {
+        "name": "TF_MVM_KILL_MEDICS_CHARGED",
+        "percent": "6.5"
+      },
+      {
+        "name": "TF_MVM_USE_BUILD_BOTTLE",
+        "percent": "6.5"
+      },
+      {
+        "name": "TF_ENGINEER_SENTRY_KILL_LIFETIME_GRIND",
+        "percent": "6.5"
+      },
+      {
+        "name": "TF_DEMOMAN_DAMAGE_GRIND",
+        "percent": "6.5"
+      },
+      {
+        "name": "TF_MVM_ROCKET_SPECIALIST_KILL_GRIND",
+        "percent": "6.4"
+      },
+      {
+        "name": "TF_MAPS_SNAKEWATER_TEAM_KILL",
+        "percent": "6.4"
+      },
+      {
+        "name": "TF_MVM_SCOUT_MARK_FOR_DEATH",
+        "percent": "6.4"
+      },
+      {
+        "name": "TF_MVM_USE_TELEPORT_BOTTLE",
+        "percent": "6.4"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_PLAY_EACH_CLASS",
+        "percent": "6.4"
+      },
+      {
+        "name": "TF_TAUNT_CONGA_KILL",
+        "percent": "6.3"
+      },
+      {
+        "name": "TF_MVM_MEDIC_SHARE_BOTTLES",
+        "percent": "6.3"
+      },
+      {
+        "name": "TF_MVM_ADVANCED_EARN_ALL_BONUSES",
+        "percent": "6.3"
+      },
+      {
+        "name": "TF_HALLOWEEN_DOOMSDAY_RESPAWN_TEAMMATES",
+        "percent": "6.2"
+      },
+      {
+        "name": "TF_MAPS_FOUNDRY_WIN_ROUNDS",
+        "percent": "6.2"
+      },
+      {
+        "name": "TF_REPLAY_YOUTUBE_VIEWS_TIER3",
+        "percent": "6.2"
+      },
+      {
+        "name": "TF_ENGINEER_REPAIR_TEAM_GRIND",
+        "percent": "6.2"
+      },
+      {
+        "name": "TF_MVM_SENTRY_BUSTER_FRIENDLY_FIRE",
+        "percent": "6.1"
+      },
+      {
+        "name": "TF_PYRO_IGNITE_WITH_RAINBOW",
+        "percent": "6.1"
+      },
+      {
+        "name": "TF_MVM_MEDIC_REVIVE_TEAMMATES",
+        "percent": "6.0"
+      },
+      {
+        "name": "TF_MVM_MAPS_MANNHATTAN_STUN_RADIOWAVE",
+        "percent": "6.0"
+      },
+      {
+        "name": "TF_MAPS_SNAKEWATER_DOUBLE_AIR_DEATHS",
+        "percent": "6.0"
+      },
+      {
+        "name": "TF_HALLOWEEN_HELLTOWER_KILL_BROTHERS",
+        "percent": "6.0"
+      },
+      {
+        "name": "TF_HALLOWEEN_HELLTOWER_KILL_GRIND",
+        "percent": "6.0"
+      },
+      {
+        "name": "TF_MVM_DEFEND_CAP",
+        "percent": "6.0"
+      },
+      {
+        "name": "TF_MAPS_DOOMSDAY_WIN_ROUNDS",
+        "percent": "6.0"
+      },
+      {
+        "name": "TF_REPLAY_YOUTUBE_VIEWS_HIGHEST",
+        "percent": "6.0"
+      },
+      {
+        "name": "TF_PARACHUTE_KILL_GRIND",
+        "percent": "5.9"
+      },
+      {
+        "name": "TF_MVM_MEDIC_SHIELD_BLOCK_DAMAGE",
+        "percent": "5.9"
+      },
+      {
+        "name": "TF_MVM_PYRO_BOMB_RESET",
+        "percent": "5.9"
+      },
+      {
+        "name": "TF_MVM_DEMO_GROUP_KILL",
+        "percent": "5.9"
+      },
+      {
+        "name": "TF_MVM_HEAVY_RAGE_PUSH_DEPLOYING_ROBOT",
+        "percent": "5.9"
+      },
+      {
+        "name": "TF_MVM_PLAY_GAME_FRIENDS",
+        "percent": "5.9"
+      },
+      {
+        "name": "TF_TAUNT_RPS_SCISSORS",
+        "percent": "5.8"
+      },
+      {
+        "name": "TF_TAUNT_RPS_ROCK",
+        "percent": "5.8"
+      },
+      {
+        "name": "TF_HALLOWEEN_HELLTOWER_SKELETON_GRIND",
+        "percent": "5.8"
+      },
+      {
+        "name": "TF_MVM_SPY_SAP_ROBOTS",
+        "percent": "5.8"
+      },
+      {
+        "name": "TF_KILL_BALLOONICORN_OWNERS",
+        "percent": "5.8"
+      },
+      {
+        "name": "TF_HALLOWEEN_DOOMSDAY_TINY_SMASHER",
+        "percent": "5.7"
+      },
+      {
+        "name": "TF_MELEE_KILL_CLASSIC_RIFLE_SNIPER",
+        "percent": "5.7"
+      },
+      {
+        "name": "TF_MVM_MAPS_MANNHATTAN_NO_GATES",
+        "percent": "5.7"
+      },
+      {
+        "name": "TF_HALLOWEEN_HELLTOWER_ENVIRONMENTAL_KILLS",
+        "percent": "5.7"
+      },
+      {
+        "name": "TF_MVM_KILL_ROBOT_GRIND",
+        "percent": "5.7"
+      },
+      {
+        "name": "TF_MVM_PLAY_EACH_CLASS",
+        "percent": "5.7"
+      },
+      {
+        "name": "TF_MVM_COLLECT_MONEY_GRIND",
+        "percent": "5.7"
+      },
+      {
+        "name": "TF_DEMOMAN_CHARGE_KILL_CHARGING_DEMO",
+        "percent": "5.6"
+      },
+      {
+        "name": "TF_MVM_MAPS_MANNHATTAN_BOMB_BOT_GRIND",
+        "percent": "5.6"
+      },
+      {
+        "name": "TF_MVM_KILL_ROBOT_MEGA_GRIND",
+        "percent": "5.6"
+      },
+      {
+        "name": "TF_SOLDIER_PARACHUTE_KILL_GROUP",
+        "percent": "5.5"
+      },
+      {
+        "name": "TF_MVM_MAPS_MANNHATTAN_MYSTERY",
+        "percent": "5.5"
+      },
+      {
+        "name": "TF_HALLOWEEN_HELLTOWER_WIN_ROUNDS",
+        "percent": "5.5"
+      },
+      {
+        "name": "TF_SOLDIER_AIRSTRIKE_GROUP_KILL",
+        "percent": "5.4"
+      },
+      {
+        "name": "TF_SOLDIER_PARACHUTE_KILL_PARACHUTE",
+        "percent": "5.4"
+      },
+      {
+        "name": "TF_MAPS_SNAKEWATER_KILL_ENEMIES_IN_MIDDLE",
+        "percent": "5.4"
+      },
+      {
+        "name": "TF_SNIPER_CLASSIC_RIFLE_GIB_GRIND",
+        "percent": "5.3"
+      },
+      {
+        "name": "TF_SNIPER_CLASSIC_RIFLE_HEADSHOT_JUMPER",
+        "percent": "5.3"
+      },
+      {
+        "name": "TF_SNIPER_CLASSIC_RIFLE_NOSCOPE_HEADSHOT",
+        "percent": "5.3"
+      },
+      {
+        "name": "TF_SCOUT_BACKSCATTER_KILL_HEAVY_MEDIC_PAIR",
+        "percent": "5.3"
+      },
+      {
+        "name": "TF_MVM_MAPS_MANNHATTAN_PIT",
+        "percent": "5.3"
+      },
+      {
+        "name": "TF_MAPS_SNAKEWATER_WIN_ROUNDS",
+        "percent": "5.3"
+      },
+      {
+        "name": "TF_MAPS_PROCESS_WIN_ROUNDS",
+        "percent": "5.3"
+      },
+      {
+        "name": "TF_MAPS_STANDIN_WIN_ROUNDS",
+        "percent": "5.3"
+      },
+      {
+        "name": "TF_HALLOWEEN_DOOMSDAY_KILL_KARTS",
+        "percent": "5.2"
+      },
+      {
+        "name": "TF_PYRO_IGNITE_PLAYER_BEING_FLIPPED",
+        "percent": "5.2"
+      },
+      {
+        "name": "TF_DEMOMAN_PARACHUTE_KILL_GROUP",
+        "percent": "5.2"
+      },
+      {
+        "name": "TF_MVM_SNIPER_COLLECT_HEADSHOT_MONEY",
+        "percent": "5.2"
+      },
+      {
+        "name": "TF_DEMOMAN_PARACHUTE_KILL_PARACHUTE",
+        "percent": "5.1"
+      },
+      {
+        "name": "TF_SCOUT_BACKSCATTER_KILL_SPY_GRIND",
+        "percent": "5.1"
+      },
+      {
+        "name": "TF_MVM_MAPS_ROTTENBURG_PIT_GRIND",
+        "percent": "5.1"
+      },
+      {
+        "name": "TF_HALLOWEEN_DOOMSDAY_COLLECT_DUCKS",
+        "percent": "5.0"
+      },
+      {
+        "name": "TF_TAUNT_WHILE_CAPPING",
+        "percent": "5.0"
+      },
+      {
+        "name": "TF_TAUNT_DOSIDO_MELLE_KILL",
+        "percent": "5.0"
+      },
+      {
+        "name": "TF_SNIPER_PARACHUTE_GRIND",
+        "percent": "4.9"
+      },
+      {
+        "name": "TF_SOLDIER_PARACHUTE_DISTANCE",
+        "percent": "4.9"
+      },
+      {
+        "name": "TF_SCOUT_BACKSCATTER_KILL_FRIENDS_GRIND",
+        "percent": "4.9"
+      },
+      {
+        "name": "TF_MAPS_POWERHOUSE_FAST_FINAL_CAP",
+        "percent": "4.8"
+      },
+      {
+        "name": "TF_DEMOMAN_PARACHUTE_DISTANCE",
+        "percent": "4.8"
+      },
+      {
+        "name": "TF_MAPS_POWERHOUSE_KILL_ENEMY_IN_WATER",
+        "percent": "4.4"
+      },
+      {
+        "name": "TF_MAPS_POWERHOUSE_KILL_CAPPING_PLAYER",
+        "percent": "4.3"
+      },
+      {
+        "name": "TF_MAPS_POWERHOUSE_WIN_ROUNDS",
+        "percent": "3.9"
+      },
+      {
+        "name": "TF_PASS_TIME_HAT",
+        "percent": "3.7"
+      },
+      {
+        "name": "TF_PASS_TIME_GRIND",
+        "percent": "3.1"
+      }
+    ],
+    "news": [
+      {
+        "gid": "1815034432982399",
+        "title": "United Dodgeball League 2025",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815034432982399",
+        "is_external_url": true,
+        "author": "erics",
+        "contents": "{STEAM_CLAN_IMAGE}/554111/8436d09b5f56d64a7eceb5700b31313a77e34b82.png (Image credit: Metacloud) United Dodgeball League is proud to announce a new season of dodgeball, this time with 2v2 action! The tournament will have a prizepool of 600 keys and will have medals up for grabs for both participants...",
+        "feedlabel": "Community Announcements",
+        "date": 1762124604,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 440,
+        "tags": [
+          "mod_reviewed",
+          "ModAct_1519738978_1762125510_0",
+          "mod_require_rereview"
+        ]
+      },
+      {
+        "gid": "1815034432982406",
+        "title": "United Dodgeball League 2025",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/tf2_blog/1815034432982406",
+        "is_external_url": true,
+        "author": "",
+        "contents": "<a href=\"https://udl.tf/\" target=\"_blank\"> </a> (Image credit: <a href=\"https://steamcommunity.com/id/metalcloud/\" target=\"_blank\">Metacloud</a>) United Dodgeball League is proud to announce a new season of dodgeball, this time with 2v2 action! The tournament will have a prizepool of 600 keys and will have medals up for grabs for both participants and players that place. The tournament will run for three weeks with...",
+        "feedlabel": "TF2 Blog",
+        "date": 1762124580,
+        "feedname": "tf2_blog",
+        "feed_type": 0,
+        "appid": 440
+      },
+      {
+        "gid": "1815034432886304",
+        "title": "Team Fortress 2 Update Released",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815034432886304",
+        "is_external_url": true,
+        "author": "erics",
+        "contents": "An update to Team Fortress 2 has been released. The update will be applied automatically when you restart Team Fortress 2. The major changes include: Reverted recent Thermal Thruster change ",
+        "feedlabel": "Community Announcements",
+        "date": 1761868554,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 440,
+        "tags": [
+          "patchnotes"
+        ]
+      },
+      {
+        "gid": "1815034432886306",
+        "title": "Team Fortress 2 Update Released",
+        "url": "https://store.steampowered.com/news/255953/",
+        "is_external_url": false,
+        "author": "Valve",
+        "contents": "An update to Team Fortress 2 has been released. The update will be applied automatically when you restart Team Fortress 2. The major changes include: * Reverted recent Thermal Thruster change; ",
+        "feedlabel": "Product Update",
+        "date": 1761868500,
+        "feedname": "steam_updates",
+        "feed_type": 0,
+        "appid": 440
+      },
+      {
+        "gid": "1815034432886331",
+        "title": "Team Fortress 2 Update Released",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/tf2_blog/1815034432886331",
+        "is_external_url": true,
+        "author": "",
+        "contents": "An update to Team Fortress 2 has been released. The update will be applied automatically when you restart Team Fortress 2. The major changes include: * Reverted recent Thermal Thruster change ",
+        "feedlabel": "TF2 Blog",
+        "date": 1761868500,
+        "feedname": "tf2_blog",
+        "feed_type": 0,
+        "appid": 440
+      }
+    ]
+  },
+  {
+    "app_id": 1172470,
+    "app_name": "Apex Legends",
+    "generated_at": "2025-11-03T21:08:45.722255",
+    "current_players": 47872,
+    "achievement_percentages": [
+      {
+        "name": "JUMPMASTER_4",
+        "percent": "47.0"
+      },
+      {
+        "name": "FULLY_KITTED_3",
+        "percent": "40.9"
+      },
+      {
+        "name": "KILL_LEADER_6",
+        "percent": "40.7"
+      },
+      {
+        "name": "TEAM_PLAYER_2",
+        "percent": "39.8"
+      },
+      {
+        "name": "APEX_RECON_10",
+        "percent": "32.8"
+      },
+      {
+        "name": "APEX_OFFENSE_7",
+        "percent": "32.0"
+      },
+      {
+        "name": "DECKED_OUT_1",
+        "percent": "27.5"
+      },
+      {
+        "name": "APEX_SUPPORT_9",
+        "percent": "27.3"
+      },
+      {
+        "name": "THE_PLAYER_0",
+        "percent": "23.8"
+      },
+      {
+        "name": "APEX_DEFENSE_8",
+        "percent": "18.1"
+      },
+      {
+        "name": "WELL_ROUNDED_5",
+        "percent": "16.2"
+      },
+      {
+        "name": "APEX_LEGEND_11",
+        "percent": "14.6"
+      }
+    ],
+    "news": [
+      {
+        "gid": "1815034433006483",
+        "title": "Apex Legends™: Amped Patch Notes",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815034433006483",
+        "is_external_url": true,
+        "author": "respawn_bean",
+        "contents": "AMPED OVERVIEWWe’re starting the hype train for Season 27: Amped, right now, and this is your invitation to get on board! There’s plenty to be excited about this season: major changes to Olympus, Valkyrie retakes the skies, while Rampart and Horizon are getting tune ups, the meta is shifting to clos...",
+        "feedlabel": "Community Announcements",
+        "date": 1762188956,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 1172470,
+        "tags": [
+          "patchnotes"
+        ]
+      },
+      {
+        "gid": "1815034432873951",
+        "title": "NEW UPDATES COMING WITH APEX LEGENDS™: AMPED",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1815034432873951",
+        "is_external_url": true,
+        "author": "respawn_bean",
+        "contents": "Season 27 is upon us, Legends, and it is adrenaline-packed! Chase new heights in an updated Olympus, rebuilt for better flow, dynamic positioning, and elevated gameplay. Check out changes to Valkyrie, Rampart and Horizon that are sure to get your blood pumping. Welcome to the fray, the Double Tap Al...",
+        "feedlabel": "Community Announcements",
+        "date": 1761837119,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 1172470
+      },
+      {
+        "gid": "1814309641479178",
+        "title": "Submit your own Apex Legends costume meme",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814309641479178",
+        "is_external_url": true,
+        "author": "respawn_bean",
+        "contents": "Happy Halloween, Legends! Use the below costume template with an Apex theme (example also below) and submit your best and most funny ideas for a chance to be featured on our social media! Whether you’re a “Sweaty Wraith Main\" or a \"Lifeline Who Never Revives\" we would love to see what you come up wi...",
+        "feedlabel": "Community Announcements",
+        "date": 1761324056,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 1172470
+      },
+      {
+        "gid": "1814309641416518",
+        "title": "Ranked Matchmaking Test - Season 26",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814309641416518",
+        "is_external_url": true,
+        "author": "respawn_bean",
+        "contents": "As part of our ongoing efforts to improve matchmaking in Apex Legends, it's time for another round of Ranked matchmaking testing. Starting today, Master players and above can only matchmake with Diamond players and other Masters and Predator players.At the end of the previous season, our test of lim...",
+        "feedlabel": "Community Announcements",
+        "date": 1761152743,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 1172470,
+        "tags": [
+          "mod_reviewed",
+          "ModAct_1827942241_1761153653_0",
+          "mod_require_rereview"
+        ]
+      },
+      {
+        "gid": "1813674389104446",
+        "title": "Apex Legends™: Audio Update",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1813674389104446",
+        "is_external_url": true,
+        "author": "respawn_bean",
+        "contents": "Apex has evolved so much since its initial launch, but something that has not changed is our intention for the sound of Apex: a balance of feedback, immersion, and emotion. Our primary focus is feedback, which delivers critical information to understand each situation, while immersion and emotion ar...",
+        "feedlabel": "Community Announcements",
+        "date": 1761059762,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 1172470,
+        "tags": [
+          "mod_reviewed",
+          "ModAct_487176015_1761062400_0",
+          "mod_require_rereview"
+        ]
+      }
+    ]
+  },
+  {
+    "app_id": 1086940,
+    "app_name": "Baldur's Gate 3",
+    "generated_at": "2025-11-03T21:08:46.346560",
+    "current_players": 59660,
+    "achievement_percentages": [
+      {
+        "name": "BG3_Quest01",
+        "percent": "89.9"
+      },
+      {
+        "name": "BG3_Quest10",
+        "percent": "66.7"
+      },
+      {
+        "name": "BG3_Quest13",
+        "percent": "63.9"
+      },
+      {
+        "name": "BG3_Quest12",
+        "percent": "59.1"
+      },
+      {
+        "name": "BG3_Quest09",
+        "percent": "58.3"
+      },
+      {
+        "name": "BG3_Quest29",
+        "percent": "57.9"
+      },
+      {
+        "name": "BG3_Quest11",
+        "percent": "55.5"
+      },
+      {
+        "name": "BG3_Quest02",
+        "percent": "51.3"
+      },
+      {
+        "name": "BG3_Quest50",
+        "percent": "50.8"
+      },
+      {
+        "name": "BG3_Quest42",
+        "percent": "48.7"
+      },
+      {
+        "name": "BG3_Quest46",
+        "percent": "45.4"
+      },
+      {
+        "name": "BG3_Quest30",
+        "percent": "42.6"
+      },
+      {
+        "name": "BG3_Quest31",
+        "percent": "40.4"
+      },
+      {
+        "name": "BG3_Quest03",
+        "percent": "40.2"
+      },
+      {
+        "name": "BG3_Quest20",
+        "percent": "39.9"
+      },
+      {
+        "name": "BG3_Quest43",
+        "percent": "39.8"
+      },
+      {
+        "name": "BG3_Quest45",
+        "percent": "39.2"
+      },
+      {
+        "name": "BG3_Quest47",
+        "percent": "37.5"
+      },
+      {
+        "name": "BG3_Quest23",
+        "percent": "36.8"
+      },
+      {
+        "name": "BG3_Quest36",
+        "percent": "32.5"
+      },
+      {
+        "name": "BG3_Quest41",
+        "percent": "30.4"
+      },
+      {
+        "name": "BG3_Quest17",
+        "percent": "29.9"
+      },
+      {
+        "name": "BG3_Quest14",
+        "percent": "29.9"
+      },
+      {
+        "name": "BG3_Quest35",
+        "percent": "27.8"
+      },
+      {
+        "name": "BG3_Quest48",
+        "percent": "27.2"
+      },
+      {
+        "name": "BG3_Quest21",
+        "percent": "26.0"
+      },
+      {
+        "name": "BG3_Quest18",
+        "percent": "24.7"
+      },
+      {
+        "name": "BG3_Quest06",
+        "percent": "24.7"
+      },
+      {
+        "name": "BG3_Quest51",
+        "percent": "24.4"
+      },
+      {
+        "name": "BG3_Quest04",
+        "percent": "23.4"
+      },
+      {
+        "name": "BG3_Quest34",
+        "percent": "23.3"
+      },
+      {
+        "name": "BG3_Quest33",
+        "percent": "21.4"
+      },
+      {
+        "name": "BG3_Quest38",
+        "percent": "19.7"
+      },
+      {
+        "name": "BG3_Quest15",
+        "percent": "18.4"
+      },
+      {
+        "name": "BG3_Quest39",
+        "percent": "17.3"
+      },
+      {
+        "name": "BG3_Quest19",
+        "percent": "16.9"
+      },
+      {
+        "name": "BG3_Quest32",
+        "percent": "15.4"
+      },
+      {
+        "name": "BG3_Quest26",
+        "percent": "13.0"
+      },
+      {
+        "name": "BG3_Quest27",
+        "percent": "10.9"
+      },
+      {
+        "name": "BG3_Quest08",
+        "percent": "9.6"
+      },
+      {
+        "name": "BG3_Quest25",
+        "percent": "9.1"
+      },
+      {
+        "name": "BG3_Quest52",
+        "percent": "7.5"
+      },
+      {
+        "name": "BG3_Quest40",
+        "percent": "7.4"
+      },
+      {
+        "name": "BG3_Quest05",
+        "percent": "6.4"
+      },
+      {
+        "name": "BG3_Quest53",
+        "percent": "5.9"
+      },
+      {
+        "name": "BG3_Quest49",
+        "percent": "5.8"
+      },
+      {
+        "name": "BG3_Quest24",
+        "percent": "5.8"
+      },
+      {
+        "name": "BG3_Quest37",
+        "percent": "5.1"
+      },
+      {
+        "name": "BG3_Quest22",
+        "percent": "3.4"
+      },
+      {
+        "name": "BG3_Quest07",
+        "percent": "3.2"
+      },
+      {
+        "name": "BG3_Quest16",
+        "percent": "3.1"
+      },
+      {
+        "name": "BG3_Quest54",
+        "percent": "2.8"
+      },
+      {
+        "name": "BG3_Quest44",
+        "percent": "2.8"
+      },
+      {
+        "name": "BG3_Quest28",
+        "percent": "2.5"
+      }
+    ],
+    "news": [
+      {
+        "gid": "1814309641574141",
+        "title": "Dear diary, this Baldur's Gate 3 mod lets you write in-game journals documenting your characters' adventures",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/Rock, Paper, Shotgun/1814309641574141",
+        "is_external_url": true,
+        "author": "",
+        "contents": "What happened today? Well, Astarion said something sassy, Lae'zel tried to teach Gale how to build a shed, and Shadowheart wrote a <a href=\"https://www.rockpapershotgun.com/games/gauntlet\">Gauntlet</a> of Shar-themed parody of 'Is This The Way To Amarillo'. That's about how I imagine the journal entries a new <a href=\"https://www.rockpapershotgun.com/games/baldurs-gate-iii\">Baldur's Gate 3</a> mod lets you write as part of an im...",
+        "feedlabel": "Rock, Paper, Shotgun",
+        "date": 1761579034,
+        "feedname": "Rock, Paper, Shotgun",
+        "feed_type": 0,
+        "appid": 1086940
+      },
+      {
+        "gid": "1813674389107286",
+        "title": "RPGs make up more than 30% of PC Gamer's Top 100, so clearly we've settled on a favourite genre",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1813674389107286",
+        "is_external_url": true,
+        "author": "Fraser Brown",
+        "contents": "Our annual <a href=\"https://www.pcgamer.com/games/the-top-100-pc-games-2025/\" target=\"_blank\">Top 100 games</a> list was published this week—a monumental undertaking that involved more than 30 writers and editors debating, discussing, pleading and even putting on presentations to sway colleagues. We are very tired. But that might also have something to do with the fact that we spend s...",
+        "feedlabel": "PC Gamer",
+        "date": 1761066038,
+        "feedname": "PC Gamer",
+        "feed_type": 0,
+        "appid": 1086940
+      },
+      {
+        "gid": "1813674389069338",
+        "title": "The top 100 PC games",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1813674389069338",
+        "is_external_url": true,
+        "author": "Phil Savage",
+        "contents": "Welcome to the PC Gamer Top 100—our annual list of the best games you can play right now. For the last few months, the PC Gamer team has been busy whittling down the hundreds of thousands of games available on PC; campaigning, voting and arguing until we arrived at the 100 games you'll find below......",
+        "feedlabel": "PC Gamer",
+        "date": 1760968800,
+        "feedname": "PC Gamer",
+        "feed_type": 0,
+        "appid": 1086940
+      },
+      {
+        "gid": "1813041031251924",
+        "title": "Veteran DnD designer bestows the ultimate praise on \"fantastic\" Baldur's Gate 3",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1813041031251924",
+        "is_external_url": true,
+        "author": "editor@pcgamesn.com",
+        "contents": "You don't need me to tell you that <strong>Baldur's Gate 3</strong> is absolutely brilliant - Larian's trophy cabinet speaks for itself. At this point, the studio is likely used to the glowing praise, but hearing it from a Dungeons and Dragons veteran will feel particularly satisfying. In a new interview, Bruce Nesm...",
+        "feedlabel": "PCGamesN",
+        "date": 1760123620,
+        "feedname": "PCGamesN",
+        "feed_type": 0,
+        "appid": 1086940
+      },
+      {
+        "gid": "1811772772636927",
+        "title": "Baldur's Gate 3 needed a \"cowboy wizard extraordinaire\" and its latest custom companion mod delivers",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/Rock, Paper, Shotgun/1811772772636927",
+        "is_external_url": true,
+        "author": "",
+        "contents": "<a href=\"https://www.rockpapershotgun.com/games/baldurs-gate-iii\">Baldur's Gate 3</a> modders continue to dig deep into the bag of tools Larian gave them and unleash their creativity on mods which don't just remix existing bits of the game, but add entirely custom elements. While custom campaigns and <a href=\"https://www.rockpapershotgun.com/how-baldurs-gate-3-might-have-brought-back-candlekeep-the-library-fortress-where-baldurs-gate-began\">new areas</a> rightly grab a lot of the headlines, custom companions hav...",
+        "feedlabel": "Rock, Paper, Shotgun",
+        "date": 1759834048,
+        "feedname": "Rock, Paper, Shotgun",
+        "feed_type": 0,
+        "appid": 1086940
+      }
+    ]
+  },
+  {
+    "app_id": 271590,
+    "app_name": "Grand Theft Auto V",
+    "generated_at": "2025-11-03T21:08:47.105195",
+    "current_players": 70697,
+    "achievement_percentages": [
+      {
+        "name": "ACH00",
+        "percent": "82.7"
+      },
+      {
+        "name": "ACH30",
+        "percent": "75.4"
+      },
+      {
+        "name": "ACH49",
+        "percent": "53.4"
+      },
+      {
+        "name": "ACHH1",
+        "percent": "44.8"
+      },
+      {
+        "name": "ACH31",
+        "percent": "43.5"
+      },
+      {
+        "name": "ACH26",
+        "percent": "43.5"
+      },
+      {
+        "name": "ACH05",
+        "percent": "41.7"
+      },
+      {
+        "name": "ACH01",
+        "percent": "39.5"
+      },
+      {
+        "name": "ACH39",
+        "percent": "32.5"
+      },
+      {
+        "name": "ACH32",
+        "percent": "32.1"
+      },
+      {
+        "name": "ACH06",
+        "percent": "31.7"
+      },
+      {
+        "name": "ACH42",
+        "percent": "30.5"
+      },
+      {
+        "name": "ACH02",
+        "percent": "29.2"
+      },
+      {
+        "name": "ACH07",
+        "percent": "27.9"
+      },
+      {
+        "name": "ACHH4",
+        "percent": "25.2"
+      },
+      {
+        "name": "ACH08",
+        "percent": "24.9"
+      },
+      {
+        "name": "ACH40",
+        "percent": "24.7"
+      },
+      {
+        "name": "ACH04",
+        "percent": "24.0"
+      },
+      {
+        "name": "ACHH5",
+        "percent": "23.6"
+      },
+      {
+        "name": "ACH46",
+        "percent": "23.5"
+      },
+      {
+        "name": "ACH28",
+        "percent": "23.5"
+      },
+      {
+        "name": "ACH03",
+        "percent": "23.4"
+      },
+      {
+        "name": "ACH41",
+        "percent": "23.1"
+      },
+      {
+        "name": "ACH09",
+        "percent": "22.9"
+      },
+      {
+        "name": "ACH33",
+        "percent": "22.7"
+      },
+      {
+        "name": "ACHH8",
+        "percent": "21.9"
+      },
+      {
+        "name": "ACH25",
+        "percent": "21.0"
+      },
+      {
+        "name": "ACHH3",
+        "percent": "17.1"
+      },
+      {
+        "name": "ACHGO2",
+        "percent": "16.6"
+      },
+      {
+        "name": "ACHH2",
+        "percent": "16.3"
+      },
+      {
+        "name": "ACH24",
+        "percent": "15.6"
+      },
+      {
+        "name": "ACH48",
+        "percent": "15.2"
+      },
+      {
+        "name": "ACH18",
+        "percent": "14.9"
+      },
+      {
+        "name": "ACHGO3",
+        "percent": "14.8"
+      },
+      {
+        "name": "ACH36",
+        "percent": "14.8"
+      },
+      {
+        "name": "ACH19",
+        "percent": "14.7"
+      },
+      {
+        "name": "ACHGO1",
+        "percent": "13.9"
+      },
+      {
+        "name": "ACHR4",
+        "percent": "13.4"
+      },
+      {
+        "name": "ACH12",
+        "percent": "12.5"
+      },
+      {
+        "name": "ACHGO4",
+        "percent": "12.3"
+      },
+      {
+        "name": "ACH43",
+        "percent": "11.7"
+      },
+      {
+        "name": "ACH14",
+        "percent": "11.1"
+      },
+      {
+        "name": "ACH23",
+        "percent": "11.0"
+      },
+      {
+        "name": "ACH47",
+        "percent": "10.7"
+      },
+      {
+        "name": "ACH35",
+        "percent": "10.6"
+      },
+      {
+        "name": "ACHH6",
+        "percent": "10.5"
+      },
+      {
+        "name": "ACH51",
+        "percent": "10.4"
+      },
+      {
+        "name": "ACH27",
+        "percent": "10.4"
+      },
+      {
+        "name": "ACHH7",
+        "percent": "10.3"
+      },
+      {
+        "name": "ACH34",
+        "percent": "10.3"
+      },
+      {
+        "name": "ACHGO5",
+        "percent": "10.1"
+      },
+      {
+        "name": "ACH50",
+        "percent": "9.4"
+      },
+      {
+        "name": "ACHH10",
+        "percent": "9.2"
+      },
+      {
+        "name": "ACHGO6",
+        "percent": "8.9"
+      },
+      {
+        "name": "ACH22",
+        "percent": "7.7"
+      },
+      {
+        "name": "ACH29",
+        "percent": "7.2"
+      },
+      {
+        "name": "ACH13",
+        "percent": "6.8"
+      },
+      {
+        "name": "ACHR9",
+        "percent": "6.7"
+      },
+      {
+        "name": "ACH20",
+        "percent": "6.7"
+      },
+      {
+        "name": "ACH15",
+        "percent": "6.5"
+      },
+      {
+        "name": "ACH17",
+        "percent": "6.4"
+      },
+      {
+        "name": "ACH38",
+        "percent": "6.3"
+      },
+      {
+        "name": "ACH16",
+        "percent": "6.3"
+      },
+      {
+        "name": "ACH21",
+        "percent": "6.2"
+      },
+      {
+        "name": "ACH10",
+        "percent": "6.2"
+      },
+      {
+        "name": "ACH45",
+        "percent": "6.1"
+      },
+      {
+        "name": "ACH11",
+        "percent": "5.9"
+      },
+      {
+        "name": "ACHH11",
+        "percent": "4.9"
+      },
+      {
+        "name": "ACHR5",
+        "percent": "4.8"
+      },
+      {
+        "name": "ACHR6",
+        "percent": "4.5"
+      },
+      {
+        "name": "ACHR10",
+        "percent": "4.4"
+      },
+      {
+        "name": "ACHR2",
+        "percent": "4.4"
+      },
+      {
+        "name": "ACHR8",
+        "percent": "4.2"
+      },
+      {
+        "name": "ACHR7",
+        "percent": "4.2"
+      },
+      {
+        "name": "ACHR3",
+        "percent": "4.2"
+      },
+      {
+        "name": "ACHGO7",
+        "percent": "4.0"
+      },
+      {
+        "name": "ACHGO8",
+        "percent": "3.9"
+      }
+    ],
+    "news": [
+      {
+        "gid": "1815034433002664",
+        "title": "Rockstar's Agent was compromised because open worlds and spies don't mesh well, Ex-GTA writer Dan Houser says",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/Rock, Paper, Shotgun/1815034433002664",
+        "is_external_url": true,
+        "author": "",
+        "contents": "Cancelled Rockstar espionage flick Agent ended up being filed away without releasing because the studio found a spy narrative impossible to reconcile with their open-world approach to games, according to long-time GTA writer Dan Houser. Despite that, Rockstar subsequently ended up getting halfway up...",
+        "feedlabel": "Rock, Paper, Shotgun",
+        "date": 1762176267,
+        "feedname": "Rock, Paper, Shotgun",
+        "feed_type": 0,
+        "appid": 12210
+      },
+      {
+        "gid": "1814309641443910",
+        "title": "Claim a Free Benefactor Krieger Supercar in GTA Online",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814309641443910",
+        "is_external_url": true,
+        "author": "rockstarintl_steam",
+        "contents": "Now through November 5, claim a free Benefactor Krieger (Super) in GTA Online and add this well-rounded hypercar to your vehicle collection. Just head into GTA Online and visit the Legendary Motorsport site, where the Krieger will be discounted from its regular GTA$2,875,000 price all the way down t...",
+        "feedlabel": "Community Announcements",
+        "date": 1761233116,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 271590,
+        "tags": [
+          "hide_store"
+        ]
+      },
+      {
+        "gid": "1813674388914330",
+        "title": "GTA Online Halloween event calendar: UFO locations, ghost locations, and rewards",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1813674388914330",
+        "is_external_url": true,
+        "author": "Diego Perez",
+        "contents": "Grand Theft Auto Online's Halloween event is here for the year, and ghastly ghouls have taken over the streets of Los Santos yet again with new limited-time rewards. All the Halloween favorites from past years are returning, and there are new playlists and modes with boo-sted rewards in celebration ...",
+        "feedlabel": "PC Gamer",
+        "date": 1760557924,
+        "feedname": "PC Gamer",
+        "feed_type": 0,
+        "appid": 271590
+      },
+      {
+        "gid": "1811772772505767",
+        "title": "Celebrate Spooky Season as Halloween Haunts Los Santos",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772505767",
+        "is_external_url": true,
+        "author": "rockstarintl_steam",
+        "contents": "Halloween descends on Southern San Andreas throughout October with a bubbling cauldron of chaos. There are reports of UFO sightings, bizarre transformations, and many more tricks and treats across GTA Online. Take on a new Slasher mode inside the claustrophobic Ramius submarine, or fight it out in r...",
+        "feedlabel": "Community Announcements",
+        "date": 1759488389,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 271590
+      },
+      {
+        "gid": "1811772772273493",
+        "title": "Secure the New Spy Shots Livery for the Överflöd Suzume",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772273493",
+        "is_external_url": true,
+        "author": "rockstarintl_steam",
+        "contents": "Speed into the mainframe behind the wheel of the Överflöd Suzume, a Scandinavian supercar featured in the Money Fronts update that’s on sale for the first time ever this week (20% off) and wrapped in the new Spy Shots livery. Available with the Spy Shots livery at the Luxury Autos showroom and also ...",
+        "feedlabel": "Community Announcements",
+        "date": 1758882192,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 271590
+      }
+    ]
+  },
+  {
+    "app_id": 252490,
+    "app_name": "Rust",
+    "generated_at": "2025-11-03T21:08:47.677819",
+    "current_players": 110573,
+    "achievement_percentages": [
+      {
+        "name": "VISIT_ROAD",
+        "percent": "71.3"
+      },
+      {
+        "name": "COLLECT_300_METAL_ORE",
+        "percent": "61.7"
+      },
+      {
+        "name": "DESTROY_10_BARRELS",
+        "percent": "59.1"
+      },
+      {
+        "name": "CONSTRUCT_BASE",
+        "percent": "57.1"
+      },
+      {
+        "name": "COLLECT_65_SCRAP",
+        "percent": "56.1"
+      },
+      {
+        "name": "COLLECT_50_LGF",
+        "percent": "54.7"
+      },
+      {
+        "name": "UPGRADE_BASE",
+        "percent": "53.0"
+      },
+      {
+        "name": "COLLECT_100_WOOD",
+        "percent": "48.3"
+      },
+      {
+        "name": "GIDDY_UP",
+        "percent": "43.9"
+      },
+      {
+        "name": "COLLECT_700_WOOD",
+        "percent": "42.9"
+      },
+      {
+        "name": "PLAY_INSTRUMENT",
+        "percent": "42.5"
+      },
+      {
+        "name": "COLLECT_200_STONE",
+        "percent": "40.8"
+      },
+      {
+        "name": "COLLECT_30_CLOTH",
+        "percent": "36.5"
+      },
+      {
+        "name": "CRAFT_CAMPFIRE",
+        "percent": "35.3"
+      },
+      {
+        "name": "CRAFT_STONE_HATCHET",
+        "percent": "35.2"
+      },
+      {
+        "name": "CRAFT_SPEAR",
+        "percent": "35.1"
+      },
+      {
+        "name": "EQUIP_CLOTHING",
+        "percent": "34.4"
+      },
+      {
+        "name": "KILL_ANIMAL",
+        "percent": "34.0"
+      },
+      {
+        "name": "PLACE_CAMPFIRE",
+        "percent": "33.9"
+      },
+      {
+        "name": "CRAFT_HAMMER",
+        "percent": "33.8"
+      },
+      {
+        "name": "CRAFT_STONE_PICKAXE",
+        "percent": "33.7"
+      },
+      {
+        "name": "CRAFT_BUILDING_PLAN",
+        "percent": "33.4"
+      },
+      {
+        "name": "KILL_SCIENTIST",
+        "percent": "32.6"
+      },
+      {
+        "name": "PLACE_SLEEPINGBAG",
+        "percent": "31.9"
+      },
+      {
+        "name": "COLLECT_50_CLOTH",
+        "percent": "31.0"
+      },
+      {
+        "name": "CRAFT_SLEEPINGBAG",
+        "percent": "31.0"
+      },
+      {
+        "name": "SEALBREAKER",
+        "percent": "30.0"
+      },
+      {
+        "name": "SKIN_ANIMAL",
+        "percent": "29.2"
+      },
+      {
+        "name": "CRAFT_ARROWS",
+        "percent": "28.0"
+      },
+      {
+        "name": "GLUTTON",
+        "percent": "26.9"
+      },
+      {
+        "name": "PLACE_WOODEN_BOX",
+        "percent": "26.8"
+      },
+      {
+        "name": "CRAFT_LOCK",
+        "percent": "26.8"
+      },
+      {
+        "name": "CRAFT_WOODEN_BOX",
+        "percent": "26.6"
+      },
+      {
+        "name": "LOCK_LOCK",
+        "percent": "26.6"
+      },
+      {
+        "name": "PLACE_LOCK",
+        "percent": "26.3"
+      },
+      {
+        "name": "CRAFT_TOOL_CUPBOARD",
+        "percent": "25.8"
+      },
+      {
+        "name": "CRAFT_WOODEN_DOOR",
+        "percent": "25.6"
+      },
+      {
+        "name": "PLACE_TOOL_CUPBOARD",
+        "percent": "25.0"
+      },
+      {
+        "name": "PLACE_WOODEN_DOOR",
+        "percent": "25.0"
+      },
+      {
+        "name": "CRAFT_HUNTING_BOW",
+        "percent": "24.9"
+      },
+      {
+        "name": "CRAFT_BURLAP_PANTS",
+        "percent": "21.1"
+      },
+      {
+        "name": "CRAFT_BURLAP_SHIRT",
+        "percent": "20.9"
+      },
+      {
+        "name": "SAVE_THE_PLANET",
+        "percent": "20.1"
+      },
+      {
+        "name": "PLACE_FURNACE",
+        "percent": "20.0"
+      },
+      {
+        "name": "CRAFT_BURLAP_HEADWRAP",
+        "percent": "19.0"
+      },
+      {
+        "name": "CRAFT_FURNACE",
+        "percent": "18.4"
+      },
+      {
+        "name": "PLACE_WORKBENCH",
+        "percent": "17.8"
+      },
+      {
+        "name": "RESEARCH_ITEM",
+        "percent": "17.5"
+      },
+      {
+        "name": "CRAFT_WORKBENCH",
+        "percent": "16.4"
+      },
+      {
+        "name": "PLACE_RESEARCH_TABLE",
+        "percent": "15.2"
+      },
+      {
+        "name": "CRAFT_MACHETE",
+        "percent": "14.2"
+      },
+      {
+        "name": "IM_THE_CAPTAIN_NOW",
+        "percent": "13.8"
+      },
+      {
+        "name": "CRAFT_NAILGUN_NAILS",
+        "percent": "13.8"
+      },
+      {
+        "name": "CRAFT_RESEARCH_TABLE",
+        "percent": "13.6"
+      },
+      {
+        "name": "ON_THE_DECK",
+        "percent": "12.7"
+      },
+      {
+        "name": "CRAFT_NAILGUN",
+        "percent": "11.7"
+      },
+      {
+        "name": "VOICEPROPS_BUYSOUNDTRACK",
+        "percent": "3.8"
+      },
+      {
+        "name": "BIG_BROTHER",
+        "percent": "3.5"
+      },
+      {
+        "name": "BUCKLE_UP",
+        "percent": "2.8"
+      },
+      {
+        "name": "FRIENDLY_NEIGHBOUR",
+        "percent": "2.6"
+      },
+      {
+        "name": "SUMMER_SUNGLASSES",
+        "percent": "1.9"
+      },
+      {
+        "name": "SUMMER_PAPARAZZI",
+        "percent": "1.9"
+      },
+      {
+        "name": "VOICEPROPS_BADNEIGHBOUR",
+        "percent": "1.5"
+      },
+      {
+        "name": "COMPLETE_TUTORIAL",
+        "percent": "1.4"
+      },
+      {
+        "name": "DRIVE_SNOWMOBILE",
+        "percent": "1.4"
+      },
+      {
+        "name": "BATTLE_BUS",
+        "percent": "1.4"
+      },
+      {
+        "name": "MISSION_ACCOMPLISHED",
+        "percent": "1.4"
+      },
+      {
+        "name": "THREAD_NEEDLE",
+        "percent": "1.4"
+      },
+      {
+        "name": "PLAY_ALL_INSTRUMENTS",
+        "percent": "1.3"
+      },
+      {
+        "name": "TEAM_INSTRUMENTS",
+        "percent": "1.1"
+      },
+      {
+        "name": "HEAVY_INDUSTRY",
+        "percent": "1.0"
+      },
+      {
+        "name": "VOICEPROPS_ONRECORD",
+        "percent": "1.0"
+      },
+      {
+        "name": "SUMMER_SOAKED",
+        "percent": "1.0"
+      },
+      {
+        "name": "SUMMER_LIQUIDATOR",
+        "percent": "0.9"
+      },
+      {
+        "name": "SUMMER_INFLATABLE",
+        "percent": "0.9"
+      },
+      {
+        "name": "VOICEPROPS_NOBODYSWATCHING",
+        "percent": "0.8"
+      },
+      {
+        "name": "VOICEPROPS_NOLONGERSEE",
+        "percent": "0.7"
+      },
+      {
+        "name": "SUMMER_NO_PRESSURE",
+        "percent": "0.7"
+      },
+      {
+        "name": "SUMMER_RADICAL",
+        "percent": "0.7"
+      },
+      {
+        "name": "RUST_AIR",
+        "percent": "0.6"
+      },
+      {
+        "name": "SUBMARINE_MOONPOOL",
+        "percent": "0.6"
+      },
+      {
+        "name": "VOICEPROPS_FULLCOLLECTION",
+        "percent": "0.6"
+      },
+      {
+        "name": "ON_TRACK",
+        "percent": "0.5"
+      },
+      {
+        "name": "HONEST_WORK",
+        "percent": "0.5"
+      },
+      {
+        "name": "VOICEPROPS_PARTYBOAT",
+        "percent": "0.5"
+      },
+      {
+        "name": "PRO_ANGLER",
+        "percent": "0.4"
+      },
+      {
+        "name": "TUTORIAL_GUN",
+        "percent": "0.3"
+      },
+      {
+        "name": "HIGH_ROLLER",
+        "percent": "0.2"
+      },
+      {
+        "name": "WASTE_NOT_WANT_NOT",
+        "percent": "0.1"
+      },
+      {
+        "name": "SMOOTH_SAILING",
+        "percent": "0.1"
+      },
+      {
+        "name": "APEX_PREDATOR",
+        "percent": "0.1"
+      },
+      {
+        "name": "DEATH_FROM_ABOVE",
+        "percent": "0.1"
+      }
+    ],
+    "news": [
+      {
+        "gid": "1814309641479204",
+        "title": "One of the most beloved Warhammer factions just arrived in Steam's biggest survival game, but they forgot their shovels",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1814309641479204",
+        "is_external_url": true,
+        "author": "editor@pcgamesn.com",
+        "contents": "Any Warhammer fan worth their salt will agree that the best weapon in the 41st millennium is the trusty shovel. You can dig trenches with them, bash an Ork over the head with them, or die in the Emperor's name while holding them. Wait, what's that? The shovels aren't coming? Well, that instantly put...",
+        "feedlabel": "PCGamesN",
+        "date": 1761324131,
+        "feedname": "PCGamesN",
+        "feed_type": 0,
+        "appid": 252490
+      },
+      {
+        "gid": "1814309641446360",
+        "title": "WARHAMMER 40,000 X RUST DLC PACK",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814309641446360",
+        "is_external_url": true,
+        "author": "Errn",
+        "contents": "THE DEATH KORPS OF KRIEG - DLC SKINSThe infamous Death Korps of Krieg march into Rust, bringing their grim, war-forged resolve to the island.This pack delivers battle-scarred war gear, inspired by one of Warhammer 40,000’s most fearless regiments.Gear up and march across the island clad in their sig...",
+        "feedlabel": "Community Announcements",
+        "date": 1761238433,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 252490
+      },
+      {
+        "gid": "1811772772574267",
+        "title": "Rust developer is fed up with survivors cowering in their homes, so it's reworking progression to 'get players back out of their bases'",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/PC Gamer/1811772772574267",
+        "is_external_url": true,
+        "author": "Rick Lane",
+        "contents": "Having worked from home most of my adult life, I am familiar with the appeal of never having to leave my house. My commute to work is about ten steps long and I can do it in slippers if I like. I don't have to take out a second mortgage if I want a coffee or a slice of cake. Best of all, I don't hav...",
+        "feedlabel": "PC Gamer",
+        "date": 1759669200,
+        "feedname": "PC Gamer",
+        "feed_type": 0,
+        "appid": 252490
+      },
+      {
+        "gid": "1811772772514444",
+        "title": "New Rust update brings back blueprint fragments to solve \"stale\" progression",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/PCGamesN/1811772772514444",
+        "is_external_url": true,
+        "author": "editor@pcgamesn.com",
+        "contents": "<strong>Rust</strong> blueprint fragments are back, but not as you remember them. Developer Facepunch has just deployed its October Rust update, Meta Shift, and it's designed to overhaul everything from progression to loot drops and balance. It's continued to hold onto a spot as Steam's fifth most-popular title, bea...",
+        "feedlabel": "PCGamesN",
+        "date": 1759509352,
+        "feedname": "PCGamesN",
+        "feed_type": 0,
+        "appid": 252490
+      },
+      {
+        "gid": "1811772772482748",
+        "title": "META SHIFT",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1811772772482748",
+        "is_external_url": true,
+        "author": "Errn",
+        "contents": "BLUEPRINT FRAGMENTSThe current progression meta has grown stale, moving too fast and becoming too easy over the years, with scrap inflation and scrap being everywhere. We don't believe this has been overwhelmingly negative, but it has detracted from world PvP, especially in and around monuments, and...",
+        "feedlabel": "Community Announcements",
+        "date": 1759427185,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 252490
+      }
+    ]
+  },
+  {
+    "app_id": 1203220,
+    "app_name": "NARAKA: BLADEPOINT",
+    "generated_at": "2025-11-03T21:08:48.266664",
+    "current_players": 10946,
+    "achievement_percentages": [
+      {
+        "name": "小试牛刀",
+        "percent": "67.4"
+      },
+      {
+        "name": "闻风丧胆",
+        "percent": "61.3"
+      },
+      {
+        "name": "不朽面具",
+        "percent": "58.7"
+      },
+      {
+        "name": "璞玉韬光",
+        "percent": "57.8"
+      },
+      {
+        "name": "连战连捷",
+        "percent": "55.7"
+      },
+      {
+        "name": "神锋敛彩",
+        "percent": "54.1"
+      },
+      {
+        "name": "一马当先",
+        "percent": "48.4"
+      },
+      {
+        "name": "腰缠万贯",
+        "percent": "37.1"
+      },
+      {
+        "name": "见招拆招",
+        "percent": "36.8"
+      },
+      {
+        "name": "趁手兵器",
+        "percent": "36.3"
+      },
+      {
+        "name": "逐神者",
+        "percent": "36.0"
+      },
+      {
+        "name": "天人城主",
+        "percent": "35.5"
+      },
+      {
+        "name": "古冢遗窟",
+        "percent": "30.3"
+      },
+      {
+        "name": "巧遇金蟾",
+        "percent": "29.0"
+      },
+      {
+        "name": "一战功成",
+        "percent": "28.7"
+      },
+      {
+        "name": "旦夕祸福",
+        "percent": "28.2"
+      },
+      {
+        "name": "以刑止刑",
+        "percent": "24.4"
+      },
+      {
+        "name": "第六感",
+        "percent": "23.4"
+      },
+      {
+        "name": "不舟之王",
+        "percent": "22.3"
+      },
+      {
+        "name": "森罗神使",
+        "percent": "22.1"
+      },
+      {
+        "name": "潜伏者",
+        "percent": "22.1"
+      },
+      {
+        "name": "超级兵器",
+        "percent": "21.0"
+      },
+      {
+        "name": "登峰造极",
+        "percent": "21.0"
+      },
+      {
+        "name": "妙手回春",
+        "percent": "20.3"
+      },
+      {
+        "name": "拳王",
+        "percent": "19.9"
+      },
+      {
+        "name": "长跑王",
+        "percent": "19.7"
+      },
+      {
+        "name": "百炼洞主",
+        "percent": "18.4"
+      },
+      {
+        "name": "神火",
+        "percent": "15.9"
+      },
+      {
+        "name": "力挽狂澜",
+        "percent": "14.7"
+      },
+      {
+        "name": "古神之力",
+        "percent": "14.1"
+      },
+      {
+        "name": "辕门射戟",
+        "percent": "13.5"
+      },
+      {
+        "name": "宝窟秘事",
+        "percent": "12.6"
+      },
+      {
+        "name": "扫堂腿",
+        "percent": "12.5"
+      },
+      {
+        "name": "流星雨",
+        "percent": "11.8"
+      },
+      {
+        "name": "坚甲利兵",
+        "percent": "9.7"
+      },
+      {
+        "name": "纵横捭阖",
+        "percent": "9.7"
+      },
+      {
+        "name": "天降巨轮",
+        "percent": "7.6"
+      },
+      {
+        "name": "戮魂伞",
+        "percent": "7.3"
+      },
+      {
+        "name": "命中注定",
+        "percent": "7.2"
+      },
+      {
+        "name": "没金铩羽",
+        "percent": "3.0"
+      }
+    ],
+    "news": [
+      {
+        "gid": "1814942955099724",
+        "title": "NARAKA: BLADEPOINT Banned Players List October 28th",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814942955099724",
+        "is_external_url": true,
+        "author": "Yeeeeee",
+        "contents": "Dear players, NARAKA: BLADEPOINT is committed to creating a fair and healthy competitive environment. We have not only used new anti-cheat technologies, but also established special cheat-reporting reward activities to encourage those players who defend the fairness with us. From now on, players who...",
+        "feedlabel": "Community Announcements",
+        "date": 1761739848,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 1203220
+      },
+      {
+        "gid": "1814309641411980",
+        "title": "NARAKA: BLADEPOINT Update – October 23rd, 2025",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1814309641411980",
+        "is_external_url": true,
+        "author": "Yeeeeee",
+        "contents": "Dear players, The servers of NARAKA: BLADEPOINT will be suspended for maintenance from October 22nd, 2025 at 23:00 (UTC) to October 23rd, 2025 at 04:00 (UTC). We suggest you log out in advance and enter the game again after the maintenance.The details for this update are as follows: Brand New Conten...",
+        "feedlabel": "Community Announcements",
+        "date": 1761141741,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 1203220
+      },
+      {
+        "gid": "1813041031371447",
+        "title": "NARAKA: BLADEPOINT Banned Players List October 13th",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1813041031371447",
+        "is_external_url": true,
+        "author": "Yeeeeee",
+        "contents": "Dear players, NARAKA: BLADEPOINT is committed to creating a fair and healthy competitive environment. We have not only used new anti-cheat technologies, but also established special cheat-reporting reward activities to encourage those players who defend the fairness with us. From now on, players who...",
+        "feedlabel": "Community Announcements",
+        "date": 1760445771,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 1203220
+      },
+      {
+        "gid": "1813041031210268",
+        "title": "NARAKA: BLADEPOINT Update – October 10th, 2025",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1813041031210268",
+        "is_external_url": true,
+        "author": "Yeeeeee",
+        "contents": "Dear players, The servers of NARAKA: BLADEPOINT will be suspended for maintenance from October 9th, 2025 at 23:00 (UTC) to October 10th, 2025 at 04:00 (UTC). We suggest you log out in advance and enter the game again after the maintenance. The details for this update are as follows: Brand New Conten...",
+        "feedlabel": "Community Announcements",
+        "date": 1760022021,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 1203220,
+        "tags": [
+          "mod_reviewed",
+          "ModAct_1301790999_1760023875_0",
+          "mod_require_rereview"
+        ]
+      },
+      {
+        "gid": "1813041031166280",
+        "title": "NARAKA: BLADEPOINT Banned Players List October 7th",
+        "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1813041031166280",
+        "is_external_url": true,
+        "author": "Yeeeeee",
+        "contents": "Dear players, NARAKA: BLADEPOINT is committed to creating a fair and healthy competitive environment. We have not only used new anti-cheat technologies, but also established special cheat-reporting reward activities to encourage those players who defend the fairness with us. From now on, players who...",
+        "feedlabel": "Community Announcements",
+        "date": 1759907330,
+        "feedname": "steam_community_announcements",
+        "feed_type": 1,
+        "appid": 1203220
+      }
+    ]
+  }
+]
