@@ -13,6 +13,9 @@ A modern, production-ready template for building full-stack React applications u
 - 🔒 TypeScript by default
 - 🎉 TailwindCSS for styling
 - 📖 [React Router docs](https://reactrouter.com/)
+- 🎮 Steam gaming statistics dashboard
+- 🎨 Dynamic game-themed sections
+- 📊 Most played game tracking with themed displays
 
 ## Getting Started
 
@@ -81,6 +84,12 @@ Make sure to deploy the output of `npm run build`
 ## Styling
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+
+## Documentation
+
+- **Spec Files**: Access the `/specs` route in the application for detailed implementation documentation
+- **Usage Specs**: See `.tessl/framework/usage-specs.md` for dashboard implementation details
+- **Knowledge Index**: See `KNOWLEDGE.md` for dependency documentation
 
 ---
 
