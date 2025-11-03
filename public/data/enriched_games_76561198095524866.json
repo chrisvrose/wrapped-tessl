@@ -1,0 +1,2020 @@
+{
+  "steam_id": "76561198095524866",
+  "generated_at": "2025-11-03T21:32:18.459125",
+  "games_count": 20,
+  "games": [
+    {
+      "app_id": 20,
+      "name": "Team Fortress Classic",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "38ea7ebe3c1abbbbf4eabdbef174c41a972102b9",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 73,
+      "global_achievements": []
+    },
+    {
+      "app_id": 50,
+      "name": "Half-Life: Opposing Force",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "04e81206c10e12416908c72c5f22aad411b3aeef",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 113,
+      "global_achievements": []
+    },
+    {
+      "app_id": 70,
+      "name": "Half-Life",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "95be6d131fc61f145797317ca437c9765f24b41c",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 1042,
+      "global_achievements": []
+    },
+    {
+      "app_id": 130,
+      "name": "Half-Life: Blue Shift",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "b06fdee488b3220362c11704be4edad82abeed08",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 37,
+      "global_achievements": []
+    },
+    {
+      "app_id": 220,
+      "name": "Half-Life 2",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "fcfb366051782b8ebf2aa297f3b746395858cb62",
+      "img_logo_url": null,
+      "has_community_visible_stats": true,
+      "current_players": 1871,
+      "global_achievements": [
+        {
+          "name": "HL2_ESCAPE_APARTMENTRAID",
+          "percent": "70.1"
+        },
+        {
+          "name": "HL2_GET_CROWBAR",
+          "percent": "67.0"
+        },
+        {
+          "name": "HL2_GET_AIRBOAT",
+          "percent": "52.2"
+        },
+        {
+          "name": "HL2_GET_AIRBOATGUN",
+          "percent": "45.9"
+        },
+        {
+          "name": "HL2_PUT_CANINTRASH",
+          "percent": "45.1"
+        },
+        {
+          "name": "HL2_KILL_CHOPPER",
+          "percent": "43.6"
+        },
+        {
+          "name": "HL2_GET_GRAVITYGUN",
+          "percent": "42.8"
+        },
+        {
+          "name": "HL2_BEAT_CEMETERY",
+          "percent": "38.4"
+        },
+        {
+          "name": "HL2_KILL_ODESSAGUNSHIP",
+          "percent": "36.9"
+        },
+        {
+          "name": "HL2_KILL_BARNACLESWITHBARREL",
+          "percent": "36.7"
+        },
+        {
+          "name": "HL2_HIT_CANCOP_WITHCAN",
+          "percent": "32.9"
+        },
+        {
+          "name": "HL2_KILL_ENEMIES_WITHANTLIONS",
+          "percent": "31.5"
+        },
+        {
+          "name": "HL2_BEAT_TURRETSTANDOFF2",
+          "percent": "30.5"
+        },
+        {
+          "name": "HL2_FOLLOWFREEMAN",
+          "percent": "30.4"
+        },
+        {
+          "name": "HL2_BEAT_TOXICTUNNEL",
+          "percent": "29.7"
+        },
+        {
+          "name": "HL2_BEAT_PLAZASTANDOFF",
+          "percent": "29.1"
+        },
+        {
+          "name": "HL2_BEAT_SUPRESSIONDEVICE",
+          "percent": "27.7"
+        },
+        {
+          "name": "HL2_KILL_THREEGUNSHIPS",
+          "percent": "27.6"
+        },
+        {
+          "name": "HL2_BEAT_C1713STRIDERSTANDOFF",
+          "percent": "26.7"
+        },
+        {
+          "name": "HL2_BEAT_GAME",
+          "percent": "26.1"
+        },
+        {
+          "name": "HL2_KILL_ENEMIES_WITHCRANE",
+          "percent": "21.6"
+        },
+        {
+          "name": "HL2_FIND_HEVFACEPLATE",
+          "percent": "20.3"
+        },
+        {
+          "name": "HL2_PIN_SOLDIER_TOBILLBOARD",
+          "percent": "16.8"
+        },
+        {
+          "name": "HL2_DISINTEGRATE_SOLDIERSINFIELD",
+          "percent": "12.5"
+        },
+        {
+          "name": "HL2_BREAK_MINITELEPORTER",
+          "percent": "12.3"
+        },
+        {
+          "name": "HL2_KILL_ALLC1709SNIPERS",
+          "percent": "11.0"
+        },
+        {
+          "name": "HL2_MAKEABASKET",
+          "percent": "10.7"
+        },
+        {
+          "name": "HL2_FIND_VORTIGAUNTCAVE",
+          "percent": "9.4"
+        },
+        {
+          "name": "GLOBAL_GNOME_ALONE",
+          "percent": "8.3"
+        },
+        {
+          "name": "HL2_KILL_ENEMY_WITHTOILET",
+          "percent": "7.1"
+        },
+        {
+          "name": "HLX_KILL_ENEMIES_WITHMANHACK",
+          "percent": "7.0"
+        },
+        {
+          "name": "HL2_BEAT_RAVENHOLM_NOWEAPONS",
+          "percent": "7.0"
+        },
+        {
+          "name": "EP1_BEAT_MAINELEVATOR",
+          "percent": "6.1"
+        },
+        {
+          "name": "EP1_BEAT_CITADELCORE",
+          "percent": "5.9"
+        },
+        {
+          "name": "HL2_BEAT_DONTTOUCHSAND",
+          "percent": "5.8"
+        },
+        {
+          "name": "EP2_KILL_POISONANTLION",
+          "percent": "5.4"
+        },
+        {
+          "name": "EP1_BEAT_GARAGEELEVATORSTANDOFF",
+          "percent": "5.4"
+        },
+        {
+          "name": "EP2_BEAT_ANTLIONINVASION",
+          "percent": "5.1"
+        },
+        {
+          "name": "EP1_BEAT_HOSPITALATTICGUNSHIP",
+          "percent": "5.0"
+        },
+        {
+          "name": "EP2_BEAT_ANTLIONGUARDS",
+          "percent": "4.8"
+        },
+        {
+          "name": "EP1_BEAT_GAME",
+          "percent": "4.8"
+        },
+        {
+          "name": "HLX_KILL_ENEMY_WITHHOPPERMINE",
+          "percent": "4.6"
+        },
+        {
+          "name": "EP2_BEAT_HUNTERAMBUSH",
+          "percent": "4.6"
+        },
+        {
+          "name": "EP2_BEAT_WHITEFORESTINN",
+          "percent": "4.5"
+        },
+        {
+          "name": "EP2_KILL_COMBINECANNON",
+          "percent": "4.5"
+        },
+        {
+          "name": "EP2_BEAT_MISSILESILO2",
+          "percent": "4.4"
+        },
+        {
+          "name": "HL2_FIND_ALLLAMBDAS",
+          "percent": "4.1"
+        },
+        {
+          "name": "EP2_BEAT_GAME",
+          "percent": "4.0"
+        },
+        {
+          "name": "EP2_BEAT_ROCKETCACHEPUZZLE",
+          "percent": "3.8"
+        },
+        {
+          "name": "EP1_BEAT_CITIZENESCORT_NOCITIZENDEATHS",
+          "percent": "3.4"
+        },
+        {
+          "name": "EP2_BEAT_RACEWITHDOG",
+          "percent": "2.9"
+        },
+        {
+          "name": "EP2_FIND_ALLRADARCACHES",
+          "percent": "2.9"
+        },
+        {
+          "name": "EPX_GET_ZOMBINEGRENADE",
+          "percent": "2.8"
+        },
+        {
+          "name": "HLX_KILL_ELITESOLDIER_WITHHISENERGYBALL",
+          "percent": "2.7"
+        },
+        {
+          "name": "EP1_KILL_ENEMIES_WITHSNIPERALYX",
+          "percent": "2.6"
+        },
+        {
+          "name": "EP2_KILL_ENEMIES_WITHCAR",
+          "percent": "2.4"
+        },
+        {
+          "name": "HLX_KILL_ENEMIES_WITHPHYSICS",
+          "percent": "2.0"
+        },
+        {
+          "name": "EP1_KILL_ANTLIONS_WITHCARS",
+          "percent": "1.9"
+        },
+        {
+          "name": "EP2_KILL_HUNTER_WITHFLECHETTES",
+          "percent": "1.8"
+        },
+        {
+          "name": "EP1_BEAT_CITADELCORE_NOSTALKERKILLS",
+          "percent": "1.6"
+        },
+        {
+          "name": "EP2_BREAK_ALLWEBS",
+          "percent": "1.4"
+        },
+        {
+          "name": "HLX_KILL_ENEMIES_WITHONEENERGYBALL",
+          "percent": "1.4"
+        },
+        {
+          "name": "HLX_KILL_SOLDIER_WITHHISGRENADE",
+          "percent": "1.3"
+        },
+        {
+          "name": "EP2_KILL_CHOPPER_NOMISSES",
+          "percent": "1.3"
+        },
+        {
+          "name": "EP2_PUT_ITEMINROCKET",
+          "percent": "1.2"
+        },
+        {
+          "name": "EPX_KILL_ZOMBIES_WITHFLARES",
+          "percent": "1.2"
+        },
+        {
+          "name": "EP1_BEAT_GAME_ONEBULLET",
+          "percent": "1.2"
+        },
+        {
+          "name": "EP2_BEAT_OUTLAND12_NOBUILDINGSDESTROYED",
+          "percent": "1.1"
+        },
+        {
+          "name": "EP2_KILL_ALLGRUBS",
+          "percent": "1.0"
+        }
+      ]
+    },
+    {
+      "app_id": 280,
+      "name": "Half-Life: Source",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "b4f572a6cc5a6a84ae84634c31414b9123d2f26b",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 21,
+      "global_achievements": []
+    },
+    {
+      "app_id": 320,
+      "name": "Half-Life 2: Deathmatch",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "795e85364189511f4990861b578084deef086cb1",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 196,
+      "global_achievements": []
+    },
+    {
+      "app_id": 360,
+      "name": "Half-Life Deathmatch: Source",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "40b8a62efff5a9ab356e5c56f5c8b0532c8e1aa3",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 40,
+      "global_achievements": []
+    },
+    {
+      "app_id": 620,
+      "name": "Portal 2",
+      "playtime_forever": 15,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.25,
+      "img_icon_url": "25a5a16b2423bf7487ac5340b5b0948cef48c5f8",
+      "img_logo_url": null,
+      "has_community_visible_stats": true,
+      "current_players": 1651,
+      "global_achievements": [
+        {
+          "name": "ACH.SURVIVE_CONTAINER_RIDE",
+          "percent": "74.6"
+        },
+        {
+          "name": "ACH.WAKE_UP",
+          "percent": "65.2"
+        },
+        {
+          "name": "ACH.LASER",
+          "percent": "63.1"
+        },
+        {
+          "name": "ACH.HI_FIVE_YOUR_PARTNER",
+          "percent": "58.7"
+        },
+        {
+          "name": "ACH.BRIDGE",
+          "percent": "53.7"
+        },
+        {
+          "name": "ACH.TEAM_BUILDING",
+          "percent": "49.5"
+        },
+        {
+          "name": "ACH.BREAK_OUT",
+          "percent": "46.8"
+        },
+        {
+          "name": "ACH.STALEMATE_ASSOCIATE",
+          "percent": "45.8"
+        },
+        {
+          "name": "ACH.BLUE_GEL",
+          "percent": "43.1"
+        },
+        {
+          "name": "ACH.ADDICTED_TO_SPUDS",
+          "percent": "41.2"
+        },
+        {
+          "name": "ACH.MASS_AND_VELOCITY",
+          "percent": "40.9"
+        },
+        {
+          "name": "ACH.ORANGE_GEL",
+          "percent": "39.6"
+        },
+        {
+          "name": "ACH.WHITE_GEL",
+          "percent": "38.5"
+        },
+        {
+          "name": "ACH.TRIVIAL_TEST",
+          "percent": "37.2"
+        },
+        {
+          "name": "ACH.TRACTOR_BEAM",
+          "percent": "35.3"
+        },
+        {
+          "name": "ACH.NOT_THE_DROID",
+          "percent": "34.9"
+        },
+        {
+          "name": "ACH.WHEATLEY_TRIES_TO",
+          "percent": "34.6"
+        },
+        {
+          "name": "ACH.SHOOT_THE_MOON",
+          "percent": "34.3"
+        },
+        {
+          "name": "ACH.WITH_STYLE",
+          "percent": "33.5"
+        },
+        {
+          "name": "ACH.HUG_NAME",
+          "percent": "32.1"
+        },
+        {
+          "name": "ACH.SAVE_REDEMPTION_TURRET",
+          "percent": "31.1"
+        },
+        {
+          "name": "ACH.BOX_HOLE_IN_ONE",
+          "percent": "29.1"
+        },
+        {
+          "name": "ACH.REENTER_TEST_CHAMBERS",
+          "percent": "28.5"
+        },
+        {
+          "name": "ACH.TAUNTS",
+          "percent": "27.1"
+        },
+        {
+          "name": "ACH.EXCURSION_FUNNELS",
+          "percent": "26.3"
+        },
+        {
+          "name": "ACH.SAVE_CUBE",
+          "percent": "24.5"
+        },
+        {
+          "name": "ACH.NEW_BLOOD",
+          "percent": "21.2"
+        },
+        {
+          "name": "ACH.PORTRAIT",
+          "percent": "11.7"
+        },
+        {
+          "name": "ACH.NO_BOAT",
+          "percent": "10.7"
+        },
+        {
+          "name": "ACH.ROCK_CRUSHES_ROBOT",
+          "percent": "9.9"
+        },
+        {
+          "name": "ACH.YOU_MONSTER",
+          "percent": "9.8"
+        },
+        {
+          "name": "ACH.TAUNT_CAMERA",
+          "percent": "8.9"
+        },
+        {
+          "name": "ACH.LAUNCH_TURRET",
+          "percent": "8.8"
+        },
+        {
+          "name": "ACH.COMPLIANT",
+          "percent": "7.8"
+        },
+        {
+          "name": "ACH.A3_DOORS",
+          "percent": "7.3"
+        },
+        {
+          "name": "ACH.FOUR_PORTALS",
+          "percent": "6.9"
+        },
+        {
+          "name": "ACH.CATCH_CRAZY_BOX",
+          "percent": "6.9"
+        },
+        {
+          "name": "ACH.DEFIANT",
+          "percent": "6.6"
+        },
+        {
+          "name": "ACH.TEACHER",
+          "percent": "5.8"
+        },
+        {
+          "name": "ACH.PORTAL_TAUNT",
+          "percent": "5.8"
+        },
+        {
+          "name": "ACH.CLEAN_UP",
+          "percent": "5.5"
+        },
+        {
+          "name": "ACH.PARTNER_DROP",
+          "percent": "4.6"
+        },
+        {
+          "name": "ACH.SPREAD_THE_LOVE",
+          "percent": "4.5"
+        },
+        {
+          "name": "ACH.SPEED_RUN_LEVEL",
+          "percent": "4.0"
+        },
+        {
+          "name": "ACH.BREAK_MONITORS",
+          "percent": "3.7"
+        },
+        {
+          "name": "ACH.NICE_CATCH",
+          "percent": "3.6"
+        },
+        {
+          "name": "ACH.PARTY_OF_THREE",
+          "percent": "3.5"
+        },
+        {
+          "name": "ACH.SPEED_RUN_COOP",
+          "percent": "3.0"
+        },
+        {
+          "name": "ACH.LIMITED_PORTALS",
+          "percent": "2.7"
+        },
+        {
+          "name": "ACH.SUMMER_SALE",
+          "percent": "2.6"
+        },
+        {
+          "name": "ACH.STAYING_ALIVE",
+          "percent": "2.4"
+        }
+      ]
+    },
+    {
+      "app_id": 730,
+      "name": "Counter-Strike 2",
+      "playtime_forever": 93,
+      "playtime_2weeks": 0,
+      "playtime_hours": 1.55,
+      "img_icon_url": "8dbc71957312bbd3baea65848b545be9eae2a355",
+      "img_logo_url": null,
+      "has_community_visible_stats": true,
+      "current_players": 1042770,
+      "global_achievements": [
+        {
+          "name": "PLAY_CS2",
+          "percent": "35.6"
+        }
+      ]
+    },
+    {
+      "app_id": 7670,
+      "name": "BioShock",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "9a7c9f640a76e6a32592277dbbc36a0f6da05372",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 62,
+      "global_achievements": []
+    },
+    {
+      "app_id": 8500,
+      "name": "EVE Online",
+      "playtime_forever": 97,
+      "playtime_2weeks": 0,
+      "playtime_hours": 1.62,
+      "img_icon_url": "884d8c6482487e74b18ceef872ee9543a1c5828d",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 3981,
+      "global_achievements": []
+    },
+    {
+      "app_id": 8850,
+      "name": "BioShock 2",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "f5eda925c0e57373aaea4cae17b6f175115a8d54",
+      "img_logo_url": null,
+      "has_community_visible_stats": true,
+      "current_players": 35,
+      "global_achievements": [
+        {
+          "name": "ACHIEVEMENT_141",
+          "percent": "51.4"
+        },
+        {
+          "name": "ACHIEVEMENT_157",
+          "percent": "50.2"
+        },
+        {
+          "name": "ACHIEVEMENT_142",
+          "percent": "41.6"
+        },
+        {
+          "name": "ACHIEVEMENT_154",
+          "percent": "40.2"
+        },
+        {
+          "name": "ACHIEVEMENT_164",
+          "percent": "38.5"
+        },
+        {
+          "name": "ACHIEVEMENT_143",
+          "percent": "35.4"
+        },
+        {
+          "name": "ACHIEVEMENT_160",
+          "percent": "32.3"
+        },
+        {
+          "name": "ACHIEVEMENT_158",
+          "percent": "32.3"
+        },
+        {
+          "name": "ACHIEVEMENT_151",
+          "percent": "31.9"
+        },
+        {
+          "name": "ACHIEVEMENT_168",
+          "percent": "31.4"
+        },
+        {
+          "name": "ACHIEVEMENT_144",
+          "percent": "30.4"
+        },
+        {
+          "name": "ACHIEVEMENT_174",
+          "percent": "28.5"
+        },
+        {
+          "name": "ACHIEVEMENT_155",
+          "percent": "27.5"
+        },
+        {
+          "name": "ACHIEVEMENT_145",
+          "percent": "27.4"
+        },
+        {
+          "name": "ACHIEVEMENT_163",
+          "percent": "25.9"
+        },
+        {
+          "name": "ACHIEVEMENT_146",
+          "percent": "25.4"
+        },
+        {
+          "name": "ACHIEVEMENT_166",
+          "percent": "23.7"
+        },
+        {
+          "name": "ACHIEVEMENT_147",
+          "percent": "23.1"
+        },
+        {
+          "name": "ACHIEVEMENT_148",
+          "percent": "22.9"
+        },
+        {
+          "name": "ACHIEVEMENT_150",
+          "percent": "22.5"
+        },
+        {
+          "name": "ACHIEVEMENT_149",
+          "percent": "22.5"
+        },
+        {
+          "name": "ACHIEVEMENT_165",
+          "percent": "21.4"
+        },
+        {
+          "name": "ACHIEVEMENT_175",
+          "percent": "20.8"
+        },
+        {
+          "name": "ACHIEVEMENT_159",
+          "percent": "18.3"
+        },
+        {
+          "name": "ACHIEVEMENT_170",
+          "percent": "18.1"
+        },
+        {
+          "name": "ACHIEVEMENT_152",
+          "percent": "17.5"
+        },
+        {
+          "name": "ACHIEVEMENT_171",
+          "percent": "15.2"
+        },
+        {
+          "name": "ACHIEVEMENT_172",
+          "percent": "14.0"
+        },
+        {
+          "name": "ACHIEVEMENT_161",
+          "percent": "13.9"
+        },
+        {
+          "name": "ACHIEVEMENT_173",
+          "percent": "12.3"
+        },
+        {
+          "name": "ACHIEVEMENT_177",
+          "percent": "11.0"
+        },
+        {
+          "name": "ACHIEVEMENT_181",
+          "percent": "9.7"
+        },
+        {
+          "name": "ACHIEVEMENT_216",
+          "percent": "7.9"
+        },
+        {
+          "name": "ACHIEVEMENT_178",
+          "percent": "7.4"
+        },
+        {
+          "name": "ACHIEVEMENT_156",
+          "percent": "7.2"
+        },
+        {
+          "name": "ACHIEVEMENT_210",
+          "percent": "7.1"
+        },
+        {
+          "name": "ACHIEVEMENT_213",
+          "percent": "6.7"
+        },
+        {
+          "name": "ACHIEVEMENT_212",
+          "percent": "6.7"
+        },
+        {
+          "name": "ACHIEVEMENT_211",
+          "percent": "6.7"
+        },
+        {
+          "name": "ACHIEVEMENT_167",
+          "percent": "6.4"
+        },
+        {
+          "name": "ACHIEVEMENT_217",
+          "percent": "6.2"
+        },
+        {
+          "name": "ACHIEVEMENT_182",
+          "percent": "5.6"
+        },
+        {
+          "name": "ACHIEVEMENT_183",
+          "percent": "5.3"
+        },
+        {
+          "name": "ACHIEVEMENT_176",
+          "percent": "5.1"
+        },
+        {
+          "name": "ACHIEVEMENT_193",
+          "percent": "4.8"
+        },
+        {
+          "name": "ACHIEVEMENT_162",
+          "percent": "4.7"
+        },
+        {
+          "name": "ACHIEVEMENT_214",
+          "percent": "4.3"
+        },
+        {
+          "name": "ACHIEVEMENT_203",
+          "percent": "4.1"
+        },
+        {
+          "name": "ACHIEVEMENT_194",
+          "percent": "4.1"
+        },
+        {
+          "name": "ACHIEVEMENT_184",
+          "percent": "4.1"
+        },
+        {
+          "name": "ACHIEVEMENT_208",
+          "percent": "4.0"
+        },
+        {
+          "name": "ACHIEVEMENT_185",
+          "percent": "3.9"
+        },
+        {
+          "name": "ACHIEVEMENT_204",
+          "percent": "3.7"
+        },
+        {
+          "name": "ACHIEVEMENT_209",
+          "percent": "3.6"
+        },
+        {
+          "name": "ACHIEVEMENT_188",
+          "percent": "3.6"
+        },
+        {
+          "name": "ACHIEVEMENT_205",
+          "percent": "3.5"
+        },
+        {
+          "name": "ACHIEVEMENT_215",
+          "percent": "3.4"
+        },
+        {
+          "name": "ACHIEVEMENT_207",
+          "percent": "3.3"
+        },
+        {
+          "name": "ACHIEVEMENT_206",
+          "percent": "3.3"
+        },
+        {
+          "name": "ACHIEVEMENT_189",
+          "percent": "3.3"
+        },
+        {
+          "name": "ACHIEVEMENT_200",
+          "percent": "3.1"
+        },
+        {
+          "name": "ACHIEVEMENT_196",
+          "percent": "3.1"
+        },
+        {
+          "name": "ACHIEVEMENT_191",
+          "percent": "3.1"
+        },
+        {
+          "name": "ACHIEVEMENT_190",
+          "percent": "3.1"
+        },
+        {
+          "name": "ACHIEVEMENT_186",
+          "percent": "3.1"
+        },
+        {
+          "name": "ACHIEVEMENT_202",
+          "percent": "3.0"
+        },
+        {
+          "name": "ACHIEVEMENT_201",
+          "percent": "3.0"
+        },
+        {
+          "name": "ACHIEVEMENT_192",
+          "percent": "3.0"
+        }
+      ]
+    },
+    {
+      "app_id": 8870,
+      "name": "BioShock Infinite",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "4ebaf5f9ee74f50152f7ff361debef7553fa0e4e",
+      "img_logo_url": null,
+      "has_community_visible_stats": true,
+      "current_players": 343,
+      "global_achievements": [
+        {
+          "name": "Achievement_1",
+          "percent": "91.9"
+        },
+        {
+          "name": "Achievement_2",
+          "percent": "76.0"
+        },
+        {
+          "name": "Achievement_17",
+          "percent": "75.5"
+        },
+        {
+          "name": "Achievement_41",
+          "percent": "68.0"
+        },
+        {
+          "name": "Achievement_3",
+          "percent": "67.2"
+        },
+        {
+          "name": "Achievement_4",
+          "percent": "64.4"
+        },
+        {
+          "name": "Achievement_39",
+          "percent": "58.5"
+        },
+        {
+          "name": "Achievement_5",
+          "percent": "57.7"
+        },
+        {
+          "name": "Achievement_49",
+          "percent": "56.5"
+        },
+        {
+          "name": "Achievement_6",
+          "percent": "56.4"
+        },
+        {
+          "name": "Achievement_31",
+          "percent": "55.5"
+        },
+        {
+          "name": "Achievement_27",
+          "percent": "55.4"
+        },
+        {
+          "name": "Achievement_7",
+          "percent": "51.1"
+        },
+        {
+          "name": "Achievement_8",
+          "percent": "50.2"
+        },
+        {
+          "name": "Achievement_46",
+          "percent": "49.7"
+        },
+        {
+          "name": "Achievement_14",
+          "percent": "47.6"
+        },
+        {
+          "name": "Achievement_9",
+          "percent": "47.6"
+        },
+        {
+          "name": "Achievement_10",
+          "percent": "47.5"
+        },
+        {
+          "name": "Achievement_42",
+          "percent": "42.2"
+        },
+        {
+          "name": "Achievement_22",
+          "percent": "41.1"
+        },
+        {
+          "name": "Achievement_48",
+          "percent": "40.8"
+        },
+        {
+          "name": "Achievement_11",
+          "percent": "37.9"
+        },
+        {
+          "name": "Achievement_20",
+          "percent": "37.2"
+        },
+        {
+          "name": "Achievement_19",
+          "percent": "34.7"
+        },
+        {
+          "name": "Achievement_21",
+          "percent": "30.6"
+        },
+        {
+          "name": "Achievement_26",
+          "percent": "30.2"
+        },
+        {
+          "name": "Achievement_18",
+          "percent": "29.4"
+        },
+        {
+          "name": "Achievement_24",
+          "percent": "28.2"
+        },
+        {
+          "name": "Achievement_35",
+          "percent": "26.3"
+        },
+        {
+          "name": "Achievement_16",
+          "percent": "22.9"
+        },
+        {
+          "name": "Achievement_43",
+          "percent": "21.9"
+        },
+        {
+          "name": "Achievement_28",
+          "percent": "20.3"
+        },
+        {
+          "name": "ACHIEVEMENT_61",
+          "percent": "19.2"
+        },
+        {
+          "name": "Achievement_23",
+          "percent": "18.0"
+        },
+        {
+          "name": "Achievement_25",
+          "percent": "17.7"
+        },
+        {
+          "name": "Achievement_32",
+          "percent": "17.6"
+        },
+        {
+          "name": "ACHIEVEMENT_70",
+          "percent": "16.6"
+        },
+        {
+          "name": "Achievement_15",
+          "percent": "16.5"
+        },
+        {
+          "name": "ACHIEVEMENT_62",
+          "percent": "15.5"
+        },
+        {
+          "name": "ACHIEVEMENT_71",
+          "percent": "12.3"
+        },
+        {
+          "name": "ACHIEVEMENT_72",
+          "percent": "11.9"
+        },
+        {
+          "name": "ACHIEVEMENT_77",
+          "percent": "11.7"
+        },
+        {
+          "name": "ACHIEVEMENT_73",
+          "percent": "11.6"
+        },
+        {
+          "name": "Achievement_37",
+          "percent": "10.2"
+        },
+        {
+          "name": "Achievement_40",
+          "percent": "9.3"
+        },
+        {
+          "name": "Achievement_12",
+          "percent": "9.2"
+        },
+        {
+          "name": "ACHIEVEMENT_76",
+          "percent": "9.0"
+        },
+        {
+          "name": "Achievement_44",
+          "percent": "8.5"
+        },
+        {
+          "name": "Achievement_30",
+          "percent": "8.4"
+        },
+        {
+          "name": "ACHIEVEMENT_68",
+          "percent": "6.9"
+        },
+        {
+          "name": "ACHIEVEMENT_66",
+          "percent": "6.9"
+        },
+        {
+          "name": "Achievement_34",
+          "percent": "6.3"
+        },
+        {
+          "name": "Achievement_36",
+          "percent": "5.9"
+        },
+        {
+          "name": "ACHIEVEMENT_64",
+          "percent": "5.4"
+        },
+        {
+          "name": "ACHIEVEMENT_79",
+          "percent": "4.3"
+        },
+        {
+          "name": "ACHIEVEMENT_69",
+          "percent": "4.2"
+        },
+        {
+          "name": "ACHIEVEMENT_80",
+          "percent": "4.0"
+        },
+        {
+          "name": "Achievement_33",
+          "percent": "3.3"
+        },
+        {
+          "name": "ACHIEVEMENT_51",
+          "percent": "3.2"
+        },
+        {
+          "name": "ACHIEVEMENT_65",
+          "percent": "3.1"
+        },
+        {
+          "name": "Achievement_29",
+          "percent": "3.1"
+        },
+        {
+          "name": "Achievement_47",
+          "percent": "2.8"
+        },
+        {
+          "name": "Achievement_13",
+          "percent": "2.7"
+        },
+        {
+          "name": "ACHIEVEMENT_59",
+          "percent": "2.6"
+        },
+        {
+          "name": "ACHIEVEMENT_52",
+          "percent": "2.6"
+        },
+        {
+          "name": "ACHIEVEMENT_55",
+          "percent": "2.5"
+        },
+        {
+          "name": "ACHIEVEMENT_63",
+          "percent": "2.4"
+        },
+        {
+          "name": "ACHIEVEMENT_53",
+          "percent": "2.4"
+        },
+        {
+          "name": "Achievement_38",
+          "percent": "2.3"
+        },
+        {
+          "name": "ACHIEVEMENT_67",
+          "percent": "2.2"
+        },
+        {
+          "name": "Achievement_45",
+          "percent": "2.2"
+        },
+        {
+          "name": "ACHIEVEMENT_57",
+          "percent": "2.1"
+        },
+        {
+          "name": "ACHIEVEMENT_54",
+          "percent": "2.1"
+        },
+        {
+          "name": "Achievement_50",
+          "percent": "2.1"
+        },
+        {
+          "name": "ACHIEVEMENT_74",
+          "percent": "2.0"
+        },
+        {
+          "name": "ACHIEVEMENT_78",
+          "percent": "1.8"
+        },
+        {
+          "name": "ACHIEVEMENT_75",
+          "percent": "1.7"
+        },
+        {
+          "name": "ACHIEVEMENT_56",
+          "percent": "1.7"
+        },
+        {
+          "name": "ACHIEVEMENT_58",
+          "percent": "1.5"
+        },
+        {
+          "name": "ACHIEVEMENT_60",
+          "percent": "1.4"
+        }
+      ]
+    },
+    {
+      "app_id": 12210,
+      "name": "Grand Theft Auto IV: The Complete Edition",
+      "playtime_forever": 81,
+      "playtime_2weeks": 0,
+      "playtime_hours": 1.35,
+      "img_icon_url": "a3cf6a64c73f991898a9e34681d0db8226eaa191",
+      "img_logo_url": null,
+      "has_community_visible_stats": true,
+      "current_players": 2972,
+      "global_achievements": [
+        {
+          "name": "THETOUR",
+          "percent": "50.4"
+        },
+        {
+          "name": "KEYMISSION0",
+          "percent": "30.4"
+        },
+        {
+          "name": "KEYMISSION1",
+          "percent": "24.3"
+        },
+        {
+          "name": "SATAXI",
+          "percent": "22.1"
+        },
+        {
+          "name": "DATING",
+          "percent": "19.2"
+        },
+        {
+          "name": "OPENEDALDERNEY",
+          "percent": "15.7"
+        },
+        {
+          "name": "KEYMISSION2",
+          "percent": "13.7"
+        },
+        {
+          "name": "E1INTRO",
+          "percent": "12.1"
+        },
+        {
+          "name": "LOSERATING",
+          "percent": "11.8"
+        },
+        {
+          "name": "KEYMISSION3",
+          "percent": "11.4"
+        },
+        {
+          "name": "HALFMILLION",
+          "percent": "11.3"
+        },
+        {
+          "name": "KEYMISSION4",
+          "percent": "10.4"
+        },
+        {
+          "name": "POOLWIN",
+          "percent": "9.0"
+        },
+        {
+          "name": "STORYDONE",
+          "percent": "8.2"
+        },
+        {
+          "name": "SAGUNCAR",
+          "percent": "6.9"
+        },
+        {
+          "name": "STREETLIGHTSDOWN",
+          "percent": "6.8"
+        },
+        {
+          "name": "BIKEWHEELIE",
+          "percent": "6.8"
+        },
+        {
+          "name": "E1BECOMELEADER",
+          "percent": "6.0"
+        },
+        {
+          "name": "SCOREDARTGAME",
+          "percent": "5.3"
+        },
+        {
+          "name": "TAXIPASSANGER",
+          "percent": "5.2"
+        },
+        {
+          "name": "E2TRINITY",
+          "percent": "5.1"
+        },
+        {
+          "name": "ASSASSIN",
+          "percent": "5.1"
+        },
+        {
+          "name": "E1FINISHSTORY",
+          "percent": "4.9"
+        },
+        {
+          "name": "WANTEDLEVEL6STARSURVIVAL",
+          "percent": "4.7"
+        },
+        {
+          "name": "E2STORY",
+          "percent": "4.4"
+        },
+        {
+          "name": "TURKEY",
+          "percent": "4.2"
+        },
+        {
+          "name": "IMPORTDONE",
+          "percent": "3.5"
+        },
+        {
+          "name": "SABOMBCAR",
+          "percent": "2.9"
+        },
+        {
+          "name": "E2FREEFALL",
+          "percent": "2.8"
+        },
+        {
+          "name": "SAHELI",
+          "percent": "2.8"
+        },
+        {
+          "name": "DRUGDONE",
+          "percent": "2.8"
+        },
+        {
+          "name": "CHAINREACTION",
+          "percent": "2.7"
+        },
+        {
+          "name": "VIGILDONE",
+          "percent": "2.7"
+        },
+        {
+          "name": "E1BUDDYSTAT",
+          "percent": "2.6"
+        },
+        {
+          "name": "WANTEDDONE",
+          "percent": "2.6"
+        },
+        {
+          "name": "CARROLLS",
+          "percent": "2.4"
+        },
+        {
+          "name": "QUBBEAT",
+          "percent": "2.0"
+        },
+        {
+          "name": "GAMECOMPLETION100",
+          "percent": "1.9"
+        },
+        {
+          "name": "E2DRUGS",
+          "percent": "1.8"
+        },
+        {
+          "name": "UNDERALLBRIDGES",
+          "percent": "1.8"
+        },
+        {
+          "name": "MELEECOUNTER",
+          "percent": "1.7"
+        },
+        {
+          "name": "E2FIGHTC",
+          "percent": "1.6"
+        },
+        {
+          "name": "METRANDOM",
+          "percent": "1.6"
+        },
+        {
+          "name": "SMSTHEFTDONE",
+          "percent": "1.6"
+        },
+        {
+          "name": "E2GOLF",
+          "percent": "1.5"
+        },
+        {
+          "name": "FRIENDSLIKEYOU",
+          "percent": "1.5"
+        },
+        {
+          "name": "E2BASEJUMP",
+          "percent": "1.4"
+        },
+        {
+          "name": "HIDDENPACKAGES",
+          "percent": "1.4"
+        },
+        {
+          "name": "ALLHELITOURTAKEN",
+          "percent": "1.4"
+        },
+        {
+          "name": "STREETRACE",
+          "percent": "1.4"
+        },
+        {
+          "name": "E1KNOCKOFF",
+          "percent": "1.3"
+        },
+        {
+          "name": "USJDONE",
+          "percent": "1.3"
+        },
+        {
+          "name": "E2DANCE",
+          "percent": "1.2"
+        },
+        {
+          "name": "E2ALLFLAIR",
+          "percent": "1.0"
+        },
+        {
+          "name": "E2FAIRFLAIR",
+          "percent": "1.0"
+        }
+      ]
+    },
+    {
+      "app_id": 20920,
+      "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "playtime_forever": 171,
+      "playtime_2weeks": 0,
+      "playtime_hours": 2.85,
+      "img_icon_url": "62dd5c627664df1bcabc47727c7dcd7ccab353e9",
+      "img_logo_url": null,
+      "has_community_visible_stats": true,
+      "current_players": 646,
+      "global_achievements": [
+        {
+          "name": "ACH_PERFECIONIST",
+          "percent": "66.6"
+        },
+        {
+          "name": "ACH_POTION_TASTER",
+          "percent": "54.9"
+        },
+        {
+          "name": "ACH_PROLOG_FINISHED",
+          "percent": "51.8"
+        },
+        {
+          "name": "ACH_SCARE_HIM",
+          "percent": "42.2"
+        },
+        {
+          "name": "ACH_CRAFTER",
+          "percent": "37.6"
+        },
+        {
+          "name": "ACH_OSTMURK",
+          "percent": "34.6"
+        },
+        {
+          "name": "ACH_LEVEL_10",
+          "percent": "34.4"
+        },
+        {
+          "name": "ACH_TENDRAKE_DEAD",
+          "percent": "34.1"
+        },
+        {
+          "name": "ACH_ALCHEMY_JOURNEYMAN",
+          "percent": "32.6"
+        },
+        {
+          "name": "ACH_ACT1_FINISHED",
+          "percent": "31.0"
+        },
+        {
+          "name": "ACH_GAMBLER",
+          "percent": "28.5"
+        },
+        {
+          "name": "ACH_BUTCHER",
+          "percent": "25.9"
+        },
+        {
+          "name": "ACH_DRAUG_DEAD",
+          "percent": "25.2"
+        },
+        {
+          "name": "ACH_ACT2_FINISHED",
+          "percent": "25.1"
+        },
+        {
+          "name": "ACH_TO_BE_CONTINUED",
+          "percent": "23.3"
+        },
+        {
+          "name": "ACH_ACT3_FINISHED",
+          "percent": "23.2"
+        },
+        {
+          "name": "ACH_LIBRARIAN",
+          "percent": "22.1"
+        },
+        {
+          "name": "ACH_SWORD_MAN",
+          "percent": "21.5"
+        },
+        {
+          "name": "ACH_EXPLOSIVE",
+          "percent": "21.4"
+        },
+        {
+          "name": "ACH_HAWKEYE",
+          "percent": "20.3"
+        },
+        {
+          "name": "ACH_SAMARITAN",
+          "percent": "19.9"
+        },
+        {
+          "name": "ACH_SHADOWMAN",
+          "percent": "19.3"
+        },
+        {
+          "name": "ACH_TROLL_FRIEND",
+          "percent": "18.6"
+        },
+        {
+          "name": "ACH_OLDFRIENDSHIP",
+          "percent": "18.1"
+        },
+        {
+          "name": "ACH_LASTDRAGON",
+          "percent": "16.8"
+        },
+        {
+          "name": "ACH_RICOCHET",
+          "percent": "16.5"
+        },
+        {
+          "name": "ACH_TRIANGLE",
+          "percent": "16.0"
+        },
+        {
+          "name": "ACH_DRAGON_ALIVE",
+          "percent": "15.6"
+        },
+        {
+          "name": "ACH_GLADIATOR",
+          "percent": "15.2"
+        },
+        {
+          "name": "ACH_DERATIZATION",
+          "percent": "14.0"
+        },
+        {
+          "name": "ACH_HEARTBREAKER",
+          "percent": "14.0"
+        },
+        {
+          "name": "ACH_MUTANT",
+          "percent": "12.9"
+        },
+        {
+          "name": "ACH_LEVEL_35",
+          "percent": "11.4"
+        },
+        {
+          "name": "ACH_DRAGON_DEAD",
+          "percent": "11.0"
+        },
+        {
+          "name": "ACH_MAGIC_MAN",
+          "percent": "10.8"
+        },
+        {
+          "name": "ACH_AVENGER",
+          "percent": "10.5"
+        },
+        {
+          "name": "ACH_SNEAKER",
+          "percent": "10.4"
+        },
+        {
+          "name": "ACH_TOURIST",
+          "percent": "9.9"
+        },
+        {
+          "name": "ACH_SPELLBREAKER",
+          "percent": "9.8"
+        },
+        {
+          "name": "ACH_WITCHHUNTER",
+          "percent": "9.7"
+        },
+        {
+          "name": "ACH_CONCENTRATION",
+          "percent": "9.0"
+        },
+        {
+          "name": "ACH_NECROMANT",
+          "percent": "8.0"
+        },
+        {
+          "name": "ACH_SUMMER",
+          "percent": "7.8"
+        },
+        {
+          "name": "ACH_TENTAKILLER",
+          "percent": "7.7"
+        },
+        {
+          "name": "ACH_WINTER",
+          "percent": "7.2"
+        },
+        {
+          "name": "ACH_KINGMAKER",
+          "percent": "6.8"
+        },
+        {
+          "name": "ACH_ALCHEMY_MAN",
+          "percent": "6.6"
+        },
+        {
+          "name": "ACH_CHEAPSKATE",
+          "percent": "6.3"
+        },
+        {
+          "name": "ACH_STATE_REASON",
+          "percent": "6.2"
+        },
+        {
+          "name": "ACH_POKER",
+          "percent": "5.8"
+        },
+        {
+          "name": "ACH_TROLL_KILLER",
+          "percent": "2.8"
+        },
+        {
+          "name": "ACH_INSANITY",
+          "percent": "1.9"
+        }
+      ]
+    },
+    {
+      "app_id": 22330,
+      "name": "The Elder Scrolls IV: Oblivion Game of the Year Edition (2009)",
+      "playtime_forever": 1,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.02,
+      "img_icon_url": "e33402f6e1e4ed6dd001c7add26934f345cbd31e",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 467,
+      "global_achievements": []
+    },
+    {
+      "app_id": 35460,
+      "name": "The Ball",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "e5d3b3d775d6b60b8e4a5cc3bb5871dc6e57c244",
+      "img_logo_url": null,
+      "has_community_visible_stats": true,
+      "current_players": 3,
+      "global_achievements": [
+        {
+          "name": "Achievement_0",
+          "percent": "54.0"
+        },
+        {
+          "name": "Achievement_1",
+          "percent": "15.4"
+        },
+        {
+          "name": "Achievement_2",
+          "percent": "10.5"
+        },
+        {
+          "name": "Achievement_3",
+          "percent": "9.8"
+        },
+        {
+          "name": "Achievement_4",
+          "percent": "8.6"
+        },
+        {
+          "name": "Achievement_11",
+          "percent": "4.8"
+        },
+        {
+          "name": "Achievement_16",
+          "percent": "4.6"
+        },
+        {
+          "name": "Achievement_9",
+          "percent": "3.9"
+        },
+        {
+          "name": "Achievement_6",
+          "percent": "3.6"
+        },
+        {
+          "name": "Achievement_8",
+          "percent": "3.1"
+        },
+        {
+          "name": "Achievement_7",
+          "percent": "2.8"
+        },
+        {
+          "name": "Achievement_12",
+          "percent": "2.7"
+        },
+        {
+          "name": "Achievement_15",
+          "percent": "2.6"
+        },
+        {
+          "name": "Achievement_14",
+          "percent": "2.5"
+        },
+        {
+          "name": "Achievement_13",
+          "percent": "2.5"
+        },
+        {
+          "name": "Achievement_5",
+          "percent": "2.5"
+        },
+        {
+          "name": "Achievement_10",
+          "percent": "2.4"
+        }
+      ]
+    },
+    {
+      "app_id": 40990,
+      "name": "Mafia",
+      "playtime_forever": 24,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.4,
+      "img_icon_url": "3c86a0fd4f94a97b6f4ce31b5c31532e2098fe7b",
+      "img_logo_url": null,
+      "has_community_visible_stats": false,
+      "current_players": 92,
+      "global_achievements": []
+    },
+    {
+      "app_id": 43110,
+      "name": "Metro 2033",
+      "playtime_forever": 0,
+      "playtime_2weeks": 0,
+      "playtime_hours": 0.0,
+      "img_icon_url": "a70fe6dc214f24107d20596f3040dbfa220ed42d",
+      "img_logo_url": null,
+      "has_community_visible_stats": true,
+      "current_players": 58,
+      "global_achievements": [
+        {
+          "name": "ach_first_blood",
+          "percent": "81.9"
+        },
+        {
+          "name": "ach_Nosalis_hunter",
+          "percent": "40.3"
+        },
+        {
+          "name": "ach_Demolitionist",
+          "percent": "34.5"
+        },
+        {
+          "name": "ach_T_34",
+          "percent": "30.4"
+        },
+        {
+          "name": "ach_Ghost_buster",
+          "percent": "26.8"
+        },
+        {
+          "name": "ach_Fire_in_the_hole",
+          "percent": "25.6"
+        },
+        {
+          "name": "realist",
+          "percent": "25.4"
+        },
+        {
+          "name": "ach_Cowboy",
+          "percent": "25.0"
+        },
+        {
+          "name": "ach_Fugitive",
+          "percent": "24.2"
+        },
+        {
+          "name": "ach_Reader",
+          "percent": "23.6"
+        },
+        {
+          "name": "ach_Pathoanatomist",
+          "percent": "23.5"
+        },
+        {
+          "name": "ach_Pyro",
+          "percent": "23.0"
+        },
+        {
+          "name": "ach_Raider",
+          "percent": "22.1"
+        },
+        {
+          "name": "ach_hostile",
+          "percent": "22.0"
+        },
+        {
+          "name": "ach_Boom",
+          "percent": "17.1"
+        },
+        {
+          "name": "ach_Swift one",
+          "percent": "16.6"
+        },
+        {
+          "name": "ach_Old_school",
+          "percent": "15.3"
+        },
+        {
+          "name": "ach_Ranger",
+          "percent": "14.7"
+        },
+        {
+          "name": "ach_Inquisitor",
+          "percent": "14.7"
+        },
+        {
+          "name": "ach_sniper",
+          "percent": "14.2"
+        },
+        {
+          "name": "ach_scrooge",
+          "percent": "11.6"
+        },
+        {
+          "name": "ach_Ninja",
+          "percent": "11.6"
+        },
+        {
+          "name": "ach_Radio_DJ",
+          "percent": "11.3"
+        },
+        {
+          "name": "ach_gunman",
+          "percent": "11.2"
+        },
+        {
+          "name": "ach_trader",
+          "percent": "10.7"
+        },
+        {
+          "name": "ach_shocking",
+          "percent": "7.6"
+        },
+        {
+          "name": "ach_quick_witted",
+          "percent": "7.3"
+        },
+        {
+          "name": "ach_Sapper",
+          "percent": "6.7"
+        },
+        {
+          "name": "generous",
+          "percent": "6.1"
+        },
+        {
+          "name": "ach_Enlightened",
+          "percent": "5.9"
+        },
+        {
+          "name": "ach_heavy_metal",
+          "percent": "5.7"
+        },
+        {
+          "name": "metro_d",
+          "percent": "5.4"
+        },
+        {
+          "name": "ach_Stalker",
+          "percent": "5.2"
+        },
+        {
+          "name": "ach_Machete",
+          "percent": "5.1"
+        },
+        {
+          "name": "ach_Air_gunner",
+          "percent": "5.1"
+        },
+        {
+          "name": "ach_frontline_stealth",
+          "percent": "5.0"
+        },
+        {
+          "name": "ach_Merciful",
+          "percent": "4.8"
+        },
+        {
+          "name": "ach_frontline_kill_everyone",
+          "percent": "4.6"
+        },
+        {
+          "name": "ach_survivav_hard",
+          "percent": "4.4"
+        },
+        {
+          "name": "ach_Survivor",
+          "percent": "4.4"
+        },
+        {
+          "name": "explorer",
+          "percent": "4.4"
+        },
+        {
+          "name": "ach_air_bender",
+          "percent": "4.2"
+        },
+        {
+          "name": "ach_speculator",
+          "percent": "4.2"
+        },
+        {
+          "name": "ach_weaponsmith",
+          "percent": "4.0"
+        },
+        {
+          "name": "ach_stunning",
+          "percent": "3.6"
+        },
+        {
+          "name": "ach_sterling",
+          "percent": "3.5"
+        },
+        {
+          "name": "sherlock",
+          "percent": "3.5"
+        },
+        {
+          "name": "ach_sticky",
+          "percent": "3.4"
+        }
+      ]
+    }
+  ]
+}
