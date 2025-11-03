@@ -80,7 +80,11 @@ const AppSidebar = () => {
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>
-                <SidebarMenuButton>
+                <SidebarMenuButton
+                  isActive={checkActive("/specs")}
+                  onClick={() => navigate("/specs")}
+                  size="default"
+                >
                   <IconFileText size={20} stroke={1.5} />
                   <span>Spec files</span>
                 </SidebarMenuButton>
