@@ -20,16 +20,19 @@ type Pages = {
   "/spendings": {
     params: {};
   };
+  "/games-chart": {
+    params: {};
+  };
 };
 
 type RouteFiles = {
   "root.tsx": {
     id: "root";
-    page: "/" | "/specs" | "/spendings";
+    page: "/" | "/specs" | "/spendings" | "/games-chart";
   };
   "routes/_layout.tsx": {
     id: "routes/_layout";
-    page: "/" | "/specs" | "/spendings";
+    page: "/" | "/specs" | "/spendings" | "/games-chart";
   };
   "routes/landing.tsx": {
     id: "routes/landing";
@@ -43,6 +46,10 @@ type RouteFiles = {
     id: "routes/spendings";
     page: "/spendings";
   };
+  "routes/games-chart.tsx": {
+    id: "routes/games-chart";
+    page: "/games-chart";
+  };
 };
 
 type RouteModules = {
@@ -51,4 +58,5 @@ type RouteModules = {
   "routes/landing": typeof import("./app/routes/landing.tsx");
   "routes/specs": typeof import("./app/routes/specs.tsx");
   "routes/spendings": typeof import("./app/routes/spendings.tsx");
+  "routes/games-chart": typeof import("./app/routes/games-chart.tsx");
 };

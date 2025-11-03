@@ -153,3 +153,75 @@ interface Theme {
 - Animation transitions between sections
 
 For complete documentation, see the [Spec Files page](/specs) in the application.
+
+# Games Chart Page
+
+## Overview
+
+The Games Chart page (`app/routes/games-chart.tsx`) provides a comprehensive visualization of all games in the Steam library with interactive charts and statistics.
+
+**Route**: `/games-chart`
+
+## Features
+
+### Interactive Pie Chart
+- Displays top 10 games individually with remaining games grouped as "Others"
+- Uses Recharts library for rendering
+- Responsive design (600px height)
+- Custom tooltips showing game details, hours, and percentage on hover
+- Color-coded segments using CSS chart color variables
+- Percentage labels on segments (hidden for very small segments &lt; 2%)
+- Bottom-aligned legend with game names and hours
+
+### Statistics Dashboard
+Three summary cards displaying:
+- **Total Games Played**: Count of games with playtime > 0
+- **Total Playtime**: Sum of all playtime across all games (in hours)
+- **Average Playtime**: Average hours per game
+
+### Top 10 Games Table
+- Quick reference table showing:
+  - Rank (#1 - #10)
+  - Game name
+  - Hours played
+  - Total playtime (formatted)
+
+## Implementation Details
+
+**File**: `app/routes/games-chart.tsx`
+
+**Key Components**:
+- `GamesChart`: Main component managing data and rendering
+- `PieChart`: Recharts component for visualization
+- `Pie`: Pie chart with configurable radius and labels
+- `CustomTooltip`: Custom tooltip component for detailed information with percentage
+- Statistics cards using shadcn/ui Card components
+
+**Data Processing**:
+- Filters games with `playtime_forever > 0`
+- Sorts games by playtime (descending)
+- Selects top 10 games for individual display
+- Groups remaining games into "Others" segment
+- Converts minutes to hours for display
+- Calculates percentage of total playtime for each segment
+
+**Chart Configuration**:
+- Chart type: Pie Chart
+- Outer radius: 180px
+- Center: 50% (centered)
+- Labels: Shows game name and percentage (hidden for segments &lt; 2%)
+- Colors: Rotating through CSS chart color variables (--chart-1 through --chart-5)
+- Legend: Bottom-aligned with game names and hours
+
+**Navigation**:
+- Added to sidebar under "Analytics" section
+- Icon: `IconChartBar` from @tabler/icons-react
+- Active state highlighting when on route
+
+## Dependencies
+
+- **Recharts**: v2.15.4 - Charting library for React
+- Uses existing shadcn/ui components (Card, etc.)
+- Uses existing CSS chart color variables for theming
+
+For complete documentation, see the [Spec Files page](/specs) in the application.

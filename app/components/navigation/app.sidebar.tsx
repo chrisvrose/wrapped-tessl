@@ -3,6 +3,7 @@ import {
   IconDeviceGamepad2,
   IconFileText,
   IconTimeDuration10,
+  IconChartBar,
 } from "@tabler/icons-react";
 import { useLocation, useNavigate } from "react-router";
 import {
@@ -73,6 +74,24 @@ const AppSidebar = () => {
               </SidebarMenuButton>
             </SidebarMenuItem>
           </SidebarMenu>
+        </SidebarGroup>
+
+        <SidebarGroup>
+          <SidebarGroupLabel>Analytics</SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton
+                  isActive={checkActive("/games-chart")}
+                  onClick={() => navigate("/games-chart")}
+                  size="default"
+                >
+                  <IconChartBar size={20} stroke={1.5} />
+                  <span>Games Chart</span>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
         </SidebarGroup>
 
         <SidebarGroup>
