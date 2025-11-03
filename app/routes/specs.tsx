@@ -17,15 +17,26 @@ export default function Specs() {
         <Card>
           <CardHeader>
             <CardTitle>Dashboard Implementation</CardTitle>
-            <CardDescription>Documentation for the Most Played game dashboard section</CardDescription>
+            <CardDescription>Scrollable dashboard displaying top 4 most played games with custom themes</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
             <div>
               <h3 className="text-xl font-semibold mb-2">Overview</h3>
               <p className="text-muted-foreground">
-                The dashboard displays the most played game from the Steam profile data with game-themed styling.
-                The implementation automatically loads the profile data and determines the game with the highest playtime.
+                The dashboard is a scrollable page that displays the top 4 most played games from the Steam profile data.
+                Each game is displayed in a full-screen section with its own custom thematic styling. Games are automatically
+                sorted by total playtime (largest to smallest) and themed based on their identity.
               </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Page Layout</h3>
+              <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
+                <li><strong>Scrollable Design:</strong> Vertical scrolling through full-screen sections</li>
+                <li><strong>Full-Screen Sections:</strong> Each game occupies a minimum full viewport height</li>
+                <li><strong>Ordering:</strong> Games ordered by playtime (1st → 4th most played)</li>
+                <li><strong>Responsive:</strong> Adapts to mobile, tablet, and desktop viewports</li>
+              </ul>
             </div>
 
             <div>
@@ -35,41 +46,61 @@ export default function Specs() {
               </p>
               <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
                 <li>Fetches game data from the profile JSON file</li>
-                <li>Calculates the most played game by total playtime</li>
+                <li>Filters games with playtime greater than 0</li>
+                <li>Sorts by <code className="bg-muted px-1 py-0.5 rounded">playtime_forever</code> (descending)</li>
+                <li>Selects top 4 games for display</li>
                 <li>Formats playtime for display (days, hours, minutes)</li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-2">Game Theming</h3>
-              <p className="text-muted-foreground">
-                The Most Played section is dynamically themed based on the most played game. Currently implemented:
+              <h3 className="text-xl font-semibold mb-2">Game Themes</h3>
+              <p className="text-muted-foreground mb-3">
+                Each game section is dynamically themed based on the game's identity. Currently implemented themes:
               </p>
-              <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
-                <li><strong>Warframe Theme:</strong> Dark purple/blue gradients with cyan and gold accents</li>
-                <li>Animated energy effects with pulse animations</li>
-                <li>Hexagonal decorative elements</li>
-                <li>Gradient text for game titles</li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-semibold mb-2">Color Scheme</h3>
-              <div className="grid grid-cols-2 gap-4 mt-2">
-                <div>
-                  <p className="font-medium mb-1">Warframe Theme Colors:</p>
+              
+              <div className="space-y-4">
+                <div className="border-l-4 pl-4" style={{ borderColor: "#00d4ff" }}>
+                  <h4 className="font-semibold mb-2">1. Warframe Theme</h4>
                   <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>Background: #1e1e2e, #2d1b3d, #4a0e4e</li>
-                    <li>Primary Accent: #00d4ff (Cyan)</li>
-                    <li>Secondary Accent: #ffd700 (Gold)</li>
+                    <li><strong>Background:</strong> Dark purple/blue gradients (#1e1e2e, #2d1b3d, #4a0e4e, #0f0f1e)</li>
+                    <li><strong>Primary Accent:</strong> #00d4ff (Cyan)</li>
+                    <li><strong>Secondary Accent:</strong> #ffd700 (Gold)</li>
+                    <li><strong>Tagline:</strong> "Your journey through the Origin System continues"</li>
+                    <li><strong>Decorative:</strong> Hexagonal shape</li>
                   </ul>
                 </div>
-                <div>
-                  <p className="font-medium mb-1">Text Colors:</p>
+
+                <div className="border-l-4 pl-4" style={{ borderColor: "#ffd700" }}>
+                  <h4 className="font-semibold mb-2">2. Trove Theme</h4>
                   <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>Title: Gradient (Gold → Cyan)</li>
-                    <li>Labels: #00d4ff (Cyan)</li>
-                    <li>Stats: #ffd700 (Gold) / #00d4ff (Cyan)</li>
+                    <li><strong>Background:</strong> Purple/blue gradient (#2d1b69, #4a90e2, #7b68ee, #9370db)</li>
+                    <li><strong>Primary Accent:</strong> #ffd700 (Gold)</li>
+                    <li><strong>Secondary Accent:</strong> #ff69b4 (Pink)</li>
+                    <li><strong>Tagline:</strong> "Adventure awaits in the voxel realms"</li>
+                    <li><strong>Decorative:</strong> Rotated cube shape</li>
+                  </ul>
+                </div>
+
+                <div className="border-l-4 pl-4" style={{ borderColor: "#d4af37" }}>
+                  <h4 className="font-semibold mb-2">3. Skyrim Theme</h4>
+                  <ul className="text-sm text-muted-foreground space-y-1">
+                    <li><strong>Background:</strong> Brown/amber Nordic theme (#2c1810, #3d2817, #4a2c1a, #5a3a24)</li>
+                    <li><strong>Primary Accent:</strong> #d4af37 (Gold)</li>
+                    <li><strong>Secondary Accent:</strong> #8b7355 (Bronze)</li>
+                    <li><strong>Tagline:</strong> "The Dragonborn's legacy continues"</li>
+                    <li><strong>Decorative:</strong> Dragon-inspired hexagon</li>
+                  </ul>
+                </div>
+
+                <div className="border-l-4 pl-4" style={{ borderColor: "#e94560" }}>
+                  <h4 className="font-semibold mb-2">4. Hollow Knight Theme</h4>
+                  <ul className="text-sm text-muted-foreground space-y-1">
+                    <li><strong>Background:</strong> Dark blue/black gradient (#0a0a0a, #1a1a2e, #16213e, #0f3460)</li>
+                    <li><strong>Primary Accent:</strong> #e94560 (Pink)</li>
+                    <li><strong>Secondary Accent:</strong> #00d4ff (Cyan)</li>
+                    <li><strong>Tagline:</strong> "Descend into the depths of Hallownest"</li>
+                    <li><strong>Decorative:</strong> Circular mask shape</li>
                   </ul>
                 </div>
               </div>
@@ -77,12 +108,15 @@ export default function Specs() {
 
             <div>
               <h3 className="text-xl font-semibold mb-2">Implementation Details</h3>
-              <div className="bg-muted p-4 rounded-lg">
+              <div className="bg-muted p-4 rounded-lg space-y-2">
                 <p className="font-mono text-sm">
                   <strong>File:</strong> app/routes/landing.tsx<br />
-                  <strong>Component:</strong> Home<br />
+                  <strong>Main Component:</strong> Home<br />
+                  <strong>Section Component:</strong> GameSection<br />
+                  <strong>Theme Function:</strong> getGameTheme(gameName: string)<br />
                   <strong>Data Loading:</strong> useEffect hook with fetch API<br />
-                  <strong>State Management:</strong> useState for game data and loading state
+                  <strong>State Management:</strong> useState for top games array and loading state<br />
+                  <strong>Layout:</strong> Scrollable container with overflow-y-auto
                 </p>
               </div>
             </div>
@@ -90,24 +124,34 @@ export default function Specs() {
             <div>
               <h3 className="text-xl font-semibold mb-2">Features</h3>
               <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
-                <li>Automatic detection of most played game</li>
-                <li>Dynamic theming based on game</li>
-                <li>Animated background effects</li>
+                <li>Automatic detection and sorting of top 4 games by playtime</li>
+                <li>Dynamic theming system with game-specific themes</li>
+                <li>Full-screen sections for immersive experience</li>
+                <li>Animated background effects with pulse animations</li>
                 <li>Playtime formatting (days, hours, minutes)</li>
-                <li>Responsive design for mobile and desktop</li>
+                <li>Rank labels (1st, 2nd, 3rd, 4th)</li>
+                <li>Game-specific taglines and decorative elements</li>
+                <li>Responsive design for all screen sizes</li>
                 <li>Loading state handling</li>
+                <li>Smooth vertical scrolling</li>
               </ul>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-2">Future Enhancements</h3>
-              <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
-                <li>Support for additional game themes (God of War, etc.)</li>
-                <li>Game-specific imagery and backgrounds</li>
-                <li>Spendings section implementation</li>
-                <li>Hours played section with detailed statistics</li>
-                <li>Interactive game selection</li>
-              </ul>
+              <h3 className="text-xl font-semibold mb-2">Component Structure</h3>
+              <div className="bg-muted p-4 rounded-lg">
+                <pre className="text-sm overflow-x-auto">
+{`GameSection Component:
+  - Full-screen section (min-h-screen)
+  - Themed background gradient
+  - Animated pulse effects
+  - Rank label (1st, 2nd, 3rd, 4th)
+  - Game title with gradient text
+  - Game-specific tagline
+  - Statistics display (Total Playtime, Hours, Rank)
+  - Themed decorative element`}
+                </pre>
+              </div>
             </div>
           </CardContent>
         </Card>
