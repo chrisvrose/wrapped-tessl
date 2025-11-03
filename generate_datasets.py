@@ -93,6 +93,19 @@ class SteamDatasetGenerator:
         if badges_data.get("response"):
             profile_data["badges"] = badges_data["response"]
 
+        # Get achievement summary
+        print("  Fetching achievement summary...")
+        try:
+            achievement_summary = self.api.get_achievement_summary_for_games(steam_id)
+            profile_data["achievement_summary"] = achievement_summary
+            profile_data["stats"]["total_achievements"] = achievement_summary.get("total_achievements", 0)
+            profile_data["stats"]["unlocked_achievements"] = achievement_summary.get("total_unlocked", 0)
+            profile_data["stats"]["achievement_completion"] = achievement_summary.get("completion_percentage", 0)
+            profile_data["stats"]["perfect_games"] = len(achievement_summary.get("perfect_games", []))
+        except Exception as e:
+            print(f"  ⚠ Could not fetch achievement summary: {e}")
+            profile_data["achievement_summary"] = {}
+
         return profile_data
 
     def generate_game_stats(self, app_id: int, app_name: str = None) -> Dict[str, Any]:
@@ -183,9 +196,57 @@ class SteamDatasetGenerator:
             ]
         }
 
-        safe_name = self.get_safe_filename(vanity_name)
-        self.save_json(leaderboard, f"top_games_{safe_name}.json")
-        return vanity_name
+        self.save_json(leaderboard, f"top_games_{steam_id}.json")
+
+    def generate_enriched_games_dataset(self, steam_id: str, limit: int = 20):
+        """Generate enriched game data with achievement info and current players"""
+        print(f"\n🎨 Generating enriched games dataset (top {limit} by playtime)...")
+        
+        try:
+            # Get enriched game info
+            enriched_games = self.api.get_games_with_info(steam_id, limit=limit)
+            
+            dataset = {
+                "steam_id": steam_id,
+                "generated_at": datetime.now().isoformat(),
+                "games_count": len(enriched_games),
+                "games": enriched_games
+            }
+            
+            self.save_json(dataset, f"enriched_games_{steam_id}.json")
+            return dataset
+        except Exception as e:
+            print(f"  ✗ Error generating enriched games dataset: {e}")
+            return None
+
+    def generate_achievements_dataset(self, steam_id: str):
+        """Generate detailed achievements dataset"""
+        print("\n🏆 Generating achievements dataset...")
+        
+        try:
+            # Get achievement summary
+            summary = self.api.get_achievement_summary_for_games(steam_id)
+            
+            dataset = {
+                "steam_id": steam_id,
+                "generated_at": datetime.now().isoformat(),
+                "summary": {
+                    "total_games": summary.get("total_games", 0),
+                    "games_with_achievements": summary.get("games_with_achievements", 0),
+                    "total_achievements": summary.get("total_achievements", 0),
+                    "total_unlocked": summary.get("total_unlocked", 0),
+                    "completion_percentage": summary.get("completion_percentage", 0),
+                    "perfect_games_count": len(summary.get("perfect_games", []))
+                },
+                "perfect_games": summary.get("perfect_games", [])[:10],  # Top 10 perfect games
+                "games_with_progress": summary.get("games_with_progress", [])[:20]  # Top 20 in-progress
+            }
+            
+            self.save_json(dataset, f"achievements_{steam_id}.json")
+            return dataset
+        except Exception as e:
+            print(f"  ✗ Error generating achievements dataset: {e}")
+            return None
 
     def run_all(self, steam_ids: List[str]):
         """Run all dataset generation"""
@@ -204,41 +265,16 @@ class SteamDatasetGenerator:
                 # Generate top games leaderboard
                 self.generate_top_games_leaderboard(steam_id)
                 
+                # Generate enriched games dataset (top 20 by playtime)
+                self.generate_enriched_games_dataset(steam_id, limit=20)
+                
+                # Generate achievements dataset
+                self.generate_achievements_dataset(steam_id)
+                
             except Exception as e:
                 print(f"✗ Error generating profile for {steam_id}: {e}")
                 import traceback
                 traceback.print_exc()
-
-        # Generate popular games stats
-        popular_games = [
-            {"app_id": 730, "name": "Counter-Strike 2"},
-            {"app_id": 570, "name": "Dota 2"},
-            {"app_id": 440, "name": "Team Fortress 2"},
-            {"app_id": 1172470, "name": "Apex Legends"},
-            {"app_id": 1086940, "name": "Baldur's Gate 3"},
-            {"app_id": 271590, "name": "Grand Theft Auto V"},
-            {"app_id": 252490, "name": "Rust"},
-            {"app_id": 1203220, "name": "NARAKA: BLADEPOINT"},
-        ]
-        
-        self.generate_popular_games_stats(popular_games)
-
-        # Generate app list metadata (cached)
-        print("\n📚 Generating app list metadata...")
-        try:
-            app_list = self.api.get_app_list()
-            if app_list.get("applist"):
-                # Save only first 1000 for demo (full list is huge)
-                apps = app_list["applist"].get("apps", [])[:1000]
-                metadata = {
-                    "generated_at": datetime.now().isoformat(),
-                    "total_apps_in_steam": len(app_list["applist"].get("apps", [])),
-                    "apps_in_dataset": len(apps),
-                    "apps": apps
-                }
-                self.save_json(metadata, "steam_apps_sample.json")
-        except Exception as e:
-            print(f"  ✗ Error fetching app list: {e}")
 
         print("\n" + "=" * 70)
         print("✓ Dataset generation complete!")

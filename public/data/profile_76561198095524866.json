@@ -1,6 +1,6 @@
 {
   "steam_id": "76561198095524866",
-  "generated_at": "2025-11-03T21:08:42.494690",
+  "generated_at": "2025-11-03T21:25:08.947420",
   "player_summary": {
     "steamid": "76561198095524866",
     "communityvisibilitystate": 3,
@@ -1692,6 +1692,253 @@
   "stats": {
     "total_games": 103,
     "total_playtime_hours": 2468.83,
-    "games_played_2weeks": 7
+    "games_played_2weeks": 7,
+    "total_achievements": 5298,
+    "unlocked_achievements": 440,
+    "achievement_completion": 8.31,
+    "perfect_games": 1
+  },
+  "achievement_summary": {
+    "steam_id": "76561198095524866",
+    "total_games": 103,
+    "games_with_achievements": 83,
+    "total_achievements": 5298,
+    "total_unlocked": 440,
+    "completion_percentage": 8.31,
+    "perfect_games": [
+      {
+        "app_id": 1392820,
+        "name": "Milk inside a bag of milk inside a bag of milk",
+        "total_achievements": 3,
+        "unlocked": 3,
+        "completion": 100.0
+      }
+    ],
+    "games_with_progress": [
+      {
+        "app_id": 230410,
+        "name": "Warframe",
+        "total_achievements": 193,
+        "unlocked": 173,
+        "completion": 89.64
+      },
+      {
+        "app_id": 264710,
+        "name": "Subnautica",
+        "total_achievements": 17,
+        "unlocked": 14,
+        "completion": 82.35
+      },
+      {
+        "app_id": 275850,
+        "name": "No Man's Sky",
+        "total_achievements": 27,
+        "unlocked": 17,
+        "completion": 62.96
+      },
+      {
+        "app_id": 752590,
+        "name": "A Plague Tale: Innocence",
+        "total_achievements": 35,
+        "unlocked": 20,
+        "completion": 57.14
+      },
+      {
+        "app_id": 367520,
+        "name": "Hollow Knight",
+        "total_achievements": 63,
+        "unlocked": 31,
+        "completion": 49.21
+      },
+      {
+        "app_id": 617830,
+        "name": "SUPERHOT VR",
+        "total_achievements": 26,
+        "unlocked": 12,
+        "completion": 46.15
+      },
+      {
+        "app_id": 504230,
+        "name": "Celeste",
+        "total_achievements": 32,
+        "unlocked": 14,
+        "completion": 43.75
+      },
+      {
+        "app_id": 1182900,
+        "name": "A Plague Tale: Requiem",
+        "total_achievements": 35,
+        "unlocked": 13,
+        "completion": 37.14
+      },
+      {
+        "app_id": 683320,
+        "name": "GRIS",
+        "total_achievements": 17,
+        "unlocked": 6,
+        "completion": 35.29
+      },
+      {
+        "app_id": 524220,
+        "name": "NieR:Automata™",
+        "total_achievements": 47,
+        "unlocked": 15,
+        "completion": 31.91
+      },
+      {
+        "app_id": 2475490,
+        "name": "Mouthwashing",
+        "total_achievements": 18,
+        "unlocked": 5,
+        "completion": 27.78
+      },
+      {
+        "app_id": 1113560,
+        "name": "NieR Replicant ver.1.22474487139...",
+        "total_achievements": 47,
+        "unlocked": 13,
+        "completion": 27.66
+      },
+      {
+        "app_id": 638230,
+        "name": "Journey",
+        "total_achievements": 14,
+        "unlocked": 3,
+        "completion": 21.43
+      },
+      {
+        "app_id": 1085660,
+        "name": "Destiny 2",
+        "total_achievements": 23,
+        "unlocked": 4,
+        "completion": 17.39
+      },
+      {
+        "app_id": 1030300,
+        "name": "Hollow Knight: Silksong",
+        "total_achievements": 52,
+        "unlocked": 8,
+        "completion": 15.38
+      },
+      {
+        "app_id": 99900,
+        "name": "Spiral Knights",
+        "total_achievements": 54,
+        "unlocked": 8,
+        "completion": 14.81
+      },
+      {
+        "app_id": 881100,
+        "name": "Noita",
+        "total_achievements": 14,
+        "unlocked": 2,
+        "completion": 14.29
+      },
+      {
+        "app_id": 250420,
+        "name": "8BitMMO",
+        "total_achievements": 24,
+        "unlocked": 3,
+        "completion": 12.5
+      },
+      {
+        "app_id": 677620,
+        "name": "Splitgate",
+        "total_achievements": 30,
+        "unlocked": 3,
+        "completion": 10.0
+      },
+      {
+        "app_id": 20920,
+        "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+        "total_achievements": 52,
+        "unlocked": 4,
+        "completion": 7.69
+      },
+      {
+        "app_id": 414340,
+        "name": "Hellblade: Senua's Sacrifice",
+        "total_achievements": 14,
+        "unlocked": 1,
+        "completion": 7.14
+      },
+      {
+        "app_id": 976730,
+        "name": "Halo: The Master Chief Collection",
+        "total_achievements": 700,
+        "unlocked": 50,
+        "completion": 7.14
+      },
+      {
+        "app_id": 460790,
+        "name": "Bayonetta",
+        "total_achievements": 50,
+        "unlocked": 3,
+        "completion": 6.0
+      },
+      {
+        "app_id": 431960,
+        "name": "Wallpaper Engine",
+        "total_achievements": 17,
+        "unlocked": 1,
+        "completion": 5.88
+      },
+      {
+        "app_id": 304930,
+        "name": "Unturned",
+        "total_achievements": 88,
+        "unlocked": 5,
+        "completion": 5.68
+      },
+      {
+        "app_id": 304050,
+        "name": "Trove",
+        "total_achievements": 19,
+        "unlocked": 1,
+        "completion": 5.26
+      },
+      {
+        "app_id": 335300,
+        "name": "DARK SOULS™ II: Scholar of the First Sin",
+        "total_achievements": 38,
+        "unlocked": 2,
+        "completion": 5.26
+      },
+      {
+        "app_id": 1809540,
+        "name": "Nine Sols",
+        "total_achievements": 35,
+        "unlocked": 1,
+        "completion": 2.86
+      },
+      {
+        "app_id": 489830,
+        "name": "The Elder Scrolls V: Skyrim Special Edition",
+        "total_achievements": 75,
+        "unlocked": 2,
+        "completion": 2.67
+      },
+      {
+        "app_id": 379720,
+        "name": "DOOM",
+        "total_achievements": 54,
+        "unlocked": 1,
+        "completion": 1.85
+      },
+      {
+        "app_id": 12210,
+        "name": "Grand Theft Auto IV: The Complete Edition",
+        "total_achievements": 55,
+        "unlocked": 1,
+        "completion": 1.82
+      },
+      {
+        "app_id": 49520,
+        "name": "Borderlands 2",
+        "total_achievements": 75,
+        "unlocked": 1,
+        "completion": 1.33
+      }
+    ]
   }
 }

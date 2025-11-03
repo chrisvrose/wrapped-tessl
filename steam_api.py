@@ -8,6 +8,7 @@ API Reference: https://steamapi.xpaw.me/
 
 import requests
 import json
+import time
 from typing import Optional, List, Dict, Any
 from urllib.parse import urlencode
 
@@ -26,6 +27,8 @@ class SteamAPI:
         """
         self.api_key = api_key
         self.session = requests.Session()
+        self.last_request_time = 0
+        self.min_request_interval = 0.2  # 200ms between requests to avoid rate limiting
 
     def _make_request(self, interface: str, method: str, version: str = "v1",
                      params: Optional[Dict[str, Any]] = None,
@@ -43,6 +46,12 @@ class SteamAPI:
         Returns:
             Parsed JSON response
         """
+        # Rate limiting
+        current_time = time.time()
+        time_since_last_request = current_time - self.last_request_time
+        if time_since_last_request < self.min_request_interval:
+            time.sleep(self.min_request_interval - time_since_last_request)
+        
         url = f"{self.BASE_URL}/{interface}/{method}/{version}/"
 
         request_params = {"key": self.api_key, "format": format_type}
@@ -50,11 +59,37 @@ class SteamAPI:
             request_params.update(params)
 
         try:
-            response = self.session.get(url, params=request_params)
+            response = self.session.get(url, params=request_params, timeout=10)
+            self.last_request_time = time.time()
+            
+            # Better error handling
+            if response.status_code == 400:
+                print(f"❌ Bad Request (400) for {interface}/{method}")
+                print(f"   URL: {url}")
+                print(f"   Params: {request_params}")
+                print(f"   Response: {response.text[:200]}")
+                return {}
+            elif response.status_code == 401:
+                print(f"❌ Unauthorized (401) - Check your API key")
+                return {}
+            elif response.status_code == 403:
+                print(f"⚠️  Forbidden (403) - {interface}/{method} (might be private profile)")
+                return {}
+            elif response.status_code == 429:
+                print(f"⚠️  Rate Limited (429) - Sleeping for 60 seconds...")
+                time.sleep(60)
+                return {}
+            elif response.status_code == 500:
+                print(f"⚠️  Server Error (500) - Steam API is having issues")
+                return {}
+            
             response.raise_for_status()
             return response.json() if format_type == "json" else response.text
+        except requests.exceptions.Timeout:
+            print(f"⏱️  Timeout for {interface}/{method}")
+            return {}
         except requests.exceptions.RequestException as e:
-            print(f"Error making request: {e}")
+            print(f"❌ Error making request to {interface}/{method}: {e}")
             return {}
 
     # ==================== ISteamUser Interface ====================
@@ -112,18 +147,20 @@ class SteamAPI:
 
         Args:
             steam_id: 64-bit Steam ID
-            include_appinfo: Include game name and logo info
+            include_appinfo: Include game name and logo info (1 or 0)
             include_played_free_games: Include free games the user has played
         """
+        params = {
+            "steamid": steam_id,
+            "include_appinfo": 1 if include_appinfo else 0,
+            "include_played_free_games": 1 if include_played_free_games else 0
+        }
+        
         return self._make_request(
             "IPlayerService",
             "GetOwnedGames",
             "v0001",
-            {
-                "steamid": steam_id,
-                "include_appinfo": 1 if include_appinfo else 0,
-                "include_played_free_games": 1 if include_played_free_games else 0
-            }
+            params
         )
 
     def get_recently_played_games(self, steam_id: str, count: int = 0) -> Dict[str, Any]:
@@ -289,6 +326,201 @@ class SteamAPI:
             "GetServerInfo",
             "v1"
         )
+
+    # ==================== Enhanced User Game Methods ====================
+
+    def get_user_games_with_achievements(self, steam_id: str) -> Dict[str, Any]:
+        """
+        Get all games owned by user with their achievement data and global percentages
+        
+        Args:
+            steam_id: 64-bit Steam ID
+            
+        Returns:
+            Dictionary with game info, user achievements, and global achievement percentages
+        """
+        result = {
+            "steam_id": steam_id,
+            "games": []
+        }
+        
+        # Get owned games
+        owned_games = self.get_owned_games(steam_id, include_appinfo=True)
+        if not owned_games.get("response", {}).get("games"):
+            return result
+        
+        games = owned_games["response"]["games"]
+        
+        for game in games:
+            app_id = game.get("appid")
+            game_data = {
+                "app_id": app_id,
+                "name": game.get("name"),
+                "playtime_forever": game.get("playtime_forever", 0),
+                "playtime_2weeks": game.get("playtime_2weeks", 0),
+                "img_icon_url": game.get("img_icon_url"),
+                "img_logo_url": game.get("img_logo_url"),
+                "user_achievements": None,
+                "global_achievements": None,
+                "achievement_completion": 0
+            }
+            
+            # Try to get user achievements (may fail if game has no achievements or stats are private)
+            try:
+                achievements = self.get_player_achievements(steam_id, app_id)
+                if achievements.get("playerstats", {}).get("success"):
+                    user_achievements = achievements["playerstats"].get("achievements", [])
+                    game_data["user_achievements"] = user_achievements
+                    
+                    # Calculate completion percentage
+                    if user_achievements:
+                        completed = sum(1 for a in user_achievements if a.get("achieved") == 1)
+                        total = len(user_achievements)
+                        game_data["achievement_completion"] = round((completed / total) * 100, 2) if total > 0 else 0
+            except Exception:
+                pass  # Game might not have achievements
+            
+            # Try to get global achievement percentages
+            try:
+                global_achievements = self.get_global_achievement_percentages(app_id)
+                if global_achievements.get("achievementpercentages"):
+                    game_data["global_achievements"] = global_achievements["achievementpercentages"].get("achievements", [])
+            except Exception:
+                pass  # Game might not have achievements
+            
+            result["games"].append(game_data)
+        
+        return result
+
+    def get_games_with_info(self, steam_id: str, limit: int = None) -> List[Dict[str, Any]]:
+        """
+        Get enriched game information for user's library
+        
+        Args:
+            steam_id: 64-bit Steam ID
+            limit: Optional limit on number of games to process (for performance)
+            
+        Returns:
+            List of games with enriched data including current players and global achievements
+        """
+        games_list = []
+        
+        # Get owned games
+        owned_games = self.get_owned_games(steam_id, include_appinfo=True)
+        if not owned_games.get("response", {}).get("games"):
+            return games_list
+        
+        games = owned_games["response"]["games"]
+        if limit:
+            games = games[:limit]
+        
+        for game in games:
+            app_id = game.get("appid")
+            game_info = {
+                "app_id": app_id,
+                "name": game.get("name"),
+                "playtime_forever": game.get("playtime_forever", 0),
+                "playtime_2weeks": game.get("playtime_2weeks", 0),
+                "playtime_hours": round(game.get("playtime_forever", 0) / 60, 2),
+                "img_icon_url": game.get("img_icon_url"),
+                "img_logo_url": game.get("img_logo_url"),
+                "has_community_visible_stats": game.get("has_community_visible_stats", False),
+                "current_players": None,
+                "global_achievements": []
+            }
+            
+            # Get current player count
+            try:
+                players = self.get_number_of_current_players(app_id)
+                if players.get("response"):
+                    game_info["current_players"] = players["response"].get("player_count", 0)
+            except Exception:
+                pass
+            
+            # Get global achievement percentages
+            try:
+                achievements = self.get_global_achievement_percentages(app_id)
+                if achievements.get("achievementpercentages"):
+                    game_info["global_achievements"] = achievements["achievementpercentages"].get("achievements", [])
+            except Exception:
+                pass
+            
+            games_list.append(game_info)
+        
+        return games_list
+
+    def get_achievement_summary_for_games(self, steam_id: str) -> Dict[str, Any]:
+        """
+        Get achievement completion summary across all user's games
+        
+        Args:
+            steam_id: 64-bit Steam ID
+            
+        Returns:
+            Summary statistics about achievements across all games
+        """
+        summary = {
+            "steam_id": steam_id,
+            "total_games": 0,
+            "games_with_achievements": 0,
+            "total_achievements": 0,
+            "total_unlocked": 0,
+            "completion_percentage": 0,
+            "perfect_games": [],
+            "games_with_progress": []
+        }
+        
+        # Get owned games
+        owned_games = self.get_owned_games(steam_id, include_appinfo=True)
+        if not owned_games.get("response", {}).get("games"):
+            return summary
+        
+        games = owned_games["response"]["games"]
+        summary["total_games"] = len(games)
+        
+        for game in games:
+            app_id = game.get("appid")
+            
+            try:
+                achievements = self.get_player_achievements(steam_id, app_id)
+                if achievements.get("playerstats", {}).get("success"):
+                    user_achievements = achievements["playerstats"].get("achievements", [])
+                    
+                    if user_achievements:
+                        summary["games_with_achievements"] += 1
+                        total = len(user_achievements)
+                        unlocked = sum(1 for a in user_achievements if a.get("achieved") == 1)
+                        
+                        summary["total_achievements"] += total
+                        summary["total_unlocked"] += unlocked
+                        
+                        completion = round((unlocked / total) * 100, 2) if total > 0 else 0
+                        
+                        game_progress = {
+                            "app_id": app_id,
+                            "name": game.get("name"),
+                            "total_achievements": total,
+                            "unlocked": unlocked,
+                            "completion": completion
+                        }
+                        
+                        if completion == 100:
+                            summary["perfect_games"].append(game_progress)
+                        elif unlocked > 0:
+                            summary["games_with_progress"].append(game_progress)
+            except Exception:
+                continue
+        
+        # Calculate overall completion
+        if summary["total_achievements"] > 0:
+            summary["completion_percentage"] = round(
+                (summary["total_unlocked"] / summary["total_achievements"]) * 100, 2
+            )
+        
+        # Sort games by completion
+        summary["games_with_progress"].sort(key=lambda x: x["completion"], reverse=True)
+        
+        return summary
 
 
 # ==================== Helper Functions ====================
