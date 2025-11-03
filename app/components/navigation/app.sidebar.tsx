@@ -1,21 +1,9 @@
 import {
-  IconAd2,
-  IconApiApp,
-  IconBellRinging,
-  IconCalendar,
-  IconCalendarStats,
-  IconClipboardText,
-  IconCpu,
-  IconListDetails,
-  IconNews,
-  IconNotebook,
-  IconPencilMinus,
-  IconProgressCheck,
-  IconSettingsCode,
-  IconSofa,
-  IconSpy,
+  IconCurrencyDollar,
+  IconDeviceGamepad2,
+  IconFileText,
+  IconTimeDuration10,
 } from "@tabler/icons-react";
-import { LayoutDashboard, Package } from "lucide-react";
 import { useLocation, useNavigate } from "react-router";
 import {
   Sidebar,
@@ -58,8 +46,8 @@ const AppSidebar = () => {
                 onClick={() => navigate("/")}
                 size="default"
               >
-                <IconSofa size={20} stroke={1.5} />
-                <span>Home</span>
+                <IconDeviceGamepad2 size={20} stroke={1.5} />
+                <span>Most played</span>
               </SidebarMenuButton>
             </SidebarMenuItem>
 
@@ -69,8 +57,8 @@ const AppSidebar = () => {
                 onClick={() => navigate("/about")}
                 size="default"
               >
-                <IconClipboardText size={20} stroke={1.5} />
-                <span>About</span>
+                <IconCurrencyDollar size={20} stroke={1.5} />
+                <span>Spendings</span>
               </SidebarMenuButton>
             </SidebarMenuItem>
 
@@ -80,19 +68,8 @@ const AppSidebar = () => {
                 onClick={() => navigate("/projects")}
                 size="default"
               >
-                <IconApiApp size={20} stroke={1.5} />
-                <span>Projects</span>
-              </SidebarMenuButton>
-            </SidebarMenuItem>
-
-            <SidebarMenuItem>
-              <SidebarMenuButton
-                isActive={checkActive("/operating-system")}
-                onClick={() => navigate("/operating-system")}
-                size="default"
-              >
-                <IconCpu size={20} stroke={1.5} />
-                <span>Operating System</span>
+                <IconTimeDuration10 size={20} stroke={1.5} />
+                <span>Hours played</span>
               </SidebarMenuButton>
             </SidebarMenuItem>
           </SidebarMenu>
@@ -104,15 +81,8 @@ const AppSidebar = () => {
             <SidebarMenu>
               <SidebarMenuItem>
                 <SidebarMenuButton>
-                  <IconPencilMinus size={20} stroke={1.5} />
-                  <span>Blog</span>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
-
-              <SidebarMenuItem>
-                <SidebarMenuButton>
-                  <IconSpy size={20} stroke={1.5} />
-                  <span>Hackathons</span>
+                  <IconFileText size={20} stroke={1.5} />
+                  <span>Spec files</span>
                 </SidebarMenuButton>
               </SidebarMenuItem>
             </SidebarMenu>
