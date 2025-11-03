@@ -4,5 +4,6 @@ export default [
   layout("routes/_layout.tsx", [
     index("routes/landing.tsx"),
     route("specs", "routes/specs.tsx"),
+    route("games-chart", "routes/games-chart.tsx"),
   ]),
 ] satisfies RouteConfig;

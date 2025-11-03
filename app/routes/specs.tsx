@@ -158,6 +158,83 @@ export default function Specs() {
 
         <Card>
           <CardHeader>
+            <CardTitle>Games Chart Page</CardTitle>
+            <CardDescription>Visual analytics page for all games' playtime progress</CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Overview</h3>
+              <p className="text-muted-foreground">
+                The Games Chart page provides a comprehensive visualization of all games in the Steam library.
+                It displays playtime data in an interactive pie chart format, showing the top 10 games individually
+                with remaining games grouped as "Others", allowing users to see their gaming progress across all titles.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Features</h3>
+              <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
+                <li><strong>Interactive Pie Chart:</strong> Top 10 games displayed individually with remaining games grouped as "Others"</li>
+                <li><strong>Statistics Dashboard:</strong> Total games, total playtime, and average playtime</li>
+                <li><strong>Top 10 Table:</strong> Quick reference table for most played games</li>
+                <li><strong>Custom Tooltips:</strong> Hover over segments to see detailed game information with percentage</li>
+                <li><strong>Color-Coded Segments:</strong> Rotating color scheme using CSS chart variables</li>
+                <li><strong>Percentage Labels:</strong> Shows percentage for each segment (hides for very small segments)</li>
+                <li><strong>Responsive Design:</strong> Adapts to all screen sizes</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Implementation Details</h3>
+              <div className="bg-muted p-4 rounded-lg space-y-2">
+                <p className="font-mono text-sm">
+                  <strong>File:</strong> app/routes/games-chart.tsx<br />
+                  <strong>Component:</strong> GamesChart<br />
+                  <strong>Chart Library:</strong> Recharts (v2.15.4)<br />
+                  <strong>Chart Type:</strong> Pie Chart<br />
+                  <strong>Data Loading:</strong> useEffect hook with fetch API<br />
+                  <strong>Route:</strong> /games-chart
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Chart Components</h3>
+              <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
+                <li><strong>PieChart:</strong> Main chart container with responsive design</li>
+                <li><strong>Pie:</strong> Pie chart component with outer radius of 180px</li>
+                <li><strong>Label:</strong> Shows game name and percentage (hidden for segments &lt; 2%)</li>
+                <li><strong>Tooltip:</strong> Custom tooltip showing game name, rank, hours, and percentage of total</li>
+                <li><strong>Legend:</strong> Bottom-aligned legend with game names and hours</li>
+                <li><strong>Cell:</strong> Individual segments with color coding</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Statistics Cards</h3>
+              <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
+                <li><strong>Total Games Played:</strong> Count of games with playtime &gt; 0</li>
+                <li><strong>Total Playtime:</strong> Sum of all playtime across all games</li>
+                <li><strong>Average Playtime:</strong> Average hours per game</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold mb-2">Data Processing</h3>
+              <ul className="list-disc list-inside mt-2 space-y-1 text-muted-foreground">
+                <li>Filters games with playtime greater than 0</li>
+                <li>Sorts games by playtime (descending order)</li>
+                <li>Selects top 10 games for individual display</li>
+                <li>Groups remaining games into "Others" segment</li>
+                <li>Converts minutes to hours for display</li>
+                <li>Calculates percentage of total playtime for each segment</li>
+              </ul>
+            </div>
+          </CardContent>
+        </Card>
+
+        <Card>
+          <CardHeader>
             <CardTitle>Data Structure</CardTitle>
             <CardDescription>Profile data format and structure</CardDescription>
           </CardHeader>
