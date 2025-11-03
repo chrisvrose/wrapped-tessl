@@ -31,41 +31,95 @@ Consult the Spec Registry when deciding which dependencies to install into a pro
 
 ## Overview
 
-The dashboard displays Steam gaming statistics with themed sections for different metrics. The main dashboard page (`app/routes/landing.tsx`) includes:
-
-- **Most Played Section**: Displays the game with the highest total playtime, dynamically themed based on the game
-- **Spendings Section**: (To be implemented)
-- **Hours Played Section**: (To be implemented)
-
-## Most Played Game Section
-
-### Data Loading
-- Fetches profile data from `/data/profile_76561198095524866.json`
-- Automatically determines the most played game by comparing `playtime_forever` values
-- Uses React hooks (`useState`, `useEffect`) for state management
-
-### Game Theming
-The section is dynamically themed based on the most played game. Currently implemented themes:
-
-#### Warframe Theme
-- **Background Colors**: Dark purple/blue gradients (#1e1e2e, #2d1b3d, #4a0e4e, #0f0f1e)
-- **Accent Colors**: 
-  - Primary: #00d4ff (Cyan)
-  - Secondary: #ffd700 (Gold)
-- **Effects**: Animated pulse effects with radial gradients
-- **Decorative Elements**: Hexagonal shapes with cyan borders
-
-### Implementation Details
+The dashboard is a scrollable page that displays the top 4 most played games from Steam profile data. Each game is displayed in a full-screen section with custom thematic styling. Games are automatically sorted by total playtime (largest to smallest) and themed based on their identity.
 
 **File**: `app/routes/landing.tsx`
 
+## Page Layout
+
+- **Scrollable Design**: Vertical scrolling through full-screen sections
+- **Full-Screen Sections**: Each game occupies a minimum full viewport height (`min-h-screen`)
+- **Ordering**: Games automatically sorted by `playtime_forever` (descending order)
+- **Responsive**: Adapts to mobile, tablet, and desktop viewports
+
+## Data Loading
+
+- Fetches profile data from `/data/profile_76561198095524866.json`
+- Filters games with `playtime_forever > 0`
+- Sorts games by total playtime (descending)
+- Selects top 4 games using `.slice(0, 4)`
+- Uses React hooks (`useState`, `useEffect`) for state management
+
+## Game Theming System
+
+The `getGameTheme(gameName: string)` function dynamically determines the theme based on the game name. Each theme includes:
+
+- Background gradient colors
+- Primary and secondary accent colors
+- Accent gradient for titles
+- Game-specific tagline
+- Decorative element type
+
+### Implemented Themes
+
+#### 1. Warframe Theme
+- **Background**: Dark purple/blue gradients (#1e1e2e, #2d1b3d, #4a0e4e, #0f0f1e)
+- **Primary Accent**: #00d4ff (Cyan)
+- **Secondary Accent**: #ffd700 (Gold)
+- **Tagline**: "Your journey through the Origin System continues"
+- **Decorative**: Hexagonal shape
+
+#### 2. Trove Theme
+- **Background**: Purple/blue gradient (#2d1b69, #4a90e2, #7b68ee, #9370db)
+- **Primary Accent**: #ffd700 (Gold)
+- **Secondary Accent**: #ff69b4 (Pink)
+- **Tagline**: "Adventure awaits in the voxel realms"
+- **Decorative**: Rotated cube shape
+
+#### 3. Skyrim Theme
+- **Background**: Brown/amber Nordic theme (#2c1810, #3d2817, #4a2c1a, #5a3a24)
+- **Primary Accent**: #d4af37 (Gold)
+- **Secondary Accent**: #8b7355 (Bronze)
+- **Tagline**: "The Dragonborn's legacy continues"
+- **Decorative**: Dragon-inspired hexagon
+
+#### 4. Hollow Knight Theme
+- **Background**: Dark blue/black gradient (#0a0a0a, #1a1a2e, #16213e, #0f3460)
+- **Primary Accent**: #e94560 (Pink)
+- **Secondary Accent**: #00d4ff (Cyan)
+- **Tagline**: "Descend into the depths of Hallownest"
+- **Decorative**: Circular mask shape
+
+## Component Structure
+
+### Home Component
+- Main component that loads and manages game data
+- Renders array of `GameSection` components
+- Handles loading and error states
+
+### GameSection Component
+- Receives `game` and `rank` props
+- Renders full-screen themed section
+- Displays:
+  - Rank label (1st, 2nd, 3rd, 4th)
+  - Game title with gradient text
+  - Game-specific tagline
+  - Statistics (Total Playtime, Hours Played, Rank)
+  - Themed decorative element
+  - Animated background effects
+
+## Implementation Details
+
 **Key Features**:
-- Automatic game detection from profile data
-- Dynamic theming system
+- Automatic detection and sorting of top 4 games
+- Dynamic theming system with game-specific themes
+- Full-screen sections for immersive experience
+- Animated background effects with pulse animations
 - Playtime formatting (days, hours, minutes)
+- Rank labels and game statistics
 - Responsive design
 - Loading state handling
-- Animated background effects
+- Smooth vertical scrolling
 
 **Data Structure**:
 ```typescript
@@ -75,12 +129,27 @@ interface Game {
   playtime_forever: number;
   img_icon_url?: string;
 }
+
+interface Theme {
+  background: string;
+  primaryColor: string;
+  secondaryColor: string;
+  accentGradient: string;
+  tagline: string;
+  decorative: "hexagon" | "cube" | "dragon" | "mask" | "circle";
+}
 ```
 
-### Future Enhancements
+**Layout Configuration**:
+- Parent container: `SidebarInset` with `overflow-y-auto` and `h-screen`
+- Page container: `w-full` with no overflow restrictions
+- Sections: `min-h-screen` for full viewport height
+
+## Future Enhancements
 - Support for additional game themes (God of War, etc.)
 - Game-specific imagery and backgrounds
-- Interactive game selection
+- Interactive navigation between sections
 - More detailed statistics display
+- Animation transitions between sections
 
 For complete documentation, see the [Spec Files page](/specs) in the application.
